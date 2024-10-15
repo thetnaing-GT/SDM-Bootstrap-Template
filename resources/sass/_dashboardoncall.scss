@@ -1,0 +1,324 @@
+/* For Jquery Validation */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    background-color: #e3e3e3 !important;
+}
+
+.container {
+    width: 500px;
+    margin: 25px auto;
+}
+
+form .error {
+    color: #ff0000;
+}
+
+
+/** For Success Message Style *****/
+
+.alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.alert-color {
+    background-color: #726A90;
+    border-color: #726A90;
+}
+
+.alert-dismissible {
+    padding-right: 3.85rem;
+}
+
+.alert-dismissible .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.75rem 1.25rem;
+    color: inherit;
+}
+
+.fade {
+    transition: opacity 0.15s linear;
+}
+
+#exist_customer>table th,
+td {
+    font-size: 13px;
+    font-weight: normal;
+    padding: 5px;
+    text-align: left;
+}
+
+.info-box {
+    padding: 20px 50px;
+}
+
+.edit-box {
+    padding: 20px 50px;
+    display: none;
+}
+
+.remark-box-style {
+    padding-left: 30px !important;
+    border-left: 3px solid #94a7ef;
+    .remark-circle-oncall {
+        width: 11px;
+        height: 11px;
+        position: relative;
+        background: #fff;
+        border-radius: 50%;
+        left: -37px;
+        top: 38px;
+        border: 3px solid #94a7ef;
+    }
+}
+
+.remark-date {
+    font-size: 12px;
+    color: #707070;
+}
+
+#exist_customer a.active-color {
+    background: #ec911a;
+    padding: 5 5;
+    padding: 5px 5px;
+}
+
+.on-call-check {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.ac-hover {
+    background: #2f2e2e21;
+    text-decoration: none;
+}
+
+#customer_table>thead {
+    border-bottom: 1px solid #e3e3e3 !important;
+}
+
+#customer_table>thead>tr>th {
+    font-weight: bold !important;
+    font-size: 13px !important;
+}
+
+#customer_table>tbody>tr>td {
+    font-size: 13px !important;
+}
+
+#customer_table>tbody>tr:last-child {
+    border-bottom: none !important;
+}
+
+.excel-btn button,
+.excel-btn a {
+    font-size: 13px;
+}
+
+.align-btn {
+    display: flex;
+    margin-left: 2px !important;
+}
+
+.re-new-btn {
+    float: right !important;
+    margin-right: -10px !important;
+    margin-top: 0px !important;
+}
+
+.oncall-delete-btn button {
+    background-color: #fff !important;
+    border-color: #9c9c9c !important;
+    width: 117px !important;
+}
+
+.trash-restore button {
+    width: 82px !important;
+    height: 31px !important;
+    border: 1px solid #ec911a !important;
+    background: #ec911a !important;
+    color: #fff !important;
+    border-radius: 15px !important;
+    margin-top: 8px !important;
+    margin-bottom: 7px !important;
+}
+
+.trash-permanent button {
+    width: 120px !important;
+    font-size: 12px !important;
+    height: 30px !important;
+    border: 1px solid #9c9c9c !important;
+    border-radius: 14px !important;
+    line-height: 10px !important;
+    color: red !important;
+    background-color: #fff !important;
+    margin-top: 5px !important;
+    margin-bottom: 7px !important;
+}
+
+.id-style {
+    font-size: 10px !important;
+}
+
+.cu-type-style {
+    color: #ec911a !important;
+    font-weight: bold !important;
+}
+
+.invalid-feedback {
+    display: block !important;
+}
+
+.customer-list-table {
+    font-size: inherit;
+}
+
+.cu-detail-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.on-call-form-search {
+    display: flex;
+}
+
+.txt-area-title {
+    margin-bottom: -6px !important;
+    display: block !important;
+    color: #000 !important;
+}
+
+.cm-type {
+    margin-top: -38px;
+}
+
+.first-section-btn {
+    margin-bottom: 20px !important;
+}
+
+.oncall-search-ip {
+    margin-bottom: 20px;
+}
+
+.thead-light tr th {
+    width: 15% !important;
+}
+
+.cu-new-align {
+    margin-left: 10px !important;
+}
+
+.newoncall-save-btn {
+    border-radius: 25px;
+    padding: 4px 47px;
+    border: 1px solid #ec911a;
+    background: #ec911a;
+    color: #fff;
+}
+
+.search-new-call {
+    padding: 7px 43px;
+    border-radius: 25px;
+    background: #ec911a;
+    border: none;
+    color: #fff;
+    float: right;
+}
+
+.on_call_action {
+    border: 1px solid #ec911a;
+    border-radius: 13px;
+    padding: 3px 17px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.type_color {
+    color: #ec911a;
+    font-weight: bold;
+}
+
+.p-call-style {
+    font-weight: bold;
+}
+
+.text-align-call {
+    font-size: 13px;
+    margin-left: 4px;
+}
+
+.dashboard-detail {
+    padding: 0px 0px !important;
+}
+
+.oncall-search-ip {
+    margin-left: -19px!important;
+}
+
+.customer_detil_new {
+    background-color: #f9f9f9 !important;
+    padding: 15px 0;
+}
+
+.oncall-btn-box {
+    margin-top: 30px;
+}
+
+.oncall_new {
+    padding: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left: 20px;
+    border: 1px solid #efefef;
+}
+
+.sub-title {
+    margin-bottom: 20px !important;
+}
+
+.pagination-loadMore {
+    cursor: pointer;
+}
+
+.onu-step-button {
+                display: flex;
+                padding-left: 50px;
+
+                .update-onu-btn,
+                .cancel-onu-btn {
+                                display: none;
+                                color: #fff;
+                                background: #ec911a;
+                                border-radius: 25px;
+                                padding: 5px 25px;
+                                border: none;
+                }
+
+                .cancel-onu-btn {
+                                background: none;
+                                border: none;
+                                color: #000;
+                }
+
+                .edit-onu-btn {
+                                color: #000;
+                                border: 1px solid #ec911a;
+                                padding: 5px 20px;
+                                border-radius: 25px;
+                }
+}

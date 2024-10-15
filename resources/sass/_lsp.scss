@@ -1,0 +1,357 @@
+.lsp-cerate-head {
+    font-size: 30px;
+    padding: 0px 0 0 7px;
+}
+
+.create-form {
+    padding: 24px 51px;
+
+    .hidden-select {
+        display: none;
+    }
+
+    .area-code {
+        display: flex;
+        flex-wrap: wrap;
+
+        .area-code-items,
+        .office-items,
+        .permission-items {
+            border: 1px solid #9c9c9c;
+            border-radius: 25px;
+            padding: 10px 20px;
+            margin-left: 9px;
+            cursor: pointer;
+        }
+        .area-code-items-active {
+            border-color: #ec911a;
+            color: #ec911a;
+        }
+    }
+
+    .add-button,
+    .cancel-button {
+        // padding: 10px 56px;
+        border-radius: 25px;
+        background: #ec911a;
+        border: none;
+        color: #fff;
+        width: 100px;
+        height: 30px;
+        margin-right: 10px;
+        // margin-top: 72px;
+    }
+    .cancel-button {
+        background: none;
+        color: #000;
+        &:hover {
+            text-decoration: none;
+        }
+        a {
+            color: #000;
+        }
+    }
+}
+
+.lspName {
+    font-size: 14px;
+}
+.is5bb {
+    font-size: 12px;
+    line-height: 25px;
+    color: #ec911a;
+    margin-left: 10px;
+}
+
+span.badge.badge-pill.badge-warning.area-code-color {
+    color: #ffffff;
+}
+
+.add-new-button {
+    color: #fff;
+    border-radius: 25px;
+    background: #ec911a;
+    border: none;
+    padding: 10px 26px;
+}
+
+.dashboard-head {
+    display: flex;
+    align-items: center;
+
+    h2 {
+        padding: 0;
+        margin: 0 24px 0 0;
+    }
+    .edit-btn,
+    .add-btn {
+        border-radius: 25px;
+        padding: 4px 30px;
+        border: 1px solid #ec911a;
+    }
+    .add-btn {
+        background: #ec911a;
+        color: #fff;
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+}
+
+.label-style {
+    font-weight: 200;
+}
+.label-center {
+    margin-top: 0.5rem;
+}
+.info-style {
+    font-weight: 700;
+}
+.info-inline-block {
+    display: inline-block;
+}
+
+#detailTab .nav-item .active {
+    color: #ec911a;
+}
+
+#detailTab .nav-item a {
+    color: #9c9c9c;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#area-code-message,
+#role-message,
+#office-message {
+    font-size: 13px;
+    color: red;
+    position: relative;
+    top: 56px;
+    display: none;
+}
+#role-message,
+#office-message {
+    top: 25px;
+    left: 4px;
+}
+
+.oncall-add-button,
+.oncall-cancel-button {
+    // padding: 10px 56px;
+    border-radius: 25px;
+    background: #ec911a;
+    border: none;
+    color: #fff;
+    width: 100px;
+    height: 35px;
+    // margin-top: 72px;
+}
+.oncall-cancel-button {
+    background: none;
+    color: #000;
+    &:hover {
+        text-decoration: none;
+    }
+    a {
+        color: #000;
+    }
+}
+
+.customer-save-btn {
+    border-radius: 25px;
+    padding: 4px 30px;
+    border: 1px solid #ec911a;
+    background: #ec911a;
+    color: #fff;
+}
+
+.edit-btn {
+    border-radius: 25px;
+    padding: 4px 30px;
+    border: 1px solid #ec911a;
+}
+
+.tab-content {
+    .tab-pane {
+        .table-responsive {
+            table > thead > tr > th {
+                border-top: 0 !important;
+                border-bottom: 0 !important;
+            }
+            table > tbody > tr > td > a {
+                font-size: 13px;
+                border-color: #ec911a;
+            }
+        }
+    }
+}
+
+//Modal-Box
+
+#exampleModal2 {
+    .modal-dialog {
+        .modal-content {
+            #restock-modal-box {
+                .modal-body {
+                    .header {
+                        .enter-restock {
+                            margin-top: 20px;
+                            span {
+                                font-size: 13px;
+                                color: #818181;
+                            }
+                            input {
+                                width: 300px;
+                            }
+                        }
+
+                        .modal-footer {
+                            #addRestockSubmit {
+                                width: 100px;
+                                color: #ffffff;
+                                background-color: #ec911a;
+                                border-radius: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#inventory-button {
+    color: black;
+    border-color: #ec911a;
+}
+
+#addNewInventory {
+    .modal-dialog {
+        .modal-content {
+            #inventory-modal-box {
+                .modal-body {
+                    .category-section {
+                        display: none;
+                    }
+
+                    .item-section {
+                        display: none;
+                    }
+
+                    .category-section {
+                        margin-top: 15px;
+                    }
+
+                    .item-section,
+                    .category-section,
+                    .product-section {
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//Modal-Box-reset-password
+
+#exampleModalResetPassword {
+    .modal-dialog {
+        .modal-content {
+            .reset-password-modal-body {
+                form {
+                    .modal-reset-body {
+                        margin-bottom: 15px;
+
+                        .value {
+                            color: #000;
+                        }
+                        .name {
+                            color: #818181;
+                        }
+                        input {
+                            width: 300px;
+                        }
+                    }
+                }
+            }
+            .modal-footer {
+                .btn-outline-warning {
+                    border-color: #ec911a;
+                    color: #000;
+                }
+            }
+        }
+    }
+}
+.show-errors {
+    display: block;
+}
+.hide-errors {
+    display: none;
+}
+
+.table-width-40 {
+    width: 40%;
+}
+.table-width-15 {
+    width: 15%;
+}
+.hidden-select {
+    display: none !important;
+}
+
+.area-code .area-code-items-active {
+    border-color: #ec911a !important;
+    color: #ec911a !important;
+}
+
+.area-code .area-code-items {
+    border: 1px solid #9c9c9c;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin-left: 9px;
+    cursor: pointer;
+}
+
+#area-code-message,
+#role-message {
+    font-size: 13px;
+    color: red;
+    position: relative;
+    top: 56px;
+    display: none;
+}
+.area-code {
+    display: flex;
+    flex-wrap: wrap;
+}
+.add-button {
+    // padding: 10px 56px;
+    border-radius: 25px;
+    background: #ec911a;
+    border: none;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    // margin-top: 72px;
+}
+.create-area-part {
+    margin-top: -14px;
+}
+.add-aligin-bottom {
+    // margin-top: -75px;
+}
+.lsp-excel {
+    float: right;
+}
+
+.lsp-report-date-group,
+.lsp-detail-date-group {
+    margin-left: 0px !important;
+}

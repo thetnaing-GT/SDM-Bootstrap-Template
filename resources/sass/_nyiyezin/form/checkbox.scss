@@ -1,0 +1,12 @@
+.form__check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+  &-label {
+    margin-bottom: 0;
+  }
+  &-input {
+    cursor: pointer;
+  }
+}

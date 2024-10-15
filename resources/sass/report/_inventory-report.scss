@@ -1,0 +1,20 @@
+.inventory-report-container {
+    margin-top: 18px;
+    margin-bottom: 30px;
+    padding: 14px;
+    border-radius: 18px;
+    background: #fff;
+
+    .dashboard-content-container {
+        .dashboard-content {
+            .excel-export {
+                .excel-btn {
+                    border-radius: 16px;
+                    background-color: #ec911a;
+                    border-color: #ec911a;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
