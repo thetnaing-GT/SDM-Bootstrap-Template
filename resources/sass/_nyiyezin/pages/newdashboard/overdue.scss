@@ -1,0 +1,66 @@
+.overdue__wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 0.8rem;
+}
+
+.overdue {
+  padding-block: 22px;
+  padding-inline: 18px;
+  display: grid;
+  gap: 0.5rem;
+  background: #ffffff;
+  border-radius: 14px;
+  &__btn {
+    padding-block: 2px;
+    padding-inline: 8px;
+    background-color: rgb(220 226 205);
+    text-decoration: none;
+    outline: none;
+  }
+  &__loadmore-btn {
+    background-color: rgb(250, 213, 132);
+  }
+  &__decoration-btn {
+    width: 18px;
+    height: 10px;
+    &--installation {
+      background-color: rgb(90, 118, 230);
+    }
+    &--relocation {
+      background-color: rgb(250, 213, 132);
+    }
+    &--oncall {
+      background-color: rgb(250, 123, 123);
+    }
+  }
+  &__heading {
+    margin: 0;
+    font-size: 1rem;
+  }
+  &__paragraph {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  &__group {
+    padding-top: 1rem;
+    height: 400px;
+    display: grid;
+    gap: 1.5rem;
+    font-size: 12px;
+    overflow-y: scroll;
+    &__item {
+      padding-left: 0.5rem;
+      &--installation {
+        border-left: 3px solid #5a76e6;
+      }
+      &--reloaction {
+        border-left: 3px solid #fad584;
+      }
+      &--oncall {
+        border-left: 3px solid #fa7b7b;
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.form {
+  &__select {
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding-block: 0.375rem;
+    position: relative;
+    font-size: 1rem;
+    color: #495057;
+    background-color: #fff;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 0.5rem center;
+    background-size: 8px 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #394a6d;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-radius: 0.25rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+  &__check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+
+    &-label {
+      margin-bottom: 0;
+    }
+
+    &-input {
+      cursor: pointer;
+    }
+  }
+
+  &__button {
+    &--refresh {
+      background-color: rgb(220 226 205);
+      text-decoration: none;
+      outline: none;
+    }
+
+    &--search {
+      background-color: rgb(220 226 205);
+      text-decoration: none;
+      outline: none;
+    }
+  }
+}

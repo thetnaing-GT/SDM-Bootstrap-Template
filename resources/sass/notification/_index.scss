@@ -1,0 +1,92 @@
+.notification-container {
+    margin-top: 18px;
+    margin-bottom: 30px;
+    padding: 14px;
+    border-radius: 18px;
+    background: #fff;
+
+    .notification-row {
+        .body {
+            margin-top: 4em;
+            .noti-row {
+                display: grid;
+                grid-template-columns: 5% 70% auto;
+
+                .noti-icon {
+                    grid-column: 1/2;
+                    text-align: center;
+                    width: 36px;
+                    height: 36px;
+                    background-color: #ffd503;
+                    border-radius: 100%;
+                    .notification-icon {
+                        color: #fff;
+                        text-align: center;
+                        svg {
+                            vertical-align: bottom;
+                        }
+                        .badge {
+                            height: 10px;
+                            width: 10px;
+                            background-color: red;
+                            border-radius: 100%;
+                            display: inline-block;
+                            position: absolute;
+                        }
+                    }
+                }
+                .text-body {
+                    grid-column: 2/3;
+                    color: #5f5f5f !important;
+                }
+                .noti-form {
+                    grid-column: 3/4;
+                    .see-detail {
+                        text-align: center;
+                        button {
+                            border: none;
+                            background-color: #ffffff;
+                            color: #5a76e6;
+                        }
+                    }
+                }
+                .noti-date {
+                    grid-column: 2/3;
+                    color: #5f5f5f !important;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+.ajax-load {
+    text-align: center;
+    .loader {
+        border: 10px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 10px solid black;
+        width: 50px;
+        height: 50px;
+        -webkit-animation: spin 2s linear infinite; /* Safari */
+        animation: spin 2s linear infinite;
+      }
+
+    /* Safari */
+    @-webkit-keyframes spin {
+        0% {
+            -webkit-transform: rotate(0deg);
+        }
+        100% {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+}

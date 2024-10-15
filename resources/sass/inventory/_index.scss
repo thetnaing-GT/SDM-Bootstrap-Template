@@ -1,0 +1,194 @@
+.inventory-container {
+    margin-top: 18px;
+    margin-bottom: 30px;
+    padding: 14px;
+    border-radius: 18px;
+    background: #fff;
+
+    .inventory-row {
+        .inventory-form {
+            .inventory-search {
+                display: flex;
+                justify-content: space-between;
+                input {
+                    margin-left: 21px;
+                    width: 200px;
+                }
+                select {
+                    width: 200px;
+                    margin-right: 40em;
+                }
+
+                a {
+                    color: #ffffff;
+                    background-color: #ec911a;
+                    width: 200px;
+                    border-radius: 15px;
+                }
+            }
+        }
+        .inventory-table {
+            .table {
+                thead {
+                    tr {
+                        th {
+                            font-size: 13px;
+                            color: rgba(0, 0, 0, 0.5);
+                            text-align: center;
+                            border-top: none !important;
+                            border-bottom: 1px solid #dee2e6 !important;
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        td {
+                            cursor: pointer;
+                            text-align: center;
+
+                            .restock-btn {
+                                color: #ec911a;
+                                border-color: #ec911a;
+                                font-size: 13px;
+                            }
+                        }
+                        .customer-account-no {
+                            color: #5a76e6;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #exampleModal {
+        .modal-dialog {
+            .modal-content {
+                #inventory-modal-box {
+                    .modal-body {
+                        .item-section {
+                            margin-bottom: 15px;
+                            select,
+                            input {
+                                margin-top: 10px;
+                                width: 300px;
+                            }
+                        }
+                    }
+
+                    .modal-footer {
+                        .save-btn {
+                            color: #ffffff;
+                            background-color: #ec911a;
+                            border-radius: 15px;
+                            width: 100px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #exampleModal2 {
+        .modal-dialog {
+            .modal-content {
+                #restock-modal-box {
+                    .modal-body {
+                        .header {
+                            .enter-restock {
+                                margin-top: 20px;
+                                span {
+                                    font-size: 13px;
+                                    color: #818181;
+                                }
+                                input {
+                                    width: 300px;
+                                }
+                            }
+
+                            .modal-footer {
+                                #addRestockSubmit {
+                                    width: 100px;
+                                    color: #ffffff;
+                                    background-color: #ec911a;
+                                    border-radius: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.modal-dialog .content-sector {
+    margin-left: 29px !important;
+    width: 80% !important;
+}
+.box-content-sector {
+    margin-left: 29px !important;
+}
+#restock-input-form {
+    width: 100% !important;
+}
+
+$input-number-size: 80px;
+
+.input-number-group {
+    display: flex;
+    margin-top: 15px;
+
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+        appearance: none;
+    }
+
+    .input-group-button {
+        line-height: calc(#{$input-number-size}/ 2 - 5px);
+    }
+
+    .input-number {
+        width: $input-number-size;
+        padding: 0 12px;
+        vertical-align: top;
+        text-align: center;
+        outline: none;
+        display: block;
+        margin: 0;
+    }
+
+    .input-number,
+    .input-number-decrement,
+    .input-number-increment {
+        border: 1px solid lightgrey;
+        height: $input-number-size/2;
+        user-select: none;
+        border-radius: 15px;
+    }
+
+    .input-number-decrement,
+    .input-number-increment {
+        display: inline-block;
+        width: $input-number-size/2;
+        background: lightgrey;
+        color: black;
+        padding-bottom: 3px;
+        text-align: center;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .input-number-decrement {
+        margin-right: 0.3rem;
+    }
+
+    .input-number-increment {
+        margin-left: 0.3rem;
+    }
+}
+
+.header-reduce-name {
+    font-weight: bold;
+}

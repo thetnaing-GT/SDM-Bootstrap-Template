@@ -1,0 +1,209 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 15% auto 0.1%;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .wrapper {
+    grid-template-columns: 15% auto 0.1%;
+  }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 1201px) {
+  .wrapper {
+    grid-template-columns: 14% auto 0.1%;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .wrapper {
+    grid-template-columns: 9% auto 0.1%;
+  }
+}
+
+.dashboard-logo {
+  text-align: center;
+}
+
+.dashboard-logo-img {
+  width: 160px;
+  padding: 14px;
+}
+
+.dashboard-sidebar {
+  background-color: #fff;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+  z-index: 100;
+}
+
+.dashboard-header {
+  background-color: #fff;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dashboard-header .header-logout {
+  padding: 17px 34px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  border-left: 1px solid #e3e3e3;
+  color: #f34949;
+}
+
+.dashboard-header .noti-vue {
+  padding: 0;
+  margin: 22px;
+}
+
+.dashboard-content {
+  margin-top: 15px;
+  height: auto;
+}
+
+.dashboard-detail {
+  margin-top: 15px;
+  height: auto;
+  padding: 10px 50px;
+
+}
+
+.dashboard-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-label .item,
+.dashboard-label .port-item {
+  padding: 20px;
+  margin: 10px 0 0;
+  color: #000;
+  text-decoration: none;
+  border-left: 5px solid #fff;
+  width: 100%;
+}
+
+.dashboard-label .item .item-box,
+.dashboard-label .port-item .item-box {
+  display: inline-block;
+  width: 30px;
+}
+
+.dashboard-label .item:hover,
+.dashboard-label .port-item:hover {
+  background-color: rgba(200, 200, 200, 0.2);
+  box-shadow: none;
+  cursor: pointer;
+  text-decoration: none;
+  width: 100%;
+}
+
+.dashboard-label .active,
+.dashboard-label .port-active {
+  padding: 20px;
+  margin: 10px 0 0;
+  border-left: 5px solid #ec911a;
+  background-color: #fffef7;
+  color: #ffd400;
+  text-decoration: none;
+  width: 100%;
+}
+
+.dashboard-label .port-active {
+  background-color: #f7eeb1 !important;
+  border-radius: 5px !important;
+  color: #000 !important;
+}
+
+.side-link:hover {
+  text-decoration: none !important;
+}
+
+.plan-dlt-btn {
+  float: right;
+}
+
+.plan-edit-btn {
+  float: right;
+  margin-right: -10px;
+}
+
+.drop-down-container {
+  padding-left: 20px;
+  padding-right: 5px;
+  display: none;
+}
+
+.display-block {
+  display: block;
+}
+
+.menu-rotate {
+  transform: rotate(90deg);
+  margin-left: 20px;
+  color: #9c9c9c;
+  transition: all 0.3s ease-out;
+}
+
+.menu-open {
+  transform: rotate(0deg);
+  color: #ec911a;
+}
+
+@media screen and (max-width: 1200px) {
+  .dashboard-label .item {
+    padding: 15px 5px !important;
+    font-size: 0.9em;
+  }
+  .dashboard-label .port-item {
+    padding: 4px 6px !important;
+  }
+  .label-box {
+    width: 16px !important;
+  }
+  .inventory-alert span,
+  .inventory-alert-box p {
+    font-size: 13px !important;
+  }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 1201px) {
+  .dashboard-label .item {
+    padding: 15px 5px !important;
+    font-size: 0.95em;
+  }
+  .dashboard-label .port-item {
+    padding: 4px 6px !important;
+  }
+  .label-box {
+    width: 16px !important;
+  }
+  .inventory-alert span,
+  .inventory-alert-box p {
+    font-size: 13px !important;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .dashboard-label .item {
+    padding: 15px 5px !important;
+    font-size: 1em;
+  }
+  .dashboard-label .port-item {
+    padding: 4px 6px !important;
+  }
+  .label-box {
+    width: 16px !important;
+  }
+  .inventory-alert span,
+  .inventory-alert-box p {
+    font-size: 13px !important;
+  }
+}
