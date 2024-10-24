@@ -1,25 +1,19 @@
-<x-layout>
-    <div class="overlay"></div>
-    <div class="spanner">
-        <div class="loader"></div>
+<x-layouts.dashboard-content>
+    <div class="dashboard__content__box">
+        <x-newdashboard.filter />
     </div>
-    <div class="dashboard">
-        <x-sidebar />
-        <main class="dashboard__content">
-            <div class="cotainer-fluid d-flex flex-column" style="gap: 1.5rem;">
-                <header class="d-flex flex-column" style="gap: 1rem">
-                    <x-header-setting />
-                    <x-header-filter />
-                </header>
-                <section class="overview__wrapper">
-                    <x-overview-items />
-                </section>
-                <section class="overdue__wrapper">
-                    <x-overdue.installation />
-                    <x-overdue.oncall />
-                    <x-overdue.relocation />
-                </section>
-            </div>
-        </main>
+    <div class="dashboard__content__box">
+        <x-newdashboard.overview.overview-items />
     </div>
-</x-layout>
+    <section class="overdue__wrapper">
+        <div class="dashboard__content__box">
+            <x-newdashboard.overdue.installation />
+        </div>
+        <div class="dashboard__content__box">
+            <x-newdashboard.overdue.oncall />
+        </div>
+        <div class="dashboard__content__box">
+            <x-newdashboard.overdue.relocation />
+        </div>
+    </section>
+</x-layouts.dashboard-content>

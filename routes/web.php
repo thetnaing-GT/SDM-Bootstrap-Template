@@ -20,3 +20,24 @@ Route::get('/', function () {
 Route::get('/new-dashboard', function () {
   return view('dashboard.new-dashboard');
 });
+Route::get('/installation', function () {
+  return view('dashboard.installation');
+});
+Route::get('/oncall', function () {
+  return view('dashboard.oncall');
+});
+Route::get('/customer', function () {
+  return view('dashboard.customer');
+});
+Route::get('/lsp', function () {
+  return view('dashboard.lsp');
+});
+Route::get('/inventory', function () {
+  return view('dashboard.inventory');
+});
+Route::get('/plan', function () {
+  return view('dashboard.plan');
+});
+Route::get('/area-code', function () {
+  return view('dashboard.area-code');
+});

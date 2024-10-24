@@ -29,15 +29,22 @@
 
 @import "./report/inventory-report";
 
+// nyz
+// form
 @import "./_nyiyezin/form/select.scss";
 @import "./_nyiyezin/form/checkbox.scss";
 @import "./_nyiyezin/form/refresh-button.scss";
 @import "./_nyiyezin/form/search-button.scss";
-@import "./_nyiyezin/header.scss";
-@import "./_nyiyezin/layout.scss";
-@import "./_nyiyezin/overview.scss";
-@import "./_nyiyezin/overdue.scss";
-@import "./_nyiyezin/spinner-loader.scss";
+
+// layout
+@import "./_nyiyezin/layout/dashboard.scss";
+
+// extra
+@import "./_nyiyezin/extra/spinner-loader.scss";
+
+// new dashboard
+@import "./_nyiyezin/pages/newdashboard/overview.scss";
+@import "./_nyiyezin/pages/newdashboard/overdue.scss";
 
 #map {
   width: 500px;
