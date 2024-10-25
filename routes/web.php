@@ -16,20 +16,19 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
   return redirect('/new-dashboard');
 });
-
 Route::get('/new-dashboard', function () {
   return view('dashboard.new-dashboard');
 });
 Route::get('/installation', function () {
   return view('dashboard.installation');
 });
-Route::get('/oncall', function () {
+Route::get('/on-call', function () {
   return view('dashboard.oncall');
 });
 Route::get('/customer', function () {
   return view('dashboard.customer');
 });
-Route::get('/lsp', function () {
+Route::get('/lsps', function () {
   return view('dashboard.lsp');
 });
 Route::get('/inventory', function () {
