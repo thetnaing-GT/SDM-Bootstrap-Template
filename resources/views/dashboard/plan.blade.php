@@ -7,8 +7,11 @@
                         value="" class="form-control" />
                 </form>
             </div>
-            <div class="excel-btn col-md-6 ml-auto"><a href="https://sdmstaging.5bb.com.mm/dashboard/plan/create"
-                    class="btn float-right add-new-btn">Add New</a></div>
+            <div class="excel-btn col-md-6 ml-auto">
+                <a href="https://sdmstaging.5bb.com.mm/dashboard/plan/create" class="btn float-right add-new-btn">Add
+                    New
+                </a>
+            </div>
         </div>
         <div class="table-responsive mt-3">
             <table id="sorting-table" class="plan-tb table table-hover mb-0">

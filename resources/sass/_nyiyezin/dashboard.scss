@@ -1,7 +1,11 @@
 .dashboard {
+  max-width: 1500px;
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: 200px 1fr;
+  @media (min-width: 1500px) {
+    margin-inline: auto;
+  }
   &__sidebar {
     height: 100vh;
     max-height: 100vh;

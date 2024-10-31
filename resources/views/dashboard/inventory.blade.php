@@ -1,16 +1,15 @@
 <x-layouts.dashboard-content>
     <div class="dashboard__content__box">
-        <form action="https://sdmstaging.5bb.com.mm/dashboard/inventory" method="get"
-            class="inventory-form container-fluid">
+        <form action="https://sdmstaging.5bb.com.mm/dashboard/inventory" method="get">
             <div class="inventory-search form-group row">
-                <div class="col-10 d-flex">
+                <div class="col-md-8 d-flex">
                     <input name="q" id="q" value="" type="search" placeholder="Search .."
-                        aria-label="Search" class="form-control mr-sm-2 col-md-3" style="margin-left: 0px;" />
-                    <select id="select-team" name="team" class="form-control col-md-3">
+                        aria-label="Search" class="form-control mr-sm-2" />
+                    <x-form.select id="select-team" name="team">
                         <option value="1" id="getTeamId"> Yangon Office</option>
-                    </select>
+                    </x-form.select>
                 </div>
-                <div class="col-2">
+                <div class="col-md-2 mt-sm-2 mt-md-0 ml-auto">
                     <a type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-warning"
                         style="width: 70px !important; float: right;">
                         Add
@@ -124,13 +123,13 @@
 
                                 <div class="item-section">
                                     <span>Category</span><br />
-                                    <select id="select-category" name="categoryId" class="form-control">
+                                    <x-form.select id="select-category" name="categoryId">
                                         <option value="1" id="team-id">ONU Type </option>
                                         <option value="2" id="team-id">Fiber Patch Cord </option>
                                         <option value="3" id="team-id">Termination Box </option>
                                         <option value="4" id="team-id">Fiber Cable </option>
                                         <option value="5" id="team-id">ONU Adapter </option>
-                                    </select>
+                                    </x-form.select>
                                 </div>
                                 <div class="item-section">
                                     <span>Quantity</span><br />
