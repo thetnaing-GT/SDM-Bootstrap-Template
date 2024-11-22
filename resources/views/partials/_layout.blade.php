@@ -13,7 +13,8 @@
     <!-- Styles -->
     <link href="https://sdmstaging.5bb.com.mm/css/bootstrap.min.css?0.0.9-2024-01-17" rel="stylesheet" />
     <link href="https://sdmstaging.5bb.com.mm/css/app.css?0.0.9-2024-01-17" rel="stylesheet" />
-    <link href="https://sdmstaging.5bb.com.mm/css/tempusdominus-bootstrap-4.min.css?0.0.9-2024-01-17" rel="stylesheet" />
+    <link href="https://sdmstaging.5bb.com.mm/css/tempusdominus-bootstrap-4.min.css?0.0.9-2024-01-17"
+        rel="stylesheet" />
     <link href="https://sdmstaging.5bb.com.mm/css/toastr.min.css?0.0.9-2024-01-17" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css" />
@@ -22,7 +23,8 @@
     <script defer src="https://sdmstaging.5bb.com.mm/js/app.js?0.0.9-2024-01-17"></script>
     <script defer src="https://sdmstaging.5bb.com.mm/js/firebase.js"></script>
     <script type="module" defer src="https://sdmstaging.5bb.com.mm/js/logs.js"></script>
-    <script defer src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script defer src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script defer src="https://sdmstaging.5bb.com.mm/js/popper.min.js?0.0.9-2024-01-17"></script>
     <script defer src="https://sdmstaging.5bb.com.mm/js/bootstrap.min.js?0.0.9-2024-01-17"></script>
     <script defer src="https://sdmstaging.5bb.com.mm/js/moment.min2_26_0.js?0.0.9-2024-01-17"></script>
@@ -39,8 +41,14 @@
 
 <body>
     @vite(['resources/sass/app.scss', 'resources/js/app.js', 'resources/css/app.css'])
-    {{ $slot }}
-    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKUwP05pRr3DSJpvjxppNMjigJ8F7daZo&callback=initMap&libraries=geometry,places"></script>
+    <div class="spanner">
+        <div class="loader"></div>
+    </div>
+    @yield('content')
+    <script src="https://kit.fontawesome.com/19d660dcf4.js" crossorigin="anonymous"></script>
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKUwP05pRr3DSJpvjxppNMjigJ8F7daZo&callback=initMap&libraries=geometry,places">
+    </script>
 </body>
 
 </html>
