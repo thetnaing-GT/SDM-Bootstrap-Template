@@ -1,5 +1,4 @@
 @extends('partials._layout')
-
 @section('content')
     <div class="dashboard">
         @include('partials._sidebar')
@@ -7,16 +6,16 @@
             <div class="cotainer-fluid d-flex flex-column" style="gap: 1.5rem;">
                 @include('partials._header')
                 <section class="dashboard__content__box">
-                    <div class="row">
+                    <div class="form-group row">
                         <div class="col-md-3">
                             <form action="https://sdmstaging.5bb.com.mm/dashboard/plan-search" method="get" class="search">
                                 <input id="q" name="q" type="search" placeholder="Search .."
                                     aria-label="Search" value="" class="form-control" />
                             </form>
                         </div>
-                        <div class="excel-btn col-md-6 ml-auto">
+                        <div class="col-md-6 ml-auto">
                             <a href="https://sdmstaging.5bb.com.mm/dashboard/plan/create"
-                                class="btn float-right add-new-btn">Add
+                                class="btn | sdm__btn sdm__btn--primary">Add
                                 New
                             </a>
                         </div>
@@ -34,7 +33,6 @@
                                                 d="M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41zm255-105L177 64c-9.4-9.4-24.6-9.4-33.9 0L24 183c-15.1 15.1-4.4 41 17 41h238c21.4 0 32.1-25.9 17-41z">
                                             </path>
                                         </svg>
-                                        <!-- <i class="fas fa-sort"></i> -->
                                     </th>
                                     <th onclick="sortTable(1)" class="sort-header-style">
                                         Created At
@@ -45,7 +43,6 @@
                                                 d="M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41zm255-105L177 64c-9.4-9.4-24.6-9.4-33.9 0L24 183c-15.1 15.1-4.4 41 17 41h238c21.4 0 32.1-25.9 17-41z">
                                             </path>
                                         </svg>
-                                        <!-- <i class="fas fa-sort"></i> -->
                                     </th>
                                     <th></th>
                                     <th></th>
@@ -73,11 +70,16 @@
                                     <td></td>
                                     <td></td>
                                     <td></td>
-                                    <td><a href="https://sdmstaging.5bb.com.mm/dashboard/plan/1/edit"
-                                            class="plan-edit-btn">Edit</a>
+                                    <td>
+                                        <a style="margin-right: -10px; float: right"
+                                            href="https://sdmstaging.5bb.com.mm/dashboard/plan/1/edit"
+                                            class="btn  sdm__btn sdm__btn--table-ghost sdm__btn--pill">
+                                            Edit
+                                        </a>
                                     </td>
-                                    <td><button onclick="alert(`Can't delete this request. Related transactions exist.`)"
-                                            class="plan-dlt-btn">Delete</button></td>
+                                    <td><button style="margin-right: -10px; float: right"
+                                            onclick="alert(`Can't delete this request. Related transactions exist.`)"
+                                            class="btn sdm__btn sdm__btn--table-danger sdm__btn--pill">Delete</button></td>
                                 </tr>
                                 <tr>
                                     <td>XXS_BGO</td>
@@ -91,11 +93,16 @@
                                     <td></td>
                                     <td></td>
                                     <td></td>
-                                    <td><a href="https://sdmstaging.5bb.com.mm/dashboard/plan/6/edit"
-                                            class="plan-edit-btn">Edit</a>
+                                    <td>
+                                        <a style="margin-right: -10px; float: right"
+                                            href="https://sdmstaging.5bb.com.mm/dashboard/plan/6/edit"
+                                            class="btn  sdm__btn sdm__btn--table-ghost sdm__btn--pill">
+                                            Edit
+                                        </a>
                                     </td>
-                                    <td><button onclick="alert(`Can't delete this request. Related transactions exist.`)"
-                                            class="plan-dlt-btn">Delete</button></td>
+                                    <td><button style="margin-right: -10px; float: right"
+                                            onclick="alert(`Can't delete this request. Related transactions exist.`)"
+                                            class="btn sdm__btn sdm__btn--table-danger sdm__btn--pill">Delete</button></td>
                                 </tr>
                                 <tr>
                                     <td>XS_BGO</td>
@@ -109,170 +116,16 @@
                                     <td></td>
                                     <td></td>
                                     <td></td>
-                                    <td><a href="https://sdmstaging.5bb.com.mm/dashboard/plan/2/edit"
-                                            class="plan-edit-btn">Edit</a>
+                                    <td>
+                                        <a style="margin-right: -10px; float: right"
+                                            href="https://sdmstaging.5bb.com.mm/dashboard/plan/2/edit"
+                                            class="btn  sdm__btn sdm__btn--table-ghost sdm__btn--pill">
+                                            Edit
+                                        </a>
                                     </td>
-                                    <td><button onclick="alert(`Can't delete this request. Related transactions exist.`)"
-                                            class="plan-dlt-btn">Delete</button></td>
-                                </tr>
-                                <tr>
-                                    <td>XXSPlus_Special</td>
-                                    <td>26/06/2020 15:52:04</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td><a href="https://sdmstaging.5bb.com.mm/dashboard/plan/3/edit"
-                                            class="plan-edit-btn">Edit</a>
-                                    </td>
-                                    <td><button onclick="alert(`Can't delete this request. Related transactions exist.`)"
-                                            class="plan-dlt-btn">Delete</button></td>
-                                </tr>
-                                <tr>
-                                    <td>Eco</td>
-                                    <td>26/06/2020 15:52:04</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td><a href="https://sdmstaging.5bb.com.mm/dashboard/plan/4/edit"
-                                            class="plan-edit-btn">Edit</a>
-                                    </td>
-                                    <td><button onclick="alert(`Can't delete this request. Related transactions exist.`)"
-                                            class="plan-dlt-btn">Delete</button></td>
-                                </tr>
-                                <tr>
-                                    <td>XS</td>
-                                    <td>26/06/2020 15:52:04</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td><a href="https://sdmstaging.5bb.com.mm/dashboard/plan/5/edit"
-                                            class="plan-edit-btn">Edit</a>
-                                    </td>
-                                    <td><button onclick="alert(`Can't delete this request. Related transactions exist.`)"
-                                            class="plan-dlt-btn">Delete</button></td>
-                                </tr>
-                                <tr>
-                                    <td>Small_BGO</td>
-                                    <td>26/06/2020 15:52:05</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td><a href="https://sdmstaging.5bb.com.mm/dashboard/plan/7/edit"
-                                            class="plan-edit-btn">Edit</a>
-                                    </td>
-                                    <td><button onclick="alert(`Can't delete this request. Related transactions exist.`)"
-                                            class="plan-dlt-btn">Delete</button></td>
-                                </tr>
-                                <tr>
-                                    <td>XXS</td>
-                                    <td>26/06/2020 15:52:05</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td><a href="https://sdmstaging.5bb.com.mm/dashboard/plan/8/edit"
-                                            class="plan-edit-btn">Edit</a>
-                                    </td>
-                                    <td><button onclick="alert(`Can't delete this request. Related transactions exist.`)"
-                                            class="plan-dlt-btn">Delete</button></td>
-                                </tr>
-                                <tr>
-                                    <td>XS_Plus_BGO</td>
-                                    <td>26/06/2020 15:52:05</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td><a href="https://sdmstaging.5bb.com.mm/dashboard/plan/9/edit"
-                                            class="plan-edit-btn">Edit</a>
-                                    </td>
-                                    <td><button onclick="alert(`Can't delete this request. Related transactions exist.`)"
-                                            class="plan-dlt-btn">Delete</button></td>
-                                </tr>
-                                <tr>
-                                    <td>M_Special</td>
-                                    <td>26/06/2020 15:52:05</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td><a href="https://sdmstaging.5bb.com.mm/dashboard/plan/10/edit"
-                                            class="plan-edit-btn">Edit</a></td>
-                                    <td><button onclick="alert(`Can't delete this request. Related transactions exist.`)"
-                                            class="plan-dlt-btn">Delete</button></td>
-                                </tr>
-                                <tr>
-                                    <td>XSPlus_Special</td>
-                                    <td>26/06/2020 15:52:05</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td><a href="https://sdmstaging.5bb.com.mm/dashboard/plan/11/edit"
-                                            class="plan-edit-btn">Edit</a></td>
-                                    <td><button onclick="alert(`Can't delete this request. Related transactions exist.`)"
-                                            class="plan-dlt-btn">Delete</button></td>
-                                </tr>
-                                <tr>
-                                    <td>S_Special</td>
-                                    <td>26/06/2020 15:52:05</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td><a href="https://sdmstaging.5bb.com.mm/dashboard/plan/12/edit"
-                                            class="plan-edit-btn">Edit</a></td>
-                                    <td><button onclick="alert(`Can't delete this request. Related transactions exist.`)"
-                                            class="plan-dlt-btn">Delete</button></td>
+                                    <td><button style="margin-right: -10px; float: right"
+                                            onclick="alert(`Can't delete this request. Related transactions exist.`)"
+                                            class="btn sdm__btn sdm__btn--table-danger sdm__btn--pill">Delete</button></td>
                                 </tr>
                             </tbody>
                         </table>

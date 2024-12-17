@@ -19,7 +19,7 @@
         </button>
 
         <div class="excel-btn">
-            <a href="https://sdmstaging.5bb.com.mm/dashboard/lsp/create" class="btn add-new-btn">Add New</a>
+            <a href="https://sdmstaging.5bb.com.mm/dashboard/lsp/create" class="btn | sdm__btn sdm__btn--primary">Add New</a>
         </div>
     </div>
 </div>

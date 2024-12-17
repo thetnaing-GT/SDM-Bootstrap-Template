@@ -17,7 +17,7 @@
                         </div>
                         <div class="excel-btn col-md-6 ml-auto"><a
                                 href="https://sdmstaging.5bb.com.mm/dashboard/area-code/create"
-                                class="btn float-right add-new-btn">Add New</a></div>
+                                class="btn sdm__btn sdm__btn--primary">Add New</a></div>
                     </div>
                     <div class="table-responsive">
                         <table id="sorting-table list-area-table" class="plan-tb table table-hover mb-0">
@@ -140,9 +140,10 @@
                                     <td> 3</td>
                                     <td> 48</td>
                                     <td><a href="https://sdmstaging.5bb.com.mm/dashboard/area-code/1/edit"
-                                            class="plan-edit-btn">Edit</a></td>
+                                            class="btn sdm__btn sdm__btn--table-ghost sdm__btn--pill">Edit</a>
+                                    </td>
                                     <td><button onclick="alert(`Can't delete this request. Related transactions exist.`)"
-                                            class="plan-dlt-btn">Delete</button></td>
+                                            class="btn sdm__btn sdm__btn--table-danger sdm__btn--pill">Delete</button></td>
                                     <td></td>
                                 </tr>
                             </tbody>

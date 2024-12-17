@@ -1,0 +1,97 @@
+@function color-mod($color, $amount) {
+  @return if(
+    $amount < 0,
+    darken($color, abs($amount)),
+    lighten($color, $amount)
+  );
+}
+
+@mixin button-interactive($bg-color, $text-color, $border-color: $bg-color) {
+  &:hover,
+  &:focus {
+    background-color: color-mod($bg-color, 0%);
+    color: $text-color;
+    border-color: color-mod($border-color, 0%);
+    outline: none;
+  }
+
+  &:active {
+    background-color: color-mod($bg-color, -15%);
+    color: $text-color;
+    border-color: color-mod($border-color, -15%);
+  }
+}
+
+.sdm {
+  &__btn {
+    font-size: 0.85rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    text-align: center;
+    transition: background-color 0.2s ease, border-color 0.2s ease,
+      color 0.2s ease;
+
+    &--primary {
+      background-color: #ec911a;
+      color: #ffffff;
+      border: 1px solid #ec911a;
+      @include button-interactive(#ffffff, #ec911a, #ec911a);
+    }
+
+    &--secondary {
+      background-color: #f35a32;
+      color: #ffffff;
+      border: none;
+      @include button-interactive(#f35a32, #ffffff);
+    }
+
+    &--refresh {
+      background-color: #fad584;
+      color: #000000;
+      border: none;
+      @include button-interactive(#fad584, #000000);
+    }
+
+    &--compact {
+      height: 30px;
+      background-color: #dce2cd;
+      color: #000000;
+      border: none;
+      @include button-interactive(#dce2cd, #000000);
+    }
+
+    &--ghost {
+      background-color: transparent;
+      color: #ff0000;
+      border: 1px solid #ec911a;
+      @include button-interactive(#ec911a, #ffffff, #ec911a);
+    }
+
+    &--table-ghost {
+      background-color: transparent;
+      color: #000000;
+      border: 1px solid #ec911a;
+      @include button-interactive(#ec911a, #ffffff, #ec911a);
+    }
+
+    &--table-danger {
+      color: #ff0000;
+      border: 1px solid #9c9c9c;
+      @include button-interactive(#ff0000, #ffffff, #ff0000);
+    }
+
+    &--pill {
+      padding-block: 0.125rem;
+      padding-inline: 1.25rem;
+      border-radius: 1rem;
+    }
+
+    &--rounded {
+      border-radius: 1rem;
+    }
+
+    &--flat {
+      border-radius: 0;
+    }
+  }
+}

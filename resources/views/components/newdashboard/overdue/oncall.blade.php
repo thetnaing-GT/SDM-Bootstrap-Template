@@ -5,7 +5,7 @@
             <h2 class="overdue__heading">OnCall OverDue</h2>
             <p class="overdue__paragraph">(1527)</p>
         </div>
-        <button id="oncall-minimize" class="overdue__btn btn btn-sm">
+        <button id="oncall-minimize" class="btn btn-sm | sdm__btn sdm__btn--compact sdm__btn--flat">
             <svg class="svg-inline--fa fa-minus fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas"
                 data-icon="minus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
                 data-fa-i2svg="">

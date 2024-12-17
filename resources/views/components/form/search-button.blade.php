@@ -1,4 +1,4 @@
-<button id="btn-search-db" class="form__button--search btn btn-sm" {{ $attributes }}>
+<button id="btn-search-db" class="btn btn-sm sdm__btn sdm__btn--compact sdm__btn--flat" {{ $attributes }}>
     <svg class="svg-inline--fa fa-search fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search"
         role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
         <path fill="currentColor"

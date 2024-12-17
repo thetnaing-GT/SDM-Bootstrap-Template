@@ -1,4 +1,4 @@
-<button class="form__button--refresh btn btn-sm" {{ $attributes }}>
+<button class="btn btn-sm sdm__btn sdm__btn--compact sdm__btn--flat" {{ $attributes }}>
     <svg id="btn-refresh" class="svg-inline--fa fa-sync fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas"
         data-icon="sync" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
         <path fill="currentColor"
