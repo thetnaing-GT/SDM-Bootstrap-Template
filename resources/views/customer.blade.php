@@ -21,7 +21,7 @@
                                 </x-form.select>
                             </div>
                             <div class="col-md-3">
-                                <button id="btn-search" onclick="SearchCu()" class="add-button">
+                                <button onclick="SearchCu()" class="btn sdm__btn sdm__btn--primary">
                                     Search
                                 </button>
                             </div>
