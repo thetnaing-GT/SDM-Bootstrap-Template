@@ -24,10 +24,9 @@
 
 .sdm {
   &__btn {
-    border-radius: 1rem;
-    font-size: 13px;
+    font-size: 0.85rem;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 1.25rem;
     text-align: center;
     transition: background-color 0.2s ease, border-color 0.2s ease,
       color 0.2s ease;
@@ -61,13 +60,6 @@
       @include button-interactive(#dce2cd, #000000);
     }
 
-    &--danger {
-      background-color: transparent;
-      color: #ff0000;
-      border: 1px solid #e3e3e3;
-      @include button-interactive(#ff0000, #ffffff, #ff0000);
-    }
-
     &--ghost {
       background-color: transparent;
       color: #ff0000;
@@ -75,45 +67,31 @@
       @include button-interactive(#ec911a, #ffffff, #ec911a);
     }
 
-    &--flat {
-      border-radius: 0;
-      background-color: transparent;
-      color: #000;
-      border: 1px solid #ccc;
-
-      &:hover,
-      &:focus {
-        background-color: #f5f5f5;
-        color: #000;
-        border-color: #ccc;
-      }
-
-      &:active {
-        background-color: #e5e5e5;
-      }
-    }
-
     &--table-ghost {
-      padding-block: 5px;
-      padding-inline: 16px;
       background-color: transparent;
       color: #000000;
       border: 1px solid #ec911a;
-      border-radius: 0.25rem;
       @include button-interactive(#ec911a, #ffffff, #ec911a);
-      &--pill {
-        border-radius: 1rem;
-        padding-block: 2px;
-        padding-inline: 1.25rem;
-      }
     }
 
     &--table-danger {
       color: #ff0000;
-      padding-block: 2px;
-      padding-inline: 1.25rem;
       border: 1px solid #9c9c9c;
       @include button-interactive(#ff0000, #ffffff, #ff0000);
+    }
+
+    &--pill {
+      padding-block: 0.125rem;
+      padding-inline: 1.25rem;
+      border-radius: 1rem;
+    }
+
+    &--rounded {
+      border-radius: 1rem;
+    }
+
+    &--flat {
+      border-radius: 0;
     }
   }
 }

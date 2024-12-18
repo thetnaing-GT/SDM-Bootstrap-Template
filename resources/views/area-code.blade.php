@@ -140,10 +140,10 @@
                                     <td> 3</td>
                                     <td> 48</td>
                                     <td><a href="https://sdmstaging.5bb.com.mm/dashboard/area-code/1/edit"
-                                            class="btn sdm__btn sdm__btn--table-ghost sdm__btn--table-ghost--pill">Edit</a>
+                                            class="btn sdm__btn sdm__btn--table-ghost sdm__btn--pill">Edit</a>
                                     </td>
                                     <td><button onclick="alert(`Can't delete this request. Related transactions exist.`)"
-                                            class="btn sdm__btn sdm__btn--table-danger">Delete</button></td>
+                                            class="btn sdm__btn sdm__btn--table-danger sdm__btn--pill">Delete</button></td>
                                     <td></td>
                                 </tr>
                             </tbody>
