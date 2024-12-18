@@ -39,19 +39,18 @@
      - [Edit FAT Name Button](#port-fat-edit-name-button)
      - [Detail FAT Item Button](#port-fat-item-detai-button)
 10. [Reports](#reports)
-
-- [General](#report-general)
-  - [Export Excel Button](#report-general-export-excel-button)
-  - [Table Row Collpase Button](#report-general-table-row-collapse-button)
-- [LSP](#report-lsp)
-  - [Export Excel Button](#report-lsp-export-excel-button)
-- [LSP General](#report-lsp-general)
-  - [Export Excel Button](#report-lsp-general-export-excel-button)
-- [Inventory](#report-inventory)
-  - [Export Excel Button](#report-inventory-export-excel-button)
-- [On Call](#report-oncall)
-  - [Export Excel Button](#report-oncall-export-excel-button)
-  - [Customer Detail Button](#report-oncall-customer-detail-button)
+    - [General](#report-general)
+      - [Export Excel Button](#report-general-export-excel-button)
+      - [Table Row Collpase Button](#report-general-table-row-collapse-button)
+    - [LSP](#report-lsp)
+      - [Export Excel Button](#report-lsp-export-excel-button)
+    - [LSP General](#report-lsp-general)
+      - [Export Excel Button](#report-lsp-general-export-excel-button)
+    - [Inventory](#report-inventory)
+      - [Export Excel Button](#report-inventory-export-excel-button)
+    - [On Call](#report-oncall)
+      - [Export Excel Button](#report-oncall-export-excel-button)
+      - [Customer Detail Button](#report-oncall-customer-detail-button)
 
 ---
 
@@ -99,7 +98,9 @@
 
 ---
 
-## 2. On Call ([View Page](https://sdmstaging.5bb.com.mm/dashboard/on-call)) <a id="on-call"></a>
+## 2. Installation([View Page](https://sdm-staging.5bb.com.mm/dashboard/staging)) <a id="installation"></a>
+
+## 3. On Call ([View Page](https://sdmstaging.5bb.com.mm/dashboard/on-call)) <a id="on-call"></a>
 
 ### Buttons
 
@@ -145,7 +146,7 @@
 
 ---
 
-## 3. Customer <a id="customer"></a>
+## 4. Customer ([View Page]()) <a id="customer"></a>
 
 #### **Search** <a id="customer-search-button"></a>
 
@@ -157,7 +158,7 @@
 
 ---
 
-## 4. LSPS <a id="lsps"></a>
+## 5. LSPS ([View Page]()) <a id="lsps"></a>
 
 #### **Add New** <a id="lsps-add-new-button"></a>
 
@@ -169,7 +170,7 @@
 
 ---
 
-## 5. Inventory <a id="inventory"></a>
+## 6. Inventory ([View Page]()) <a id="inventory"></a>
 
 #### **Add New** <a id="inventory-add-new-button"></a>
 
@@ -177,7 +178,7 @@
 - **UI Changes:** Displays a modal for adding new inventory.
 - **Type:** Primary.
 
-![Add New Button](./docs/buttons/add-new_button.png)  
+![Add New Button](./docs/buttons/add-new_button.png)
 ![Add New Inventory Modal](./docs/modals/add-new-inventory_modal.png)
 
 ---
@@ -190,7 +191,7 @@
 - **UI Changes:** Displays a restock modal.
 - **Type:** Secondary.
 
-![Restock Button](./docs/buttons/restock_button.png)  
+![Restock Button](./docs/buttons/restock_button.png)
 ![Restock Modal](./docs/modals/inventory-item-restock_modal.png)
 
 ---
@@ -201,12 +202,12 @@
 - **UI Changes:** Displays a reduce stock modal.
 - **Type:** Secondary.
 
-![Reduce Stock Button](./docs/buttons/reduce-stock_button.png)  
+![Reduce Stock Button](./docs/buttons/reduce-stock_button.png)
 ![Reduce Stock Modal](./docs/modals/inventory-item-reduce-stock_modal.png)
 
 ---
 
-## 6. Plan <a id="plan"></a>
+## 7. Plan ([View Page]()) <a id="plan"></a>
 
 #### **Add New** <a id="plan-add-new-button"></a>
 
@@ -240,7 +241,7 @@
 
 ---
 
-## 7. Area Code <a id="areacode"></a>
+## 8. Area Code ([View Page]()) <a id="areacode"></a>
 
 #### **Add New** <a id="areacode-add-new-button"></a>
 
@@ -273,6 +274,10 @@
 ![Delete Button](./docs/buttons/delete_button.png)
 
 ---
+
+## 9. Ports <a id="ports"></a>
+
+## 10. Reports <a id="reports"></a>
 
 ## Notes <a id="notes"></a>
 
