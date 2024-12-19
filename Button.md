@@ -442,3 +442,19 @@
    - **Server Action:** Describes the action performed by the server when the button is clicked.
    - **User Interface:** Describes the changes visible to the user on the page.
    - **Type:** Specifies the button type.
+
+### Pages Left
+
+[Customer Detail](https://sdmstaging.5bb.com.mm/dashboard/customer/139621)
+[On Call Trash](https://sdmstaging.5bb.com.mm/dashboard/on-call-trash)
+[On Call Create](https://sdmstaging.5bb.com.mm/dashboard/on-call/create)
+[On Call Detail](https://sdmstaging.5bb.com.mm/dashboard/on-call/322947)
+[LSP Create](https://sdmstaging.5bb.com.mm/dashboard/lsp/create)
+[LSP Edit](https://sdmstaging.5bb.com.mm/dashboard/lsp/2?name=installation)
+[LSP Detail](https://sdmstaging.5bb.com.mm/dashboard/lsp/2?name=installation)
+[Plan Create](https://sdmstaging.5bb.com.mm/dashboard/plan/create)
+[Plan Edit](https://sdmstaging.5bb.com.mm/dashboard/plan/1/edit)
+[Area Code Create](https://sdmstaging.5bb.com.mm/dashboard/area-code/create)
+[Area Code Edit](https://sdmstaging.5bb.com.mm/dashboard/area-code/1/edit)
+[OLT Create](https://sdmstaging.5bb.com.mm/dashboard/olt/create)
+[FAT Detail](https://sdmstaging.5bb.com.mm/dashboard/fat/13513)
