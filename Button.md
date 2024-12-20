@@ -2,61 +2,145 @@
 
 ## Table of Contents
 
-0. [Navigation](#navigation)
-   - [Notification Button](#navigation-notification-button)
-   - [Logout Button](#navigation-logout-button)
-1. [New Dashboard](#newdashboard)
-   - [Refresh Button](#newdashboard-refresh-button)
-   - [Search Button](#newdashboard-search-button)
-   - [Collapse Button](#newdashboard-collapse-button)
-   - [Load More Button](#newdashboard-load-more-button)
-2. [Installation](#installation)
-3. [On Call](#oncall)
-   - [Trash Button](#oncall-trash-button)
-   - [Add New Button](#oncall-add-new-button)
-   - [Status Button](#oncall-status-button)
-   - [Customer Name Button](#oncall-customer-name-button)
-4. [Customer](#customer)
-   - [Search Button](#customer-search-button)
-5. [LSPS](#lsps)
-   - [Summary Popover Button](#lsps-summary-popover-button)
-   - [Add New Button](#lsps-add-new-button)
-   - [Detail LSP Button](#lsps-detail-button)
-6. [Inventory](#inventory)
-   - [Add New Button](#inventory-add-new-button)
-   - [Restock Button](#inventory-restock-button)
-   - [Reduce Button](#inventory-reduce-button)
-7. [Plan](#plan)
-   - [Add New Button](#plan-add-new-button)
-   - [Edit Plan Button](#plan-edit-plan-button)
-   - [Delete Plan Button](#plan-delete-plan-button)
-8. [Area Code](#areacode)
-   - [Add New Button](#areacode-add-new-button)
-   - [Edit Area Code Button](#areacode-edit-areacode-button)
-   - [Delete Area Code Button](#areacode-delete-areacode-button)
-9. [Ports](#ports)
-   - [OLT](#ports-olt)
-     - [Add New Button](#ports-olt-add-new-button)
-     - [Edit OLT Button](#ports-olt-edit-button)
-   - [FDT](#ports-fdt)
-     - [Edit FDT Button](#ports-fdt-edit-button)
-   - [FAT](#ports-fat)
-     - [Edit FAT Button](#ports-fat-edit-button)
-     - [Detail FAT Button](#ports-fat-detail-button)
-10. [Reports](#reports)
-    - [General](#reports-general)
-      - [Export Excel Button](#reports-general-export-excel-button)
-      - [Customer Detail Button](#reports-general-customer-detail-button)
-      - [Table Row Collapse Button](#reports-general-table-row-collapse-button)
-    - [LSP](#reports-lsp)
-      - [Export Excel Button](#reports-lsp-export-excel-button)
-    - [LSP General](#reports-lsp-general)
-      - [Export Excel Button](#reports-lsp-general-export-excel-button)
-    - [Inventory](#reports-inventory)
-      - [Export Excel Button](#reports-inventory-export-excel-button)
-    - [On Call](#reports-oncall)
-      - [Export Excel Button](#reports-oncall-export-excel-button)
-      - [Customer Detail Button](#reports-oncall-customer-detail-button)
+### 0. [Navigation](#navigation)
+
+- [Notification Button](#navigation-notification-button)(Primary)
+- [Logout Button](#navigation-logout-button)(Text)
+
+### 1. [New Dashboard](#newdashboard)
+
+- [Refresh Button](#newdashboard-refresh-button)(Icon)
+- [Search Button](#newdashboard-search-button)(Icon)
+- [Collapse Button](#newdashboard-collapse-button)(Icon)
+- [Load More Button](#newdashboard-load-more-button)(Tertiary)
+
+### 2. [Installation](#installation)
+
+### 3. [On Call](#oncall)
+
+- [Trash Button](#oncall-trash-button)(Secondary)
+- [Add New Button](#oncall-add-new-button)(Primary)
+- [Status Button](#oncall-status-button)(Tertiary)
+- [Customer Name Button](#oncall-customer-name-button)(Link)
+
+### 4. [On Call Create](#oncall-create)
+
+- [Search Button](#oncall-create-search-button)(Primary)
+
+### 5. [On Call Detail](#oncall-detail)
+
+- [Delete Button](#oncall-detail-delete-button)
+- [Refund Request](#oncall-detail-refund-request-button)
+- [Mark as Complete](#oncall-detail-mark-as-complete-button)
+
+### 6. [On Call Trash](#oncall-trash)
+
+- [Search Button](#oncall-trash-search-button)
+- [Status Button](#oncall-trash-status-button)
+- [Restore Button](#oncall-trash-restore-button)
+- [Delete Permanent Button](#oncall-trash-delete-permanent-button)
+
+### 7. [Customer](#customer)
+
+- [Search Button](#customer-search-button)(Primary)
+
+### 8. [Customer Detail](#customer-detail)
+
+- [Edit Button](#customer-detail-edit-button)(Secondary)
+- [Sync Button](#customer-detail-sync-button)(Primary-Icon)
+- [Add Button](#customer-detail-add-button)(Primary)
+- [Cancel Button](#customer-detail-cancel-button)(Transparent)
+
+### 9. [LSPS](#lsps)
+
+- [Summary Popover Button](#lsps-summary-popover-button)(Icon-Blue)
+- [Add New Button](#lsps-add-new-button)(Primary)
+- [Detail LSP Button](#lsps-detail-button)(Link)
+
+### 10. [LSPS Create](#lsps-create)
+
+- [Add Button](#lsps-create-add-button)(Primary)
+- [Cancel Button](#lsps-create-cancel-button)(Transparent)
+
+### 11. [LSPS Detail](#lsps-detail)
+
+- [Edit Button](#lsps-detail-edit-button)(Secondary)
+- [Add LSP Admin](#lsps-detail-add-lsp-admin-button)(Primary)
+- [Add Button](#lsps-detail-add-button)(Primary)
+- [Cancel Button](#lsps-detail-cancel-button)(Secondary)
+
+### 12. [Inventory](#inventory)
+
+- [Add New Button](#inventory-add-new-button)(Primary)
+- [Restock Button](#inventory-restock-button)(Secondary)
+- [Reduce Button](#inventory-reduce-button)(Secondary)
+
+### 13. [Plan](#plan)
+
+- [Add New Button](#plan-add-new-button)(Primary)
+- [Edit Plan Button](#plan-edit-plan-button)(Secondary)
+- [Delete Plan Button](#plan-delete-plan-button)(Danger)
+
+### 14. [Plan Create](#plan-create)
+
+- [Add Button](#plan-create-add-button)(Primary)
+- [Cancel Button](#plan-create-cancel-button)(Transparent)
+
+### 15. [Plan Edit](#plan-edit)
+
+- [Save Button](#plan-edit-save-button)(Primary)
+- [Cancel Button](#plan-edit-cancel-button)(Transparent)
+
+### 16. [Area Code](#areacode)
+
+- [Add New Button](#areacode-add-new-button)(Primary)
+- [Edit Area Code Button](#areacode-edit-areacode-button)(Secondary)
+- [Delete Area Code Button](#areacode-delete-areacode-button)(Danger)
+
+### 17. [Area Code Create](#areacode-create)
+
+- [Add Button](#areacode-create-add-button)(Primary)
+- [Cancel Button](#areacode-create-cancel-button)(Transparent)
+
+### 18. [Area Code Edit](#areacode-edit)
+
+- [Edit Button](#areacode-edit-edit-button)(Primary)
+- [Cancel Button](#areacode-edit-cancel-button)(Secondary)
+
+### 19. [Ports](#ports)
+
+- **OLT**
+  - [Add New Button](#ports-olt-add-new-button)(Primary)
+  - [Edit OLT Button](#ports-olt-edit-button)(Icon)
+- **OLT Create**  
+  - [Add Button](#ports-olt-create-add-button)(Primary)
+  - [Cancel Button](#ports-olt-create-cancel-button)(Transparent)
+- **FDT**
+  - [Edit FDT Button](#ports-fdt-edit-button)(Icon)
+- **FAT**
+  - [Edit FAT Button](#ports-fat-edit-button)(Icon)
+  - [Detail FAT Button](#ports-fat-detail-button)(Secondary)
+- **FAT Detail**
+  - [Refresh Button](#ports-fat-detail-refresh-button)(Icon-Primary)
+  - [Customer Account Link](#ports-fat-detail-customer-acc-link)(Link)
+  - [PPOE User Link](#ports-fat-detail-ppoe-user-link)(Link)
+  - [Verified Button](#ports-fat-detail-verify)(Icon-Blue)
+
+### 20. [Reports](#reports)
+
+- **General**
+  - [Export Excel Button](#reports-general-export-excel-button)(Primary)
+  - [Customer Detail Button](#reports-general-customer-detail-button)(Link)
+  - [Table Row Collapse Button](#reports-general-table-row-collapse-button)(Icon)
+- **LSP**
+  - [Export Excel Button](#reports-lsp-export-excel-button)(Primary)
+- **LSP General**
+  - [Export Excel Button](#reports-lsp-general-export-excel-button)(Primary)
+- **Inventory**
+  - [Export Excel Button](#reports-inventory-export-excel-button)(Primary)
+- **On Call**
+  - [Export Excel Button](#reports-oncall-export-excel-button)(Primary)
+  - [Customer Detail Button](#reports-oncall-customer-detail-button)(Link)
 
 ## 0. Navigation <a id="navigation"></a>
 
@@ -154,7 +238,83 @@
 
 ---
 
-## 4. Customer ([View Page](https://sdmstaging.5bb.com.mm/dashboard/customer)) <a id="customer"></a>
+## 4. Oncall Create(View Page)([https://](https://sdmstaging.5bb.com.mm/dashboard/on-call/create)) <a id="oncall-create"></a>
+
+### **Search** <a id="oncall-create-search-button"></a>
+
+- **Server Action:** ---.
+- **User Interface:** ---.
+- **Type:** Primary.
+
+![Search Button](./docs/buttons/search-primary_button.png)
+
+---
+
+## 5. OnCall Detail([View Page](https://sdmstaging.5bb.com.mm/dashboard/on-call/322947)) <a id="oncall-detail"></a>
+
+### **Delete** <a id="oncall-detail-delete-button"></a>
+
+- **Server Action:** Delete an item from oncall
+- **User Interface:** Redirects to oncall page <https://sdmstaging.5bb.com.mm/dashboard/on-call/>
+- **Type:** Danger
+
+![Delete Button](./docs/buttons/delete_button.png)
+
+### **Refund Request** <a id="oncall-detail-refund-request-button"></a
+
+- **Server Action:** ---.
+- **User Interface** ---.
+- **Type:** Primary
+
+![Refund Request](./docs/buttons/refund-request_button.png)
+
+### **Mark as Complete** <a id="oncall-detail-mark-as-complete-button"></a>
+
+- **Server Action:** ---.
+- **User Interface:** ---.
+- **Type:** Tertiary.
+
+![Mark as Complete](./docs/buttons/mark-as-complete_button.png)
+
+## 6. Oncall Trash([View Page](https://sdmstaging.5bb.com.mm/dashboard/on-call-trash)) <a id="oncall-trash">
+
+### **Search** <a id="oncall-trash-search-button"></a>
+
+- **Server Action:** ---.
+- **User Interface:** ---.
+- **Type:** Primary.
+
+![Search Button](./docs/buttons//search-primary-icon_button.png)
+
+### Table Buttons
+
+#### **Status** <a id="oncall-trash-status-button"></a>
+
+- **Server Action:** ---.
+- **User Interface:** ---.
+- **Type:** Tertiary.
+
+![On Call Status Button](./docs/buttons/oncall-status_button.png)
+
+#### **Restore** <a id="oncall-trash-restore-button"></a>
+
+- **Server Action:** ---.
+- **User Interface:** ---.
+- **Type:** Primary
+
+![Restore Button](./docs/buttons/restore_button.png)
+
+#### **Delete Permanent** <a id="oncall-trash-delete-permanent-button"></a>
+
+- **Server Action:** ---.
+- **User Interface:** ---.
+- **Type:** Danger
+
+![Delete Permanent Button](./docs/buttons/delete-permanent_button.png)
+
+---
+
+## 7. Customer ([View Page](https://sdmstaging.5bb.com.mm/dashboard/customer)) <a id="customer"></a>
 
 ### **Search** <a id="customer-search-button"></a>
 
@@ -166,7 +326,43 @@
 
 ---
 
-## 5. LSPS ([View Page](https://sdmstaging.5bb.com.mm/dashboard/lsps)) <a id="lsps"></a>
+## 8. Customer Detail([View Page](https://sdmstaging.5bb.com.mm/dashboard/customer/139621)) <a id="customer-detail"></a>  
+
+### **Edit Button:** <a id="customer-detail-edit-button"></a>
+
+- **Server Action:** ---.
+- **User Interface:** Make all the fields editable. Show save and cancel button.
+- **Type:** ---.
+
+![Edit Button](./docs/buttons/edit_button.png)
+
+### **Sync Button** <a id="customer-detail-sync-button"></a>
+
+- **Server Action:** ---.
+- **User Interface:** ---.
+- **Type:** Primary
+
+![Sync Button](./docs/buttons/sync_button.png)
+
+### **Save** <a id="customer-detail-add-button"></a>
+
+- **Server Action:** ---.
+- **User Interface:** Cancel the editable state. Submit updated data to server.
+- **Type:** Primary
+
+![Save Button](./docs/buttons/save_button.png)
+
+### **Cancel** <a id="customer-detail-cancel-button"></a>
+
+- **Server Action:** ---.
+- **User Interface:** Cancel the editable state.
+- **Type:** Transparent.
+
+![Cancel Secondary Button](./docs/buttons/cancel-secondary_button.PNG)
+
+---
+
+## 9. LSPS ([View Page](https://sdmstaging.5bb.com.mm/dashboard/lsps)) <a id="lsps"></a>
 
 ### **Summary Popover** <a id="lsps-summary-popover-button"></a>
 
@@ -196,7 +392,65 @@
 
 ---
 
-## 6. Inventory ([View Page](https://sdmstaging.5bb.com.mm/dashboard/inventory)) <a id="inventory"></a>
+## 10. LSPS Create ([View Page](https://sdmstaging.5bb.com.mm/dashboard/lsp/create)) <a id="lsps-create"></a>
+
+### **Add** <a id="lsps-create-add-button"></a>
+
+- **Server Action:** ---.
+- **User Interface:** ---.
+- **Type:** Primary
+
+![Add Button](./docs/buttons/add_button.png)
+
+### **Cancel** <a id="lsps-create-cancel-button"></a>
+
+- **Server Action:** ---.
+- **User Interface:** ---.
+- **Type:** Transparent.
+
+![Cancel Button](./docs/buttons/cancel_button.png)
+
+---
+
+## 11. LSPS Detail ([View Page](https://sdmstaging.5bb.com.mm/dashboard/lsp/5?)) <a id="lsps-detail"></a>
+
+### **Edit Button:** <a id="lsps-detail-edit-button"></a>
+
+- **Server Action:** ---.
+- **User Interface:** Make all the fields editable. Show save and cancel button.
+- **Type:** ---.
+
+![Edit Button](./docs/buttons/edit_button.png)
+
+### **ADD LSP to Admin** <a id="lsps-detail-add-lsp-admin-button"></a>
+
+- **Server Action:** ---.
+- **User Interface:** ---.
+- **Type:** Primary.
+
+![Add LSP to Admin Button](./docs/buttons/add-lsp-to-admin_button.png)
+
+![Edit Button](./docs/buttons/edit_button.png)
+
+### **Save** <a id="lsps-detail-add-button"></a>
+
+- **Server Action:** ---.
+- **User Interface:** Cancel the editable state. Submit updated data to server.
+- **Type:** Primary
+
+![Save Button](./docs/buttons/save_button.png)
+
+### **Cancel** <a id="lsps-detail-cancel-button"></a>
+
+- **Server Action:** ---.
+- **User Interface:** Cancel the editable state.
+- **Type:** Transparent.
+
+![Cancel Secondary Button](./docs/buttons/cancel-secondary_button.PNG)
+
+---
+
+## 12. Inventory ([View Page](https://sdmstaging.5bb.com.mm/dashboard/inventory)) <a id="inventory"></a>
 
 ### **Add New** <a id="inventory-add-new-button"></a>
 
@@ -229,7 +483,7 @@
 
 ---
 
-## 7. Plan ([View Page](https://sdmstaging.5bb.com.mm/dashboard/plan)) <a id="plan"></a>
+## 13. Plan ([View Page](https://sdmstaging.5bb.com.mm/dashboard/plan)) <a id="plan"></a>
 
 ### **Add New** <a id="plan-add-new-button"></a>
 
@@ -259,7 +513,47 @@
 
 ---
 
-## 8. Area Code ([View Page](https://sdmstaging.5bb.com.mm/dashboard/area-code)) <a id="areacode"></a>
+## 14. Plan Create ([View Page](https://sdmstaging.5bb.com.mm/dashboard/plan/create)) <a id="plan-create"></a>
+
+### **Add** <a id="plan-create-add-button"></a>
+
+- **Server Action:** ---.
+- **User Interface:** ---.
+- **Type:** Primary.  
+
+![Add Button](./docs/buttons/add_button.png)
+
+### **Cancel** <a id="plan-create-cancel-button"></a>
+
+- **Server Action:** ---.
+- **User Interface:** Redirects to <https://sdmstaging.5bb.com.mm/dashboard/plan>.
+- **Type:** Transparent.
+
+![Cancel Button](./docs/buttons/cancel_button.png)
+
+---
+
+## 15. Plan Edit ([View Page](https://sdmstaging.5bb.com.mm/dashboard/plan/1/edit)) <a id="plan-edit"></a>
+
+### **Save** <a id="plan-edit-save-button"></a>
+
+- **Server Action:** Submit the updated data to server.
+- **User Interface:** If successful, show the toast message and redirects to <https://sdmstaging.5bb.com.mm/dashboard/plan> page.
+- **Type:** Primary.
+
+![Save Button](./docs/buttons/save_button.png)
+
+### **Cancel** <a id="plan-edit-cancel-button"></a>
+
+- **Server Action:** ---.
+- **User Interface:** Redirects to <https://sdmstaging.5bb.com.mm/dashboard/plan>.
+- **Type:** Transparent.
+
+![Cancel Button](./docs/buttons/cancel_button.png)
+
+---
+
+## 16. Area Code ([View Page](https://sdmstaging.5bb.com.mm/dashboard/area-code)) <a id="areacode"></a>
 
 ### **Add New** <a id="areacode-add-new-button"></a>
 
@@ -289,7 +583,47 @@
 
 ---
 
-## 9. Ports <a id="ports"></a>
+## 17. Area Code Create ([View Page](https://sdmstaging.5bb.com.mm/dashboard/area-code/create)) <a id="areacode-create"></a>
+
+### **Add** <a id="areacode-create-add-button"></a>
+
+- **Server Action:** Create the new area code with submitted data.
+- **User Interface:** Redirects to <https://sdmstaging.5bb.com.mm/dashboard/area-code/>.
+- **Type:** Primary.
+
+![Add Button](./docs/buttons/add_button.png)
+
+### **Cancel** <a id="areacode-create-cancel-button"></a
+
+- **Server Action:** ---.
+- **User Interface:** Redirects to <https://sdmstaging.5bb.com.mm/dashboard/area-code/>.
+- **Type:** Transparent.
+
+![Cancel Button](./docs/buttons/cancel_button.png)
+
+---
+
+## 18. Area Code Edit ([Viea Page](https://sdmstaging.5bb.com.mm/dashboard/area-code/1/edit)) <a id="areacode-edit"></a>
+
+### **Edit** <a id="areacode-edit-edit-button"></a>
+
+- **Server Action:** Update the specfic areacode with updated data.
+- **User Interface:** If successful, show toast at the top and redirects to <https://sdmstaging.5bb.com.mm/dashboard/area-code/>.
+- **Type:** Primary.
+
+![Edit Button](./docs/buttons/edit_button.png)
+
+### **Cancel** <a id="areacode-edit-cancel-button"></a>
+
+- **Server Action:** ---.
+- **User Interface:** Redirects to <https://sdmstaging.5bb.com.mm/dashboard/area-code/>
+- **Type:** Transparent.
+
+![Cancel Button](./docs/buttons/cancel_button.png)
+
+---
+
+## 19. Ports <a id="ports"></a>
 
 ### OLT <a id="ports-olt"></a>
 
@@ -309,6 +643,24 @@
 
 ![Edit Button](./docs/buttons/ports-olt-edit_button.png)
 ![Edit OLT Modal](./docs/modals/ports-olt-edit_modal.png)
+
+### OLT Create <a id="ports-olt-create"></a>
+
+#### **Add** <a id="ports-olt-create-add-button"></a>
+
+- **Server Action:** Create a new olt entry with submitted data.
+- **User Interface:** If successful, redirects to <https://sdmstaging.5bb.com.mm/dashboard/olt/>.
+- **Type:** Primary.
+
+![Add Button](./docs/buttons/add_button.png)
+
+#### **Cancel** <a id="ports-olt-create-cancel-button"></a>
+
+- **Server Action:** ---.
+- **User Interface:** redirects to <https://sdmstaging.5bb.com.mm/dashboard/olt/>.
+- **Type:** Transparent.
+
+![Cancel Button](./docs/buttons/cancel_button.png)
 
 ---
 
@@ -348,9 +700,45 @@
 
 ![Detail Button](./docs/buttons/ports-fat-detail_button.PNG)
 
+### FAT Detail <a id="ports-fat-detail"></a>
+
+#### **Refresh** <a id="ports-fat-detail-refresh-button"></a>
+
+- **Server Action:** ---.
+- **User Interface:** ---.
+- **Type:** Primary.
+
+![Refresh Primary Button](./docs/buttons/refresh-primary_button.png)
+
+#### Table Buttons
+
+##### **Customer Account Link** <a id="ports-fat-detail-customer-acc-link"></a>
+
+- **Server Action:** ---.
+- **User Interface:** ---.
+- **Type:** Link.
+
+![Customer Account Link](./docs/buttons/customer-account_link.png)
+
+#### **PPOE User Link** <a id="ports-fat-detail-ppoe-user-link"></a>
+
+- **Server Action:** ---.
+- **User Interface:** ---.
+- **Type:** Link.
+
+![PPOE User Link](./docs/buttons/ppoe-user-link_button.png)
+
+#### **Verified** <a id="ports-fat-detail-verify"></a>
+
+- **Server Action:** ---.
+- **User Interface:** More info about specific portal verified status is shown.
+- **Type:** Icon.
+
+![Verify Icon](./docs/buttons/verify_button.jpg)
+
 ---
 
-## 10. Reports <a id="reports"></a>
+## 20. Reports <a id="reports"></a>
 
 ### General <a id="reports-general"></a>
 
@@ -442,19 +830,3 @@
    - **Server Action:** Describes the action performed by the server when the button is clicked.
    - **User Interface:** Describes the changes visible to the user on the page.
    - **Type:** Specifies the button type.
-
-### Pages Left
-
-[Customer Detail](https://sdmstaging.5bb.com.mm/dashboard/customer/139621)
-[On Call Trash](https://sdmstaging.5bb.com.mm/dashboard/on-call-trash)
-[On Call Create](https://sdmstaging.5bb.com.mm/dashboard/on-call/create)
-[On Call Detail](https://sdmstaging.5bb.com.mm/dashboard/on-call/322947)
-[LSP Create](https://sdmstaging.5bb.com.mm/dashboard/lsp/create)
-[LSP Edit](https://sdmstaging.5bb.com.mm/dashboard/lsp/2?name=installation)
-[LSP Detail](https://sdmstaging.5bb.com.mm/dashboard/lsp/2?name=installation)
-[Plan Create](https://sdmstaging.5bb.com.mm/dashboard/plan/create)
-[Plan Edit](https://sdmstaging.5bb.com.mm/dashboard/plan/1/edit)
-[Area Code Create](https://sdmstaging.5bb.com.mm/dashboard/area-code/create)
-[Area Code Edit](https://sdmstaging.5bb.com.mm/dashboard/area-code/1/edit)
-[OLT Create](https://sdmstaging.5bb.com.mm/dashboard/olt/create)
-[FAT Detail](https://sdmstaging.5bb.com.mm/dashboard/fat/13513)
