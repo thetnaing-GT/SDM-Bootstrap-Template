@@ -224,7 +224,7 @@
         </div>
         <hr />
         <a id="loadMoreRelo">
-            <button class="overdue__loadmore-btn btn btn-sm">
+            <button class="btn btn-sm sdm__btn sdm__btn--primary">
                 Load More
             </button>
         </a>
