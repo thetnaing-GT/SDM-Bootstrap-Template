@@ -240,7 +240,7 @@
 
 ---
 
-## 4. Oncall Create(View Page)([View Page](https://sdmstaging.5bb.com.mm/dashboard/on-call/create)) <a id="oncall-create"></a>
+## 4. Oncall Create([View Page](https://sdmstaging.5bb.com.mm/dashboard/on-call/create)) <a id="oncall-create"></a>
 
 ### **Search** <a id="oncall-create-search-button"></a>
 
@@ -605,7 +605,7 @@
 
 ---
 
-## 18. Area Code Edit ([Viea Page](https://sdmstaging.5bb.com.mm/dashboard/area-code/1/edit)) <a id="areacode-edit"></a>
+## 18. Area Code Edit ([View Page](https://sdmstaging.5bb.com.mm/dashboard/area-code/1/edit)) <a id="areacode-edit"></a>
 
 ### **Edit** <a id="areacode-edit-edit-button"></a>
 
