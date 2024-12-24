@@ -22,8 +22,9 @@
 
 - [Trash Button](#oncall-trash-button) *(Secondary)*
 - [Add New Button](#oncall-add-new-button) *(Primary)*
+- [Export to Excel Button](#oncall-export-to-excel-button) *(Primary)*
 - [Status Button](#oncall-status-button) *(Tertiary)*
-- [Customer Name Button](#oncall-customer-name-button) *(Link)*
+- [Customer Name Link](#oncall-customer-name-link) *(Link)*
 
 ### 4. [On Call Create](#oncall-create)
 
@@ -152,7 +153,7 @@
 - **User Interface:** Display popup just under notification icon
 - **Type:**: Icon
 
-![Notification Button](./docs/buttons/navigation-notification_button.png)
+![Notification Button](/docs/assets/navigation-notification_button.png)
 
 ### **Logout** <a id="navigation-logout-button"></a>
 
@@ -160,7 +161,7 @@
 - **User Interface:** Redirects to <https://sdmstaging.5bb.com.mm/login>
 - **Type:** Icon
 
-![Logout Button](./docs/buttons/navigation-logout_button.png)
+![Logout Button](/docs/assets/navigation-logout_button.png)
 
 ## 1. New Dashboard ([View Page](https://sdmstaging.5bb.com.mm/dashboard/new-dashboard)) <a id="newdashboard"></a>
 
@@ -170,7 +171,7 @@
 - **User Interface:** Updates the page content.
 - **Type:** Text.
 
-![Refresh Button](./docs/buttons/refresh_button.png)
+![Refresh Button](/docs/assets/refresh_button.png)
 
 ### **Search** <a id="newdashboard-search-button"></a>
 
@@ -178,7 +179,7 @@
 - **User Interface:** Displays filtered data on the page.
 - **Type:** Icon.
 
-![Search Button](./docs/buttons/search_button.png)
+![Search Button](/docs/assets/search_button.png)
 
 ### **Collapse** <a id="newdashboard-collapse-button"></a>
 
@@ -186,7 +187,7 @@
 - **User Interface:** Minimize or expand a section using JavaScript .
 - **Type:** Icon.
 
-![Collapse Button](./docs/buttons/collapse_button.png)
+![Collapse Button](/docs/assets/collapse_button.png)
 
 ### **Load More** <a id="newdashboard-load-more-button"></a>
 
@@ -194,7 +195,7 @@
 - **User Interface:** Dynamically loads more items to the current view.
 - **Type:** Tertiary.
 
-![Load More Button](./docs/buttons/loadmore_button.png)
+![Load More Button](/docs/assets/loadmore_button.png)
 
 ---
 
@@ -210,7 +211,7 @@
 - **User Interface:** Redirects to <https://sdmstaging.5bb.com.mm/dashboard/on-call-trash>.
 - **Type:** Secondary.
 
-![Trash Button](./docs/buttons/trash_button.png)
+![Trash Button](/docs/assets/trash_button.png)
 
 ### **Add New** <a id="oncall-add-new-button"></a>
 
@@ -218,7 +219,7 @@
 - **User Interface:** Redirects to <https://sdmstaging.5bb.com.mm/dashboard/on-call/create>.
 - **Type:** Primary.
 
-![Add New Button](./docs/buttons/add-new_button.png)
+![Add New Button](/docs/assets/add-new_button.png)
 
 ### Table Buttons
 
@@ -228,15 +229,15 @@
 - **User Interface:** Redirects to <https://sdmstaging.5bb.com.mm/dashboard/on-call/:oncall_id>.
 - **Type:** Tertiary.
 
-![On Call Status Button](./docs/buttons/oncall-status_button.png)
+![On Call Status Button](/docs/assets/oncall-status_button.png)
 
-#### **Customer Name** <a id="oncall-customer-name-button"></a>
+#### **Customer Name** <a id="oncall-customer-name-link"></a>
 
 - **Server Action:** Fetch details for specific oncall customer.
 - **User Interface:** Redirects to <https://sdmstaging.5bb.com.mm/dashboard/customer/:customer_id>.
 - **Type:** Link.
 
-![On Call Customer Button](./docs/buttons/oncall-customer_button.png)
+![On Call Customer Button](/docs/assets/oncall-customer_button.png)
 
 ---
 
@@ -248,7 +249,7 @@
 - **User Interface:** ---.
 - **Type:** Primary.
 
-![Search Button](./docs/buttons/search-primary_button.png)
+![Search Button](/docs/assets/search-primary_button.png)
 
 ---
 
@@ -260,7 +261,7 @@
 - **User Interface:** Redirects to oncall page <https://sdmstaging.5bb.com.mm/dashboard/on-call/>
 - **Type:** Danger
 
-![Delete Button](./docs/buttons/delete_button.png)
+![Delete Button](/docs/assets/delete_button.png)
 
 ### **Refund Request** <a id="oncall-detail-refund-request-button"></a
 
@@ -268,7 +269,7 @@
 - **User Interface** ---.
 - **Type:** Primary
 
-![Refund Request](./docs/buttons/refund-request_button.png)
+![Refund Request](/docs/assets/refund-request_button.png)
 
 ### **Mark as Complete** <a id="oncall-detail-mark-as-complete-button"></a>
 
@@ -276,7 +277,7 @@
 - **User Interface:** ---.
 - **Type:** Tertiary.
 
-![Mark as Complete](./docs/buttons/mark-as-complete_button.png)
+![Mark as Complete](/docs/assets/mark-as-complete_button.png)
 
 ## 6. Oncall Trash([View Page](https://sdmstaging.5bb.com.mm/dashboard/on-call-trash)) <a id="oncall-trash">
 
@@ -286,7 +287,7 @@
 - **User Interface:** ---.
 - **Type:** Primary.
 
-![Search Button](./docs/buttons//search-primary-icon_button.png)
+![Search Button](/docs/assets//search-primary-icon_button.png)
 
 ### Table Buttons
 
@@ -296,7 +297,7 @@
 - **User Interface:** ---.
 - **Type:** Tertiary.
 
-![On Call Status Button](./docs/buttons/oncall-status_button.png)
+![On Call Status Button](/docs/assets/oncall-status_button.png)
 
 #### **Restore** <a id="oncall-trash-restore-button"></a>
 
@@ -304,7 +305,7 @@
 - **User Interface:** ---.
 - **Type:** Primary
 
-![Restore Button](./docs/buttons/restore_button.png)
+![Restore Button](/docs/assets/restore_button.png)
 
 #### **Delete Permanent** <a id="oncall-trash-delete-permanent-button"></a>
 
@@ -312,7 +313,7 @@
 - **User Interface:** ---.
 - **Type:** Danger
 
-![Delete Permanent Button](./docs/buttons/delete-permanent_button.png)
+![Delete Permanent Button](/docs/assets/delete-permanent_button.png)
 
 ---
 
@@ -324,7 +325,7 @@
 - **User Interface:** Displays filtered data on the page.
 - **Type:** Primary.
 
-![Search Button](./docs/buttons/search-primary_button.png)
+![Search Button](/docs/assets/search-primary_button.png)
 
 ---
 
@@ -336,7 +337,7 @@
 - **User Interface:** Make all the fields editable. Show save and cancel button.
 - **Type:** ---.
 
-![Edit Button](./docs/buttons/edit_button.png)
+![Edit Button](/docs/assets/edit_button.png)
 
 ### **Sync Button** <a id="customer-detail-sync-button"></a>
 
@@ -344,7 +345,7 @@
 - **User Interface:** ---.
 - **Type:** Primary
 
-![Sync Button](./docs/buttons/sync_button.png)
+![Sync Button](/docs/assets/sync_button.png)
 
 ### **Save** <a id="customer-detail-add-button"></a>
 
@@ -352,7 +353,7 @@
 - **User Interface:** Cancel the editable state. Submit updated data to server.
 - **Type:** Primary
 
-![Save Button](./docs/buttons/save_button.png)
+![Save Button](/docs/assets/save_button.png)
 
 ### **Cancel** <a id="customer-detail-cancel-button"></a>
 
@@ -360,7 +361,7 @@
 - **User Interface:** Cancel the editable state.
 - **Type:** Transparent.
 
-![Cancel Secondary Button](./docs/buttons/cancel-secondary_button.png)
+![Cancel Secondary Button](/docs/assets/cancel-secondary_button.png)
 
 ---
 
@@ -372,7 +373,7 @@
 - **User Interface:** Display popup just beside ? icon
 - **Type:** Icon
 
-![Summary Popover Icon](./docs/buttons/summary-popover_button.png)
+![Summary Popover Icon](/docs/assets/summary-popover_button.png)
 
 ### **Add New** <a id="lsps-add-new-button"></a>
 
@@ -380,7 +381,7 @@
 - **User Interface:** Redirects to <https://sdmstaging.5bb.com.mm/dashboard/lsp/create>.
 - **Type:** Primary.
 
-![Add New Button](./docs/buttons/add-new_button.png)
+![Add New Button](/docs/assets/add-new_button.png)
 
 ### Table Buttons
 
@@ -390,7 +391,7 @@
 - **User Interface:** Redirects to <https://sdmstaging.5bb.com.mm/dashboard/lsp/:lsp_id?name=installation>.
 - **Type:** Link.
 
-![LSP Detail Button](./docs/buttons/lsps-detail_button.png)
+![LSP Detail Button](/docs/assets/lsps-detail_button.png)
 
 ---
 
@@ -402,7 +403,7 @@
 - **User Interface:** ---.
 - **Type:** Primary
 
-![Add Button](./docs/buttons/add_button.png)
+![Add Button](/docs/assets/add_button.png)
 
 ### **Cancel** <a id="lsps-create-cancel-button"></a>
 
@@ -410,7 +411,7 @@
 - **User Interface:** ---.
 - **Type:** Transparent.
 
-![Cancel Button](./docs/buttons/cancel_button.png)
+![Cancel Button](/docs/assets/cancel_button.png)
 
 ---
 
@@ -422,7 +423,7 @@
 - **User Interface:** Make all the fields editable. Show save and cancel button.
 - **Type:** ---.
 
-![Edit Button](./docs/buttons/edit_button.png)
+![Edit Button](/docs/assets/edit_button.png)
 
 ### **ADD LSP to Admin** <a id="lsps-detail-add-lsp-admin-button"></a>
 
@@ -430,9 +431,9 @@
 - **User Interface:** ---.
 - **Type:** Primary.
 
-![Add LSP to Admin Button](./docs/buttons/add-lsp-to-admin_button.png)
+![Add LSP to Admin Button](/docs/assets/add-lsp-to-admin_button.png)
 
-![Edit Button](./docs/buttons/edit_button.png)
+![Edit Button](/docs/assets/edit_button.png)
 
 ### **Save** <a id="lsps-detail-add-button"></a>
 
@@ -440,7 +441,7 @@
 - **User Interface:** Cancel the editable state. Submit updated data to server.
 - **Type:** Primary
 
-![Save Button](./docs/buttons/save_button.png)
+![Save Button](/docs/assets/save_button.png)
 
 ### **Cancel** <a id="lsps-detail-cancel-button"></a>
 
@@ -448,7 +449,7 @@
 - **User Interface:** Cancel the editable state.
 - **Type:** Transparent.
 
-![Cancel Secondary Button](./docs/buttons/cancel-secondary_button.png)
+![Cancel Secondary Button](/docs/assets/cancel-secondary_button.png)
 
 ---
 
@@ -460,8 +461,8 @@
 - **User Interface:** Displays a modal for adding new inventory.
 - **Type:** Primary.
 
-![Add New Button](./docs/buttons/add-new_button.png)
-![Add New Inventory Modal](./docs/modals/add-new-inventory_modal.png)
+![Add New Button](/docs/assets/add-new_button.png)
+![Add New Inventory Modal](/docs/assetsadd-new-inventory_modal.png)
 
 ### Table Buttons
 
@@ -471,8 +472,8 @@
 - **User Interface:** Displays a restock modal for a specific inventory item.
 - **Type:** Secondary.
 
-![Restock Button](./docs/buttons/restock_button.png)
-![Restock Modal](./docs/modals/inventory-item-restock_modal.png)
+![Restock Button](/docs/assets/restock_button.png)
+![Restock Modal](/docs/assetsinventory-item-restock_modal.png)
 
 #### **Reduce** <a id="inventory-reduce-button"></a>
 
@@ -480,8 +481,8 @@
 - **User Interface:** Displays a reduce stock modal for a specific inventory item.
 - **Type:** Secondary.
 
-![Reduce Stock Button](./docs/buttons/reduce-stock_button.png)
-![Reduce Stock Modal](./docs/modals/inventory-item-reduce-stock_modal.png)
+![Reduce Stock Button](/docs/assets/reduce-stock_button.png)
+![Reduce Stock Modal](/docs/assetsinventory-item-reduce-stock_modal.png)
 
 ---
 
@@ -493,7 +494,7 @@
 - **User Interface:** Redirects to the page: `https://sdmstaging.5bb.com.mm/dashboard/plan/create`.
 - **Type:** Primary.
 
-![Add New Button](./docs/buttons/add-new_button.png)
+![Add New Button](/docs/assets/add-new_button.png)
 
 ### Table Buttons
 
@@ -503,7 +504,7 @@
 - **User Interface:** Redirects to the page: `https://sdmstaging.5bb.com.mm/dashboard/plan/:plan_id/edit`.
 - **Type:** Secondary.
 
-![Edit Button](./docs/buttons/edit_button.png)
+![Edit Button](/docs/assets/edit_button.png)
 
 #### **Delete Plan** <a id="plan-delete-plan-button"></a>
 
@@ -511,7 +512,7 @@
 - **User Interface:** If related transactions exist, show an alert saying `Can't delete this request. Related transactions exist.` else remove from view.
 - **Type:** Danger.
 
-![Delete Button](./docs/buttons/delete_button.png)
+![Delete Button](/docs/assets/delete_button.png)
 
 ---
 
@@ -523,7 +524,7 @@
 - **User Interface:** ---.
 - **Type:** Primary.  
 
-![Add Button](./docs/buttons/add_button.png)
+![Add Button](/docs/assets/add_button.png)
 
 ### **Cancel** <a id="plan-create-cancel-button"></a>
 
@@ -531,7 +532,7 @@
 - **User Interface:** Redirects to <https://sdmstaging.5bb.com.mm/dashboard/plan>.
 - **Type:** Transparent.
 
-![Cancel Button](./docs/buttons/cancel_button.png)
+![Cancel Button](/docs/assets/cancel_button.png)
 
 ---
 
@@ -543,7 +544,7 @@
 - **User Interface:** If successful, show the toast message and redirects to <https://sdmstaging.5bb.com.mm/dashboard/plan> page.
 - **Type:** Primary.
 
-![Save Button](./docs/buttons/save_button.png)
+![Save Button](/docs/assets/save_button.png)
 
 ### **Cancel** <a id="plan-edit-cancel-button"></a>
 
@@ -551,7 +552,7 @@
 - **User Interface:** Redirects to <https://sdmstaging.5bb.com.mm/dashboard/plan>.
 - **Type:** Transparent.
 
-![Cancel Button](./docs/buttons/cancel_button.png)
+![Cancel Button](/docs/assets/cancel_button.png)
 
 ---
 
@@ -563,7 +564,7 @@
 - **User Interface:** Redirects to the page: `https://sdmstaging.5bb.com.mm/dashboard/area-code/create`.
 - **Type:** Primary.
 
-![Add New Button](./docs/buttons/add-new_button.png)
+![Add New Button](/docs/assets/add-new_button.png)
 
 ### Table Buttons
 
@@ -573,7 +574,7 @@
 - **User Interface:** Redirects to the page: `https://sdmstaging.5bb.com.mm/dashboard/area-code/:areacode_id/edit`.
 - **Type:** Secondary.
 
-![Edit Button](./docs/buttons/edit_button.png)
+![Edit Button](/docs/assets/edit_button.png)
 
 #### **Delete Area Code** <a id="areacode-delete-areacode-button"></a>
 
@@ -581,7 +582,7 @@
 - **User Interface:** If related transactions exist, show an alert saying `Can't delete this request. Related transactions exist.` else remove from view.
 - **Type:** Danger.
 
-![Delete Button](./docs/buttons/delete_button.png)
+![Delete Button](/docs/assets/delete_button.png)
 
 ---
 
@@ -593,7 +594,7 @@
 - **User Interface:** Redirects to <https://sdmstaging.5bb.com.mm/dashboard/area-code/>.
 - **Type:** Primary.
 
-![Add Button](./docs/buttons/add_button.png)
+![Add Button](/docs/assets/add_button.png)
 
 ### **Cancel** <a id="areacode-create-cancel-button"></a
 
@@ -601,7 +602,7 @@
 - **User Interface:** Redirects to <https://sdmstaging.5bb.com.mm/dashboard/area-code/>.
 - **Type:** Transparent.
 
-![Cancel Button](./docs/buttons/cancel_button.png)
+![Cancel Button](/docs/assets/cancel_button.png)
 
 ---
 
@@ -613,7 +614,7 @@
 - **User Interface:** If successful, show toast at the top and redirects to <https://sdmstaging.5bb.com.mm/dashboard/area-code/>.
 - **Type:** Primary.
 
-![Edit Button](./docs/buttons/edit_button.png)
+![Edit Button](/docs/assets/edit_button.png)
 
 ### **Cancel** <a id="areacode-edit-cancel-button"></a>
 
@@ -621,7 +622,7 @@
 - **User Interface:** Redirects to <https://sdmstaging.5bb.com.mm/dashboard/area-code/>
 - **Type:** Transparent.
 
-![Cancel Button](./docs/buttons/cancel_button.png)
+![Cancel Button](/docs/assets/cancel_button.png)
 
 ---
 
@@ -643,8 +644,8 @@
 - **User Interface:** Opens a modal to edit a specific OLT port.
 - **Type:** Icon.
 
-![Edit Button](./docs/buttons/ports-olt-edit_button.png)
-![Edit OLT Modal](./docs/modals/ports-olt-edit_modal.png)
+![Edit Button](/docs/assets/ports-olt-edit_button.png)
+![Edit OLT Modal](/docs/assetsports-olt-edit_modal.png)
 
 ### OLT Create <a id="ports-olt-create"></a>
 
@@ -654,7 +655,7 @@
 - **User Interface:** If successful, redirects to <https://sdmstaging.5bb.com.mm/dashboard/olt/>.
 - **Type:** Primary.
 
-![Add Button](./docs/buttons/add_button.png)
+![Add Button](/docs/assets/add_button.png)
 
 #### **Cancel** <a id="ports-olt-create-cancel-button"></a>
 
@@ -662,7 +663,7 @@
 - **User Interface:** redirects to <https://sdmstaging.5bb.com.mm/dashboard/olt/>.
 - **Type:** Transparent.
 
-![Cancel Button](./docs/buttons/cancel_button.png)
+![Cancel Button](/docs/assets/cancel_button.png)
 
 ---
 
@@ -676,8 +677,8 @@
 - **User Interface:** Opens a modal to edit a specific FDT port.
 - **Type:** Icon.
 
-![Edit Button](./docs/buttons/ports-fdt-edit_button.png)
-![Edit FDT Modal](./docs/modals/ports-fdt-edit_modal.png)
+![Edit Button](/docs/assets/ports-fdt-edit_button.png)
+![Edit FDT Modal](/docs/assetsports-fdt-edit_modal.png)
 
 ---
 
@@ -691,8 +692,8 @@
 - **User Interface:** Opens a modal to edit a specific FAT port.
 - **Type:** Icon.
 
-![Edit Button](./docs/buttons/ports-fat-edit_button.png)
-![Edit Modal](./docs/modals/ports-fat-edit_modal.png)
+![Edit Button](/docs/assets/ports-fat-edit_button.png)
+![Edit Modal](/docs/assetsports-fat-edit_modal.png)
 
 ##### **Detail FAT** <a id="ports-fat-detail-button"></a>
 
@@ -700,7 +701,7 @@
 - **User Interface:** Redirects to the page: `https://sdmstaging.5bb.com.mm/dashboard/fat/24880`.
 - **Type:** Secondary.
 
-![Detail Button](./docs/buttons/ports-fat-detail_button.png)
+![Detail Button](/docs/assets/ports-fat-detail_button.png)
 
 ### FAT Detail <a id="ports-fat-detail"></a>
 
@@ -710,7 +711,7 @@
 - **User Interface:** ---.
 - **Type:** Primary.
 
-![Refresh Primary Button](./docs/buttons/refresh-primary_button.png)
+![Refresh Primary Button](/docs/assets/refresh-primary_button.png)
 
 #### Table Buttons
 
@@ -720,7 +721,7 @@
 - **User Interface:** ---.
 - **Type:** Link.
 
-![Customer Account Link](./docs/buttons/customer-account_link.png)
+![Customer Account Link](/docs/assets/customer-account_link.png)
 
 #### **PPOE User Link** <a id="ports-fat-detail-ppoe-user-link"></a>
 
@@ -728,7 +729,7 @@
 - **User Interface:** ---.
 - **Type:** Link.
 
-![PPOE User Link](./docs/buttons/ppoe-user-link_button.png)
+![PPOE User Link](/docs/assets/ppoe-user-link_button.png)
 
 #### **Verified** <a id="ports-fat-detail-verify"></a>
 
@@ -736,7 +737,7 @@
 - **User Interface:** More info about specific portal verified status is shown.
 - **Type:** Icon.
 
-![Verify Icon](./docs/buttons/verify_button.jpg)
+![Verify Icon](/docs/assets/verify_button.jpg)
 
 ---
 
@@ -750,7 +751,7 @@
 - **User Interface:** ---.
 - **Type:** Primary.
 
-![Export to Excel Button](./docs/buttons/export-to-excel_button.png)
+![Export to Excel Button](/docs/assets/export-to-excel_button.png)
 
 #### Table Buttons
 
@@ -766,7 +767,7 @@
 - **User Interface:** Collapses or un-collapses the table row.
 - **Type:** Icon.
 
-![Collapse Button](./docs/buttons/table-row-collapse_button.png)
+![Collapse Button](/docs/assets/table-row-collapse_button.png)
 
 ---
 
@@ -778,7 +779,7 @@
 - **User Interface:** ---.
 - **Type:** Primary.
 
-![Export to Excel Button](./docs/buttons/export-to-excel_button.png)
+![Export to Excel Button](/docs/assets/export-to-excel_button.png)
 
 ---
 
@@ -790,7 +791,7 @@
 - **User Interface:** ---.
 - **Type:** Primary.
 
-![Export to Excel Button](./docs/buttons/export-to-excel_button.png)
+![Export to Excel Button](/docs/assets/export-to-excel_button.png)
 
 ---
 
@@ -802,7 +803,7 @@
 - **User Interface:** ---.
 - **Type:** Primary.
 
-![Export to Excel Button](./docs/buttons/export-to-excel_button.png)
+![Export to Excel Button](/docs/assets/export-to-excel_button.png)
 
 ---
 
@@ -814,7 +815,7 @@
 - **User Interface:** ---.
 - **Type:** Primary.
 
-![Export to Excel Button](./docs/buttons/export-to-excel_button.png)
+![Export to Excel Button](/docs/assets/export-to-excel_button.png)
 
 #### Table Buttons
 
@@ -928,7 +929,7 @@
 ### Link Buttons **5**
 
 - **On Call**
-  - Customer Name Button
+  - Customer Name Link
 - **Ports**
   - Customer Account Link (FAT Detail)
   - PPOE User Link (FAT Detail)
