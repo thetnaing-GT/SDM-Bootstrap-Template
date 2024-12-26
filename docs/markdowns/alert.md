@@ -38,7 +38,15 @@
 
 ---
 
-## 4. Admin User
+## 4. LSP Completion Reports
+
+**Page Alerts Count:** 1
+
+**URL:** `<https://sdmstaging.5bb.com.mm/dashboard/lsp-completion-report>`
+
+- **Download Button:** Trigger an alert box
+
+## 5. Admin User
 
 **Page Alerts Count:** 1
 
@@ -50,7 +58,7 @@
 
 ---
 
-## 5. Roles
+## 6. Roles
 
 **Page Alerts Count:** 1
 
@@ -62,7 +70,7 @@
 
 ---
 
-## 6. Permissions
+## 7. Permissions
 
 **Page Alerts Count:** 2
 
@@ -79,3 +87,15 @@
 - **Table**
   - **Action Column**:
     - **Delete (Styled)**: Triggers a styled alert box.
+
+---
+
+## 8. Map ODN Check
+
+- **Township Select** Trigger an alert box if is clicked without choosing city first
+
+---
+
+## 9. Map  Port Check
+
+- **Township Select** Trigger an alert box if is clicked without choosing city first

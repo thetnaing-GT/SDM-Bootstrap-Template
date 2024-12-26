@@ -107,10 +107,12 @@
 
 ## 9. Admin User
 
-**Page Modals Count:** 1
+**Page Modals Count:** 2
 
 **URL:** `https://sdmstaging.5bb.com.mm/dashboard/customer/31673`
 
 - **Table**
+  - **Name Column**
+    - **User Detail Modal:** Show user details
   - **Column**
     - **Reset Password Modal:** Allows resetting user password.
