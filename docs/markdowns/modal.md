@@ -74,7 +74,7 @@
   - **FDT Name Column**:
     - **Edit FDT Modal**: Allows editing FDT details.
   - **Action Column**:
-    - **Create FAT Column**: Provides functionality to create FAT entries.
+    - **Create FAT Column**: Allows creating new FAT entry.
 
 ---
 
