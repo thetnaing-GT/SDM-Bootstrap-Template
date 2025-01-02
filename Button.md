@@ -21,7 +21,12 @@
 
 ### 3. [Installation](#installation)
 
-- *(Left to specified)*
+- [Relocation](#installation-relocation-link)
+- [Export to Excel](#installation-export-to-excel-button)
+- [Add New](#installation-add-new-link)
+- [Import from CSV](#installation-import-from-csv-button)
+- [Customer Name](#installation-customer-name-link)
+- [Request Status](#installation-request-status-button)
 
 ### 4. [Installation Detail](#installation-detail)
 
@@ -208,6 +213,16 @@
 
 ## 1. Index ([View Page](https://sdmstaging.5bb.com.mm/dashboard/index)) <a id="index"></a>
 
+### **Growth By Year:** <a id="index-growth-by-year"></a>
+
+- **Purpose:** Show the yearly number comparisons between installation, relocation and oncall
+- **Type:** Secondary
+
+### **Growth By Month:** <a id="index-growth-by-month"></a>
+
+- **Purpose:** Show the monthly number comparisons in a year between installation, relocation and oncall
+- **Type:** Secondary
+
 ## 2. New Dashboard ([View Page](https://sdmstaging.5bb.com.mm/dashboard/new-dashboard)) <a id="newdashboard"></a>
 
 ### **Refresh** <a id="newdashboard-refresh-button"></a>
@@ -242,10 +257,89 @@
 
 ## 3. Installation ([View Page](https://sdmstaging.5bb.com.mm/dashboard/installation)) <a id="installation"></a>
 
+### **Relocation** <a id="installation-relocation-link"></a>
+
+- **Purpose:** Redirects to <https://sdmstaging.5bb.com.mm/dashboard/relocation> page
+- **Type:** Secondary
+
+### **Export to Excel** <a id="installation-export-to-excel-button"></a>
+
+- **Purpose:** Exports an .xlsx file containing all installation.
+- **Type:** Primary
+
+![Export to Excel Button](/docs/assets/export-to-excel_button.png)
+
+### **Add New** <a id="installation-add-new-link"></a>
+
+- **Purpose:** Redirects to <https://sdmstaging.5bb.com.mm/dashboard/installation/create> page.
+- **Type:** Primary
+
+![Add New Link](/docs/assets/add-new_button.png)
+
+### **Import from CSV** <a id="installation-import-from-csv-button"></a>
+
+- **Purpose:** Allows users to upload a CSV file to the server.
+- **Type:** Primary
+
+![Import from CSV](/docs/assets/import-from-csv_button.png)
+
+### Table Buttons
+
+#### **Request Status** <a id="installation-request-status-button"></a>
+
+- **Purpose:** Fetch the details of specific installation and redirects to installation detail page
+- **Type:** Tertiary
+
+#### **Customer Name* <a id="installation-customer-name-link"></a>
+
+- **Purpose:** Fetch the details of installation customer and redirects to customer detail page
+- **Type:** Link
+
 ---
 
 ## 4. Installatin Detail <a id="installation-detail"></a>
 
+### **Cancel** <a id="installation-detail-cancel-button"></a>
+
+- **Purpose:** Redirects back to installation overview page
+- **Type:** Secondary
+
+![Cancel Button](/docs/assets/cancel-secondary_button.png)
+
+### **Refund Request** <a id="installation-detail-refund-request-button"></a>
+
+- **Condition:** Shows up if an installation is either cancelled or new
+- **Purpose:** ---.
+- **Type:** Primary
+
+### **Termination** <a id="installation-detail-termination-button"></a>
+
+- **Condition:** Shows up if an installation is complete
+- **Purpose:** ---.
+- **Type:** Primary
+
+### **Mark as Complete** <a id="installation-detail-mark-as-complete-button"></a>
+
+- **Condition:** Disabled if an installation status is complete
+- **Purpose:** ---.
+- **Type:** Tertiary
+
+### **Order Info Edit** <a id="installation-detail-order-info-edit-button"></a>
+
+- **Purpose:** Make all fields of the order info section editable.
+- **Type:** Icon
+
+### **Customer Info Edit** <a id="installation-detail-customer-info-edit-button"></a>
+
+- **Purpose:** Make all fields of customer info section editable.
+- **Type:** Icon
+
+### **Installation Detail Surveying Edit** <a id="installation-detail-surverying-edit-button"></a>
+
+- **Purpose:** Make all fields of surveying info section editable
+- **Type:** Secondary
+
+### **Verification Check List Edit** <a id=""></a>
 ## 5. Relocation <a id="relocation"></a>
 
 ## 6. Relocation Detail <a id="relocation-detail"></a>
