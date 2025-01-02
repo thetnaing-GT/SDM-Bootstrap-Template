@@ -167,32 +167,28 @@
 
 ### **Refresh** <a id="newdashboard-refresh-button"></a>
 
-- **Server Action:** Fetch updated data from the server.
-- **User Interface:** Updates the page content.
-- **Type:** Text.
+- **Purpose:** Updates the page and retrieves the latest data from the server.
+- **Type:** Icon.
 
 ![Refresh Button](/docs/assets/refresh_button.png)
 
 ### **Search** <a id="newdashboard-search-button"></a>
 
-- **Server Action:** Submit the search form.
-- **User Interface:** Displays filtered data on the page.
+- **Purpose:** Filters and retrieves data based on the submitted form parameters.
 - **Type:** Icon.
 
 ![Search Button](/docs/assets/search_button.png)
 
 ### **Collapse** <a id="newdashboard-collapse-button"></a>
 
-- **Server Action:** ---.
-- **User Interface:** Minimize or expand a section using JavaScript .
+- **Purpose:** Minimizes or expands a section.
 - **Type:** Icon.
 
 ![Collapse Button](/docs/assets/collapse_button.png)
 
 ### **Load More** <a id="newdashboard-load-more-button"></a>
 
-- **Server Action:** Fetch and append additional data.
-- **User Interface:** Dynamically loads more items to the current view.
+- **Purpose:** Fetches and displays additional data.
 - **Type:** Tertiary.
 
 ![Load More Button](/docs/assets/loadmore_button.png)
@@ -207,16 +203,20 @@
 
 ### **Trash** <a id="oncall-trash-button"></a>
 
-- **Server Action:** Fetch deleted oncall items.
-- **User Interface:** Redirects to <https://sdmstaging.5bb.com.mm/dashboard/on-call-trash>.
+- **Purpose:** Displays deleted on-call items by redirecting to the trash view.
 - **Type:** Secondary.
 
 ![Trash Button](/docs/assets/trash_button.png)
 
+### **Export to Excel** <a id="oncall-export-to-excel-button"></a>
+
+- **Purpose:** Exports an .xlsx file containing all oncall.
+
+![Export to Excel Button](/docs/assets/export-to-excel_button.png)
+
 ### **Add New** <a id="oncall-add-new-button"></a>
 
-- **Server Action:** ---.
-- **User Interface:** Redirects to <https://sdmstaging.5bb.com.mm/dashboard/on-call/create>.
+- **Purpose:** Redirects to <https://sdmstaging.5bb.com.mm/dashboard/on-call/create> page for creating a new oncall entry.
 - **Type:** Primary.
 
 ![Add New Button](/docs/assets/add-new_button.png)
@@ -225,16 +225,14 @@
 
 #### **Status** <a id="oncall-status-button"></a>
 
-- **Server Action:** Fetch details for a specific oncall entry.
-- **User Interface:** Redirects to <https://sdmstaging.5bb.com.mm/dashboard/on-call/:oncall_id>.
+- **Purpose:** Redirects to the detail page of specific oncall entry.
 - **Type:** Tertiary.
 
 ![On Call Status Button](/docs/assets/oncall-status_button.png)
 
 #### **Customer Name** <a id="oncall-customer-name-link"></a>
 
-- **Server Action:** Fetch details for specific oncall customer.
-- **User Interface:** Redirects to <https://sdmstaging.5bb.com.mm/dashboard/customer/:customer_id>.
+- **Purpose:** Redirects to the customer details page for the selected on-call customer.
 - **Type:** Link.
 
 ![On Call Customer Button](/docs/assets/oncall-customer_button.png)
@@ -245,8 +243,7 @@
 
 ### **Search** <a id="oncall-create-search-button"></a>
 
-- **Server Action:** ---.
-- **User Interface:** ---.
+- **Purpose:** ---.
 - **Type:** Primary.
 
 ![Search Button](/docs/assets/search-primary_button.png)
@@ -257,34 +254,30 @@
 
 ### **Delete** <a id="oncall-detail-delete-button"></a>
 
-- **Server Action:** Delete an item from oncall
-- **User Interface:** Redirects to oncall page <https://sdmstaging.5bb.com.mm/dashboard/on-call/>
+- **Purpose:** Deletes an on-call item and redirects to the on-call page.
 - **Type:** Danger
 
 ![Delete Button](/docs/assets/delete_button.png)
 
 ### **Refund Request** <a id="oncall-detail-refund-request-button"></a
 
-- **Server Action:** ---.
-- **User Interface** ---.
+- **Purpose:** ---.
 - **Type:** Primary
 
 ![Refund Request](/docs/assets/refund-request_button.png)
 
 ### **Mark as Complete** <a id="oncall-detail-mark-as-complete-button"></a>
 
-- **Server Action:** ---.
-- **User Interface:** ---.
+- **Purpose:** ---.
 - **Type:** Tertiary.
 
 ![Mark as Complete](/docs/assets/mark-as-complete_button.png)
 
-## 6. Oncall Trash([View Page](https://sdmstaging.5bb.com.mm/dashboard/on-call-trash)) <a id="oncall-trash">
+## 6. Oncall Trash([View Page](https://sdmstaging.5bb.com.mm/dashboard/on-call-trash)) <a id="oncall-trash">  
 
 ### **Search** <a id="oncall-trash-search-button"></a>
 
-- **Server Action:** ---.
-- **User Interface:** ---.
+- **Purpose:** ---.
 - **Type:** Primary.
 
 ![Search Button](/docs/assets//search-primary-icon_button.png)
@@ -293,24 +286,21 @@
 
 #### **Status** <a id="oncall-trash-status-button"></a>
 
-- **Server Action:** ---.
-- **User Interface:** ---.
+- **Purpose:** ---.
 - **Type:** Tertiary.
 
 ![On Call Status Button](/docs/assets/oncall-status_button.png)
 
 #### **Restore** <a id="oncall-trash-restore-button"></a>
 
-- **Server Action:** ---.
-- **User Interface:** ---.
+- **Purpose:** ---.
 - **Type:** Primary
 
 ![Restore Button](/docs/assets/restore_button.png)
 
 #### **Delete Permanent** <a id="oncall-trash-delete-permanent-button"></a>
 
-- **Server Action:** ---.
-- **User Interface:** ---.
+- **Purpose:** ---.
 - **Type:** Danger
 
 ![Delete Permanent Button](/docs/assets/delete-permanent_button.png)
@@ -321,8 +311,7 @@
 
 ### **Search** <a id="customer-search-button"></a>
 
-- **Server Action:** Submit the search form.
-- **User Interface:** Displays filtered data on the page.
+- **Purpose:** Filters and retrieves data based on the submitted form parameters.
 - **Type:** Primary.
 
 ![Search Button](/docs/assets/search-primary_button.png)
@@ -333,33 +322,29 @@
 
 ### **Edit Button:** <a id="customer-detail-edit-button"></a>
 
-- **Server Action:** ---.
-- **User Interface:** Make all the fields editable. Show save and cancel button.
-- **Type:** ---.
+- **Purpose:** Make all the fields editable. Show save and cancel button.
+- **Type:** secondary.
 
 ![Edit Button](/docs/assets/edit_button.png)
 
 ### **Sync Button** <a id="customer-detail-sync-button"></a>
 
-- **Server Action:** ---.
-- **User Interface:** ---.
+- **Purpose:** ---.
 - **Type:** Primary
 
 ![Sync Button](/docs/assets/sync_button.png)
 
 ### **Save** <a id="customer-detail-add-button"></a>
 
-- **Server Action:** ---.
-- **User Interface:** Cancel the editable state. Submit updated data to server.
+- **Purpose:** Cancel the editable state. Submit updated data to server.
 - **Type:** Primary
 
 ![Save Button](/docs/assets/save_button.png)
 
 ### **Cancel** <a id="customer-detail-cancel-button"></a>
 
-- **Server Action:** ---.
-- **User Interface:** Cancel the editable state.
-- **Type:** Transparent.
+- **Purpose:** Cancel the editable state.
+- **Type:** secondary.
 
 ![Cancel Secondary Button](/docs/assets/cancel-secondary_button.png)
 
@@ -369,16 +354,14 @@
 
 ### **Summary Popover** <a id="lsps-summary-popover-button"></a>
 
-- **Server Action:** Fetch the summary info of all lsps.
-- **User Interface:** Display popup just beside ? icon
+- **Purpose:** Displays a popup with the summary information for all LSPS.
 - **Type:** Icon
 
 ![Summary Popover Icon](/docs/assets/summary-popover_button.png)
 
 ### **Add New** <a id="lsps-add-new-button"></a>
 
-- **Server Action:** ---.
-- **User Interface:** Redirects to <https://sdmstaging.5bb.com.mm/dashboard/lsp/create>.
+- **Purpose:** Redirects to the <https://sdmstaging.5bb.com.mm/dashboard/lsp/create> page for creating a new LSPS entry.
 - **Type:** Primary.
 
 ![Add New Button](/docs/assets/add-new_button.png)
@@ -387,8 +370,7 @@
 
 #### **LSP Detail** <a id="lsps-detail-button"></a>
 
-- **Server Action:** ---.
-- **User Interface:** Redirects to <https://sdmstaging.5bb.com.mm/dashboard/lsp/:lsp_id?name=installation>.
+- **Purpose:** Redirects to the detail page for a specific LSP entry.
 - **Type:** Link.
 
 ![LSP Detail Button](/docs/assets/lsps-detail_button.png)
@@ -399,16 +381,14 @@
 
 ### **Add** <a id="lsps-create-add-button"></a>
 
-- **Server Action:** ---.
-- **User Interface:** ---.
+- **Purpose:** ---.
 - **Type:** Primary
 
 ![Add Button](/docs/assets/add_button.png)
 
 ### **Cancel** <a id="lsps-create-cancel-button"></a>
 
-- **Server Action:** ---.
-- **User Interface:** ---.
+- **Purpose:** ---.
 - **Type:** Transparent.
 
 ![Cancel Button](/docs/assets/cancel_button.png)
@@ -419,34 +399,30 @@
 
 ### **Edit Button:** <a id="lsps-detail-edit-button"></a>
 
-- **Server Action:** ---.
-- **User Interface:** Make all the fields editable. Show save and cancel button.
+- **Purpose:** Make all the fields editable. Show edit and cancel button.
 - **Type:** ---.
 
 ![Edit Button](/docs/assets/edit_button.png)
 
 ### **ADD LSP to Admin** <a id="lsps-detail-add-lsp-admin-button"></a>
 
-- **Server Action:** ---.
-- **User Interface:** ---.
+- **Purpose:** ---.
 - **Type:** Primary.
 
 ![Add LSP to Admin Button](/docs/assets/add-lsp-to-admin_button.png)
 
 ![Edit Button](/docs/assets/edit_button.png)
 
-### **Save** <a id="lsps-detail-add-button"></a>
+### **Edit** <a id="lsps-detail-add-button"></a>
 
-- **Server Action:** ---.
-- **User Interface:** Cancel the editable state. Submit updated data to server.
+- **Purpose:** Cancel the editable state. Submit updated data to server.
 - **Type:** Primary
 
 ![Save Button](/docs/assets/save_button.png)
 
 ### **Cancel** <a id="lsps-detail-cancel-button"></a>
 
-- **Server Action:** ---.
-- **User Interface:** Cancel the editable state.
+- **Purpose:** Cancel the editable state.
 - **Type:** Transparent.
 
 ![Cancel Secondary Button](/docs/assets/cancel-secondary_button.png)
@@ -457,8 +433,7 @@
 
 ### **Add New** <a id="inventory-add-new-button"></a>
 
-- **Server Action:** ---.
-- **User Interface:** Displays a modal for adding new inventory.
+- **Purpose:** Displays a modal for adding new inventory.
 - **Type:** Primary.
 
 ![Add New Button](/docs/assets/add-new_button.png)
@@ -468,8 +443,7 @@
 
 #### **Restock** <a id="inventory-restock-button"></a>
 
-- **Server Action:** ---.
-- **User Interface:** Displays a restock modal for a specific inventory item.
+- **Purpose:** Displays a restock modal for a specific inventory item.
 - **Type:** Secondary.
 
 ![Restock Button](/docs/assets/restock_button.png)
@@ -477,8 +451,7 @@
 
 #### **Reduce** <a id="inventory-reduce-button"></a>
 
-- **Server Action:** ---.
-- **User Interface:** Displays a reduce stock modal for a specific inventory item.
+- **Purpose:** Displays a reduce stock modal for a specific inventory item.
 - **Type:** Secondary.
 
 ![Reduce Stock Button](/docs/assets/reduce-stock_button.png)
@@ -490,8 +463,7 @@
 
 ### **Add New** <a id="plan-add-new-button"></a>
 
-- **Server Action:** ---.
-- **User Interface:** Redirects to the page: `https://sdmstaging.5bb.com.mm/dashboard/plan/create`.
+- **Purpose:** Redirects to the <https://sdmstaging.5bb.com.mm/dashboard/plan/create> page for creating new plan entry.
 - **Type:** Primary.
 
 ![Add New Button](/docs/assets/add-new_button.png)
@@ -500,16 +472,14 @@
 
 #### **Edit Plan** <a id="plan-edit-plan-button"></a>
 
-- **Server Action:** Fetch details for specific plan entry.
-- **User Interface:** Redirects to the page: `https://sdmstaging.5bb.com.mm/dashboard/plan/:plan_id/edit`.
+- **Purpose:** Redirects to the edit page for a specific plan entry..
 - **Type:** Secondary.
 
 ![Edit Button](/docs/assets/edit_button.png)
 
 #### **Delete Plan** <a id="plan-delete-plan-button"></a>
 
-- **Server Action:** Delete an item from inventory.
-- **User Interface:** If related transactions exist, show an alert saying `Can't delete this request. Related transactions exist.` else remove from view.
+- **Purpose:** Deletes a plan from inventory, showing an alert if related transactions exist.
 - **Type:** Danger.
 
 ![Delete Button](/docs/assets/delete_button.png)
@@ -520,16 +490,14 @@
 
 ### **Add** <a id="plan-create-add-button"></a>
 
-- **Server Action:** ---.
-- **User Interface:** ---.
+- **Purpose:** ---.
 - **Type:** Primary.  
 
 ![Add Button](/docs/assets/add_button.png)
 
 ### **Cancel** <a id="plan-create-cancel-button"></a>
 
-- **Server Action:** ---.
-- **User Interface:** Redirects to <https://sdmstaging.5bb.com.mm/dashboard/plan>.
+- **Purpose:** ---.
 - **Type:** Transparent.
 
 ![Cancel Button](/docs/assets/cancel_button.png)
@@ -540,16 +508,14 @@
 
 ### **Save** <a id="plan-edit-save-button"></a>
 
-- **Server Action:** Submit the updated data to server.
-- **User Interface:** If successful, show the toast message and redirects to <https://sdmstaging.5bb.com.mm/dashboard/plan> page.
+- **Purpose:** Submits the updated plan data, shows a success toast message, and redirects to the plan overview page.
 - **Type:** Primary.
 
 ![Save Button](/docs/assets/save_button.png)
 
 ### **Cancel** <a id="plan-edit-cancel-button"></a>
 
-- **Server Action:** ---.
-- **User Interface:** Redirects to <https://sdmstaging.5bb.com.mm/dashboard/plan>.
+- **Purpose:** Redirects to the plan overview page without saving changes..
 - **Type:** Transparent.
 
 ![Cancel Button](/docs/assets/cancel_button.png)
@@ -560,8 +526,7 @@
 
 ### **Add New** <a id="areacode-add-new-button"></a>
 
-- **Server Action:** ---.
-- **User Interface:** Redirects to the page: `https://sdmstaging.5bb.com.mm/dashboard/area-code/create`.
+- **Purpose:** Redirects to the `https://sdmstaging.5bb.com.mm/dashboard/area-code/create` page to create new areacode entry.
 - **Type:** Primary.
 
 ![Add New Button](/docs/assets/add-new_button.png)
@@ -570,16 +535,14 @@
 
 #### **Edit Area Code** <a id="areacode-edit-areacode-button"></a>
 
-- **Server Action:** Fetch detais for specific areacode entry.
-- **User Interface:** Redirects to the page: `https://sdmstaging.5bb.com.mm/dashboard/area-code/:areacode_id/edit`.
+- **Purpose:** Fetch detais for specific areacode entry and redirect to areacode detail page.
 - **Type:** Secondary.
 
 ![Edit Button](/docs/assets/edit_button.png)
 
 #### **Delete Area Code** <a id="areacode-delete-areacode-button"></a>
 
-- **Server Action:** Delete an item from areacode.
-- **User Interface:** If related transactions exist, show an alert saying `Can't delete this request. Related transactions exist.` else remove from view.
+- **Purpose:** Deletes an area code, showing an alert if related transactions exist.
 - **Type:** Danger.
 
 ![Delete Button](/docs/assets/delete_button.png)
@@ -590,17 +553,15 @@
 
 ### **Add** <a id="areacode-create-add-button"></a>
 
-- **Server Action:** Create the new area code with submitted data.
-- **User Interface:** Redirects to <https://sdmstaging.5bb.com.mm/dashboard/area-code/>.
-- **Type:** Primary.
+- **Purpose:** Creates a new area code with the submitted data and redirects to the area code overview page.
 
 ![Add Button](/docs/assets/add_button.png)
 
-### **Cancel** <a id="areacode-create-cancel-button"></a
+---
 
-- **Server Action:** ---.
-- **User Interface:** Redirects to <https://sdmstaging.5bb.com.mm/dashboard/area-code/>.
-- **Type:** Transparent.
+### **Cancel** <a id="areacode-create-cancel-button"></a>
+
+- **Purpose:** Redirects to the area code overview page without saving changes.
 
 ![Cancel Button](/docs/assets/cancel_button.png)
 
@@ -610,17 +571,15 @@
 
 ### **Edit** <a id="areacode-edit-edit-button"></a>
 
-- **Server Action:** Update the specfic areacode with updated data.
-- **User Interface:** If successful, show toast at the top and redirects to <https://sdmstaging.5bb.com.mm/dashboard/area-code/>.
-- **Type:** Primary.
+- **Purpose:** Updates the specific area code with the new data, shows a success toast, and redirects to the area code overview page.
 
 ![Edit Button](/docs/assets/edit_button.png)
 
+---
+
 ### **Cancel** <a id="areacode-edit-cancel-button"></a>
 
-- **Server Action:** ---.
-- **User Interface:** Redirects to <https://sdmstaging.5bb.com.mm/dashboard/area-code/>
-- **Type:** Transparent.
+- **Purpose:** Redirects to the area code overview page without saving changes.
 
 ![Cancel Button](/docs/assets/cancel_button.png)
 
@@ -632,36 +591,34 @@
 
 #### **Add New** <a id="ports-olt-add-new-button"></a>
 
-- **Server Action:** ---.
-- **User Interface:** Redirects to the page: `https://sdmstaging.5bb.com.mm/dashboard/olt/create`.
-- **Type:** Primary.
+- **Purpose:** Redirects to the page for adding a new OLT entry.
+
+---
 
 #### Table Buttons
 
 ##### **Edit OLT** <a id="ports-olt-edit-button"></a>
 
-- **Server Action:** Fetch details for specific OLT port entry.
-- **User Interface:** Opens a modal to edit a specific OLT port.
-- **Type:** Icon.
+- **Purpose:** Opens a modal to edit a specific OLT port.
 
 ![Edit Button](/docs/assets/ports-olt-edit_button.png)
 ![Edit OLT Modal](/docs/assetsports-olt-edit_modal.png)
+
+---
 
 ### OLT Create <a id="ports-olt-create"></a>
 
 #### **Add** <a id="ports-olt-create-add-button"></a>
 
-- **Server Action:** Create a new olt entry with submitted data.
-- **User Interface:** If successful, redirects to <https://sdmstaging.5bb.com.mm/dashboard/olt/>.
-- **Type:** Primary.
+- **Purpose:** Creates a new OLT entry with the submitted data and redirects to the OLT overview page.
 
 ![Add Button](/docs/assets/add_button.png)
 
+---
+
 #### **Cancel** <a id="ports-olt-create-cancel-button"></a>
 
-- **Server Action:** ---.
-- **User Interface:** redirects to <https://sdmstaging.5bb.com.mm/dashboard/olt/>.
-- **Type:** Transparent.
+- **Purpose:** Redirects to the OLT overview page without saving changes.
 
 ![Cancel Button](/docs/assets/cancel_button.png)
 
@@ -673,9 +630,7 @@
 
 ##### **Edit FDT** <a id="ports-fdt-edit-button"></a>
 
-- **Server Action:** Fetch details for specific FDT port entry.
-- **User Interface:** Opens a modal to edit a specific FDT port.
-- **Type:** Icon.
+- **Purpose:** Opens a modal to edit a specific FDT port.
 
 ![Edit Button](/docs/assets/ports-fdt-edit_button.png)
 ![Edit FDT Modal](/docs/assetsports-fdt-edit_modal.png)
@@ -688,54 +643,48 @@
 
 ##### **Edit FAT** <a id="ports-fat-edit-button"></a>
 
-- **Server Action:** Fetch details for specific FAT port entry.
-- **User Interface:** Opens a modal to edit a specific FAT port.
-- **Type:** Icon.
+- **Purpose:** Opens a modal to edit a specific FAT port.
 
 ![Edit Button](/docs/assets/ports-fat-edit_button.png)
 ![Edit Modal](/docs/assetsports-fat-edit_modal.png)
 
+---
+
 ##### **Detail FAT** <a id="ports-fat-detail-button"></a>
 
-- **Server Action:** Fetch details for specific FAT port entry.
-- **User Interface:** Redirects to the page: `https://sdmstaging.5bb.com.mm/dashboard/fat/24880`.
-- **Type:** Secondary.
+- **Purpose:** Redirects to the page showing detailed information for a specific FAT port.
 
 ![Detail Button](/docs/assets/ports-fat-detail_button.png)
+
+---
 
 ### FAT Detail <a id="ports-fat-detail"></a>
 
 #### **Refresh** <a id="ports-fat-detail-refresh-button"></a>
 
-- **Server Action:** ---.
-- **User Interface:** ---.
-- **Type:** Primary.
+- **Purpose:** Refreshes the current view.
 
 ![Refresh Primary Button](/docs/assets/refresh-primary_button.png)
+
+---
 
 #### Table Buttons
 
 ##### **Customer Account Link** <a id="ports-fat-detail-customer-acc-link"></a>
 
-- **Server Action:** ---.
-- **User Interface:** ---.
-- **Type:** Link.
+- **Purpose:** Redirects to the associated customer account page.
 
 ![Customer Account Link](/docs/assets/customer-account_link.png)
 
-#### **PPOE User Link** <a id="ports-fat-detail-ppoe-user-link"></a>
+##### **PPOE User Link** <a id="ports-fat-detail-ppoe-user-link"></a>
 
-- **Server Action:** ---.
-- **User Interface:** ---.
-- **Type:** Link.
+- **Purpose:** Redirects to the associated PPOE user page.
 
 ![PPOE User Link](/docs/assets/ppoe-user-link_button.png)
 
 #### **Verified** <a id="ports-fat-detail-verify"></a>
 
-- **Server Action:** ---.
-- **User Interface:** More info about specific portal verified status is shown.
-- **Type:** Icon.
+- **Purpose:** Shows more information about the specific portal's verified status.
 
 ![Verify Icon](/docs/assets/verify_button.jpg)
 
@@ -747,25 +696,22 @@
 
 #### **Export to Excel** <a id="reports-general-export-excel-button"></a>
 
-- **Server Action:** Exports an .xlsx file containing all general reports.
-- **User Interface:** ---.
-- **Type:** Primary.
+- **Purpose:** Exports an .xlsx file containing all general reports.
 
 ![Export to Excel Button](/docs/assets/export-to-excel_button.png)
+
+---
 
 #### Table Buttons
 
 ##### **General Report Customer Detail** <a id="reports-general-customer-detail-button"></a>
 
-- **Server Action:** Fetch details of customer belonging to specific general report entry.
-- **User Interface:** Redirects to the page: `https://sdmstaging.5bb.com.mm/dashboard/customer/:customer_id`.
+- **Purpose:** Fetch details of the customer and redirects to customer detail page.
 - **Type:** Link.
 
 ##### **Table Row Collapse Button** <a id="reports-general-table-row-collapse-button"></a>
 
-- **Server Action:** ---.
-- **User Interface:** Collapses or un-collapses the table row.
-- **Type:** Icon.
+- **Purpose:** Collapses or un-collapses the table row.
 
 ![Collapse Button](/docs/assets/table-row-collapse_button.png)
 
@@ -775,9 +721,7 @@
 
 #### **Export to Excel** <a id="reports-lsp-export-excel-button"></a>
 
-- **Server Action:** Exports an .xlsx file containing all LSP reports.
-- **User Interface:** ---.
-- **Type:** Primary.
+- **Purpose:** Exports an .xlsx file containing all LSP reports.
 
 ![Export to Excel Button](/docs/assets/export-to-excel_button.png)
 
@@ -787,9 +731,7 @@
 
 #### **Export to Excel** <a id="reports-lsp-general-export-excel-button"></a>
 
-- **Server Action:** Exports an .xlsx file containing all LSP general reports.
-- **User Interface:** ---.
-- **Type:** Primary.
+- **Purpose:** Exports an .xlsx file containing all LSP general reports.
 
 ![Export to Excel Button](/docs/assets/export-to-excel_button.png)
 
@@ -799,9 +741,7 @@
 
 #### **Export to Excel** <a id="reports-inventory-export-excel-button"></a>
 
-- **Server Action:** Exports an .xlsx file containing all inventory reports.
-- **User Interface:** ---.
-- **Type:** Primary.
+- **Purpose:** Exports an .xlsx file containing all inventory reports.
 
 ![Export to Excel Button](/docs/assets/export-to-excel_button.png)
 
@@ -811,18 +751,17 @@
 
 #### **Export to Excel** <a id="reports-oncall-export-excel-button"></a>
 
-- **Server Action:** Exports an .xlsx file containing all oncall reports.
-- **User Interface:** ---.
-- **Type:** Primary.
+- **Purpose:** Exports an .xlsx file containing all oncall reports.
 
 ![Export to Excel Button](/docs/assets/export-to-excel_button.png)
+
+---
 
 #### Table Buttons
 
 ##### **On Call Customer Detail** <a id="reports-oncall-customer-detail-button"></a>
 
-- **Server Action:** Fetch the details of customer belonging to specific oncall entry.
-- **User Interface:** Redirects to the page: `https://sdmstaging.5bb.com.mm/dashboard/customer/:customer_id`.
+- **Purpose:** Fetch the details of the customer and redirects to customer detail page.
 - **Type:** Link.
 
 ---
@@ -836,12 +775,13 @@
 
 ## Button Type Count
 
-### Primary Buttons **27**
+### Primary Buttons **28**
 
 - **Navigation**
   - Notification Button
 - **On Call**
   - Add New Button
+  - Export to Excel Button
 - **On Call Create**
   - Search Button
 - **On Call Detail**
@@ -952,3 +892,20 @@
   - Edit FDT Button (FDT)
   - Edit FAT Button (FAT)
   - Refresh Button (FAT Detail)
+
+---
+
+### Transparent Buttons **5**
+
+- **Customer Detail**
+  - Cancel Button
+- **LSPS Create**
+  - Cancel Button
+- **LSPS Detail**
+  - Cancel Button
+- **Plan Create**
+  - Cancel Button
+- **Area Code Create**
+  - Cancel Button
+
+---
