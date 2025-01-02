@@ -7,18 +7,35 @@
 - [Notification Button](#navigation-notification-button) *(Primary)*
 - [Logout Button](#navigation-logout-button) *(Text)*
 
-### 1. [New Dashboard](#newdashboard)
+### 1. [Index](#index)
+
+- [Growth by Year](#index-growth-by-year) *(Secondary)*
+- [Growth By Month](#index-growth-by-month) *(Secondary)*
+
+### 2. [New Dashboard](#newdashboard)
 
 - [Refresh Button](#newdashboard-refresh-button) *(Icon)*
 - [Search Button](#newdashboard-search-button) *(Icon)*
 - [Collapse Button](#newdashboard-collapse-button) *(Icon)*
 - [Load More Button](#newdashboard-load-more-button) *(Tertiary)*
 
-### 2. [Installation](#installation)
+### 3. [Installation](#installation)
 
-- *(No buttons specified)*
+- *(Left to specified)*
 
-### 3. [On Call](#oncall)
+### 4. [Installation Detail](#installation-detail)
+
+- *(Left to specified)*
+
+### 5. [Relocation](#relocation)
+
+- *(Left to specified)*
+
+### 6. [Relocation Detail](#relocation-detail)
+
+- *(Left to specified)*
+
+### 7. [On Call](#oncall)
 
 - [Trash Button](#oncall-trash-button) *(Secondary)*
 - [Add New Button](#oncall-add-new-button) *(Primary)*
@@ -26,91 +43,96 @@
 - [Status Button](#oncall-status-button) *(Tertiary)*
 - [Customer Name Link](#oncall-customer-name-link) *(Link)*
 
-### 4. [On Call Create](#oncall-create)
+### 8. [On Call Create](#oncall-create)
 
 - [Search Button](#oncall-create-search-button) *(Primary)*
 
-### 5. [On Call Detail](#oncall-detail)
+### 9. [On Call Detail](#oncall-detail)
 
 - [Delete Button](#oncall-detail-delete-button) *(Danger)*
 - [Refund Request](#oncall-detail-refund-request-button) *(Secondary)*
 - [Mark as Complete](#oncall-detail-mark-as-complete-button) *(Primary)*
 
-### 6. [On Call Trash](#oncall-trash)
+### 10. [On Call Trash](#oncall-trash)
 
 - [Search Button](#oncall-trash-search-button) *(Primary)*
 - [Status Button](#oncall-trash-status-button) *(Tertiary)*
 - [Restore Button](#oncall-trash-restore-button) *(Secondary)*
 - [Delete Permanent Button](#oncall-trash-delete-permanent-button) *(Danger)*
 
-### 7. [Customer](#customer)
+### 11. [Customer](#customer)
 
 - [Search Button](#customer-search-button) *(Primary)*
 
-### 8. [Customer Detail](#customer-detail)
+### 12. [Customer Detail](#customer-detail)
 
 - [Edit Button](#customer-detail-edit-button) *(Secondary)*
 - [Sync Button](#customer-detail-sync-button) *(Primary)*
 - [Add Button](#customer-detail-add-button) *(Primary)*
 - [Cancel Button](#customer-detail-cancel-button) *(Transparent)*
+  
+### 13. [Map](#map)
 
-### 9. [LSPS](#lsps)
+- **ODN**
+- **Port Check**
+
+### 14. [LSPS](#lsps)
 
 - [Summary Popover Button](#lsps-summary-popover-button) *(Icon)*
 - [Add New Button](#lsps-add-new-button) *(Primary)*
 - [Detail LSP Button](#lsps-detail-button) *(Link)*
 
-### 10. [LSPS Create](#lsps-create)
+### 15. [LSPS Create](#lsps-create)
 
 - [Add Button](#lsps-create-add-button) *(Primary)*
 - [Cancel Button](#lsps-create-cancel-button) *(Transparent)*
 
-### 11. [LSPS Detail](#lsps-detail)
+### 16. [LSPS Detail](#lsps-detail)
 
 - [Edit Button](#lsps-detail-edit-button) *(Secondary)*
 - [Add LSP Admin](#lsps-detail-add-lsp-admin-button) *(Primary)*
 - [Add Button](#lsps-detail-add-button) *(Primary)*
 - [Cancel Button](#lsps-detail-cancel-button) *(Secondary)*
 
-### 12. [Inventory](#inventory)
+### 17. [Inventory](#inventory)
 
 - [Add New Button](#inventory-add-new-button) *(Primary)*
 - [Restock Button](#inventory-restock-button) *(Secondary)*
 - [Reduce Button](#inventory-reduce-button) *(Secondary)*
 
-### 13. [Plan](#plan)
+### 18. [Plan](#plan)
 
 - [Add New Button](#plan-add-new-button) *(Primary)*
 - [Edit Plan Button](#plan-edit-plan-button) *(Secondary)*
 - [Delete Plan Button](#plan-delete-plan-button) *(Danger)*
 
-### 14. [Plan Create](#plan-create)
+### 19. [Plan Create](#plan-create)
 
 - [Add Button](#plan-create-add-button) *(Primary)*
 - [Cancel Button](#plan-create-cancel-button) *(Transparent)*
 
-### 15. [Plan Edit](#plan-edit)
+### 20. [Plan Edit](#plan-edit)
 
 - [Save Button](#plan-edit-save-button) *(Primary)*
 - [Cancel Button](#plan-edit-cancel-button) *(Transparent)*
 
-### 16. [Area Code](#areacode)
+### 21. [Area Code](#areacode)
 
 - [Add New Button](#areacode-add-new-button) *(Primary)*
 - [Edit Area Code Button](#areacode-edit-areacode-button) *(Secondary)*
 - [Delete Area Code Button](#areacode-delete-areacode-button) *(Danger)*
 
-### 17. [Area Code Create](#areacode-create)
+### 22. [Area Code Create](#areacode-create)
 
 - [Add Button](#areacode-create-add-button) *(Primary)*
 - [Cancel Button](#areacode-create-cancel-button) *(Transparent)*
 
-### 18. [Area Code Edit](#areacode-edit)
+### 23. [Area Code Edit](#areacode-edit)
 
 - [Edit Button](#areacode-edit-edit-button) *(Primary)*
 - [Cancel Button](#areacode-edit-cancel-button) *(Secondary)*
 
-### 19. [Ports](#ports)
+### 24. [Ports](#ports)
 
 - **OLT**
   - [Add New Button](#ports-olt-add-new-button) *(Primary)*
@@ -128,8 +150,16 @@
   - [Customer Account Link](#ports-fat-detail-customer-acc-link) *(Link)*
   - [PPOE User Link](#ports-fat-detail-ppoe-user-link) *(Link)*
   - [Verified Button](#ports-fat-detail-verify) *(Icon)*
+  
+### 25. [Manage Team](#manage-team)
 
-### 20. [Reports](#reports)
+- *(Left to specified)*
+
+### 26. [Manage Team Create](#manage-team-create)
+
+- *(Left to specified)*
+
+### 27. [Reports](#reports)
 
 - **General**
   - [Export Excel Button](#reports-general-export-excel-button) *(Primary)*
@@ -144,6 +174,19 @@
 - **On Call**
   - [Export Excel Button](#reports-oncall-export-excel-button) *(Primary)*
   - [Customer Detail Button](#reports-oncall-customer-detail-button) *(Link)*
+
+  ### 28. [Management](#management)
+
+- **Admin User**
+- **Admin User Create**
+- **Roles**
+- **Roles Create**
+- **Permissions**
+- **Permissions Create**
+
+### 29. [System]
+
+- **Mac Address Reset**
 
 ## 0. Navigation <a id="navigation"></a>
 
@@ -163,7 +206,9 @@
 
 ![Logout Button](/docs/assets/navigation-logout_button.png)
 
-## 1. New Dashboard ([View Page](https://sdmstaging.5bb.com.mm/dashboard/new-dashboard)) <a id="newdashboard"></a>
+## 1. Index ([View Page](https://sdmstaging.5bb.com.mm/dashboard/index)) <a id="index"></a>
+
+## 2. New Dashboard ([View Page](https://sdmstaging.5bb.com.mm/dashboard/new-dashboard)) <a id="newdashboard"></a>
 
 ### **Refresh** <a id="newdashboard-refresh-button"></a>
 
@@ -195,11 +240,17 @@
 
 ---
 
-## 2. Installation ([View Page](https://sdmstaging.5bb.com.mm/dashboard/installation)) <a id="installation"></a>
+## 3. Installation ([View Page](https://sdmstaging.5bb.com.mm/dashboard/installation)) <a id="installation"></a>
 
 ---
 
-## 3. On Call ([View Page](https://sdmstaging.5bb.com.mm/dashboard/on-call)) <a id="oncall"></a>
+## 4. Installatin Detail <a id="installation-detail"></a>
+
+## 5. Relocation <a id="relocation"></a>
+
+## 6. Relocation Detail <a id="relocation-detail"></a>
+
+## 7. On Call ([View Page](https://sdmstaging.5bb.com.mm/dashboard/on-call)) <a id="oncall"></a>
 
 ### **Trash** <a id="oncall-trash-button"></a>
 
@@ -239,7 +290,7 @@
 
 ---
 
-## 4. Oncall Create([View Page](https://sdmstaging.5bb.com.mm/dashboard/on-call/create)) <a id="oncall-create"></a>
+## 8. Oncall Create([View Page](https://sdmstaging.5bb.com.mm/dashboard/on-call/create)) <a id="oncall-create"></a>
 
 ### **Search** <a id="oncall-create-search-button"></a>
 
@@ -250,7 +301,7 @@
 
 ---
 
-## 5. OnCall Detail([View Page](https://sdmstaging.5bb.com.mm/dashboard/on-call/322947)) <a id="oncall-detail"></a>
+## 9. OnCall Detail([View Page](https://sdmstaging.5bb.com.mm/dashboard/on-call/322947)) <a id="oncall-detail"></a>
 
 ### **Delete** <a id="oncall-detail-delete-button"></a>
 
@@ -273,7 +324,7 @@
 
 ![Mark as Complete](/docs/assets/mark-as-complete_button.png)
 
-## 6. Oncall Trash([View Page](https://sdmstaging.5bb.com.mm/dashboard/on-call-trash)) <a id="oncall-trash">  
+## 10. Oncall Trash([View Page](https://sdmstaging.5bb.com.mm/dashboard/on-call-trash)) <a id="oncall-trash">  
 
 ### **Search** <a id="oncall-trash-search-button"></a>
 
@@ -307,7 +358,7 @@
 
 ---
 
-## 7. Customer ([View Page](https://sdmstaging.5bb.com.mm/dashboard/customer)) <a id="customer"></a>
+## 11. Customer ([View Page](https://sdmstaging.5bb.com.mm/dashboard/customer)) <a id="customer"></a>
 
 ### **Search** <a id="customer-search-button"></a>
 
@@ -318,7 +369,7 @@
 
 ---
 
-## 8. Customer Detail([View Page](https://sdmstaging.5bb.com.mm/dashboard/customer/139621)) <a id="customer-detail"></a>  
+## 12. Customer Detail([View Page](https://sdmstaging.5bb.com.mm/dashboard/customer/139621)) <a id="customer-detail"></a>  
 
 ### **Edit Button:** <a id="customer-detail-edit-button"></a>
 
@@ -350,7 +401,13 @@
 
 ---
 
-## 9. LSPS ([View Page](https://sdmstaging.5bb.com.mm/dashboard/lsps)) <a id="lsps"></a>
+## 13. Map <a id="map"></a>
+
+### ODN <a id="map-odn"></a>
+
+### Port Check <a id="map-portcheck></a
+
+## 14. LSPS ([View Page](https://sdmstaging.5bb.com.mm/dashboard/lsps)) <a id="lsps"></a>
 
 ### **Summary Popover** <a id="lsps-summary-popover-button"></a>
 
@@ -377,7 +434,7 @@
 
 ---
 
-## 10. LSPS Create ([View Page](https://sdmstaging.5bb.com.mm/dashboard/lsp/create)) <a id="lsps-create"></a>
+## 15. LSPS Create ([View Page](https://sdmstaging.5bb.com.mm/dashboard/lsp/create)) <a id="lsps-create"></a>
 
 ### **Add** <a id="lsps-create-add-button"></a>
 
@@ -395,7 +452,7 @@
 
 ---
 
-## 11. LSPS Detail ([View Page](https://sdmstaging.5bb.com.mm/dashboard/lsp/5?)) <a id="lsps-detail"></a>
+## 16. LSPS Detail ([View Page](https://sdmstaging.5bb.com.mm/dashboard/lsp/5?)) <a id="lsps-detail"></a>
 
 ### **Edit Button:** <a id="lsps-detail-edit-button"></a>
 
@@ -429,7 +486,7 @@
 
 ---
 
-## 12. Inventory ([View Page](https://sdmstaging.5bb.com.mm/dashboard/inventory)) <a id="inventory"></a>
+## 17. Inventory ([View Page](https://sdmstaging.5bb.com.mm/dashboard/inventory)) <a id="inventory"></a>
 
 ### **Add New** <a id="inventory-add-new-button"></a>
 
@@ -459,7 +516,7 @@
 
 ---
 
-## 13. Plan ([View Page](https://sdmstaging.5bb.com.mm/dashboard/plan)) <a id="plan"></a>
+## 18. Plan ([View Page](https://sdmstaging.5bb.com.mm/dashboard/plan)) <a id="plan"></a>
 
 ### **Add New** <a id="plan-add-new-button"></a>
 
@@ -486,7 +543,7 @@
 
 ---
 
-## 14. Plan Create ([View Page](https://sdmstaging.5bb.com.mm/dashboard/plan/create)) <a id="plan-create"></a>
+## 19. Plan Create ([View Page](https://sdmstaging.5bb.com.mm/dashboard/plan/create)) <a id="plan-create"></a>
 
 ### **Add** <a id="plan-create-add-button"></a>
 
@@ -504,7 +561,7 @@
 
 ---
 
-## 15. Plan Edit ([View Page](https://sdmstaging.5bb.com.mm/dashboard/plan/1/edit)) <a id="plan-edit"></a>
+## 20. Plan Edit ([View Page](https://sdmstaging.5bb.com.mm/dashboard/plan/1/edit)) <a id="plan-edit"></a>
 
 ### **Save** <a id="plan-edit-save-button"></a>
 
@@ -522,7 +579,7 @@
 
 ---
 
-## 16. Area Code ([View Page](https://sdmstaging.5bb.com.mm/dashboard/area-code)) <a id="areacode"></a>
+## 21. Area Code ([View Page](https://sdmstaging.5bb.com.mm/dashboard/area-code)) <a id="areacode"></a>
 
 ### **Add New** <a id="areacode-add-new-button"></a>
 
@@ -549,7 +606,7 @@
 
 ---
 
-## 17. Area Code Create ([View Page](https://sdmstaging.5bb.com.mm/dashboard/area-code/create)) <a id="areacode-create"></a>
+## 22. Area Code Create ([View Page](https://sdmstaging.5bb.com.mm/dashboard/area-code/create)) <a id="areacode-create"></a>
 
 ### **Add** <a id="areacode-create-add-button"></a>
 
@@ -567,7 +624,7 @@
 
 ---
 
-## 18. Area Code Edit ([View Page](https://sdmstaging.5bb.com.mm/dashboard/area-code/1/edit)) <a id="areacode-edit"></a>
+## 23. Area Code Edit ([View Page](https://sdmstaging.5bb.com.mm/dashboard/area-code/1/edit)) <a id="areacode-edit"></a>
 
 ### **Edit** <a id="areacode-edit-edit-button"></a>
 
@@ -585,7 +642,7 @@
 
 ---
 
-## 19. Ports <a id="ports"></a>
+## 24. Ports <a id="ports"></a>
 
 ### OLT <a id="ports-olt"></a>
 
@@ -690,7 +747,11 @@
 
 ---
 
-## 20. Reports <a id="reports"></a>
+## 25. Manage Team ([View Page](https://sdmstaging.5bb.com.mm/dashboard/team)) <a id="manage-team"></a>
+
+## 26. Manage Team Create ([View Page](https://sdmstaging.5bb.com.mm/dashboard/team/create))  <a id="manage-team-create"></a>
+
+## 27. Reports <a id="reports"></a>
 
 ### General <a id="reports-general"></a>
 
@@ -756,6 +817,20 @@
 ![Export to Excel Button](/docs/assets/export-to-excel_button.png)
 
 ---
+
+## 28. Management <a id="management"></a>
+
+### Admin User <a id="management-admin-user"></a>
+
+### Admin User Create <a id="management-admin-user-create"></a>
+
+### Roles <a id="management-admin-roles"></a>
+
+### Roles Create <a id="management-admin-roles-create"></a>
+
+### Permissions <a id="management-permission"></a>
+
+### Permissins Create <a id="management-permission-create"></a>
 
 #### Table Buttons
 
