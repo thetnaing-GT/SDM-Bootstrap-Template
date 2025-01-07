@@ -1,0 +1,57 @@
+.sdm__popover-content {
+  &__header {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  &__table {
+    width: 100%;
+
+    &--number {
+      width: 15%;
+    }
+
+    &--process {
+      width: 60%;
+    }
+
+    &--contact-person {
+      width: 25%;
+    }
+
+    &--favour {
+      color: #ec911a;
+    }
+
+    th,
+    td {
+      padding: 10px;
+      font-size: 0.7rem;
+      line-height: 1;
+
+      @media (min-width: 1200px) {
+        font-size: 0.7125rem;
+        line-height: 1.05;
+      }
+
+      @media (min-width: 1300px) {
+        font-size: 0.8rem;
+        line-height: 1.1;
+      }
+
+      @media (min-width: 1400px) {
+        font-size: 0.85rem;
+        line-height: 1.2;
+      }
+
+      @media (min-width: 1500px) {
+        font-size: 0.9rem;
+        line-height: 1.2;
+      }
+
+      span {
+        display: block;
+      }
+    }
+  }
+}

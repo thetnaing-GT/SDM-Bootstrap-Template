@@ -21,46 +21,48 @@
 
 ### 3. [Installation](#installation)
 
-- [Relocation](#installation-relocation-link)
-- [Export to Excel](#installation-export-to-excel-button)
-- [Add New](#installation-add-new-link)
-- [Import from CSV](#installation-import-from-csv-button)
-- [Customer Name](#installation-customer-name-link)
-- [Request Status](#installation-request-status-button)
+- [Relocation](#installation-relocation-link) *(Secondary)*
+- [Export to Excel](#installation-export-to-excel-button) *(Primary)*
+- [Add New](#installation-add-new-link) *(Primary)*
+- [Import from CSV](#installation-import-from-csv-button) *(Primary)*
+- [Customer Name](#installation-customer-name-link) *(Link)*
+- [Request Status](#installation-request-status-button) *(Tertiary)*
 
 ### 4. [Installation Detail](#installation-detail)
 
-- [Cancel](#installation-detail-cancel-button)
-- [Refund Request](#installation-detail-refund-request-button)
-- [Termination](#installation-detail-termination-button)
-- [Mark as Complete](#installation-detail-mark-as-complete-button)
-- [Order Info Edit](#installation-detail-order-info-edit-button)
-- [Assing Or Switch LSP](#installation-detail-assign-or-switch-lsp-button)
-- [Customer Info Edit](#installation-detail-customer-info-edit-button)
-- [Change Customer Type](#installation-detail-change-customer-type-button)
-- [Installation Detai Verification Edit](#installation-detail-surveying-edit-button)
-- [Verficiation Check List Edi](#installation-detail-verification-check-list-edit-button)
+- [Cancel](#installation-detail-cancel-button) *(Secondary)*
+- [Refund Request](#installation-detail-refund-request-button) *(Primary)*
+- [Termination](#installation-detail-termination-button) *(Primary)
+- [Mark as Complete](#installation-detail-mark-as-complete-button) *(Tertiary)*
+- [Order Info Edit](#installation-detail-order-info-edit-button) *(Icon)*
+- [Assing Or Switch LSP](#installation-detail-assign-or-switch-lsp-button) *(Secondary)*
+- [Customer Info Edit](#installation-detail-customer-info-edit-button) *(Icon)*
+- [Change Customer Type](#installation-detail-change-customer-type-button) *(Secondary)*
+- [Installation Detail Surveying Edit](#installation-detail-surveying-edit-button) *(Secondary)*
+- [Installation Detail Activation Edit](#installation-detail-activation-edit-button) *(Secondary)*
+- [Verficiation Check List Edi](#installation-detail-verification-check-list-edit-button) *(Secondary)*
 
 ### 5. [Relocation](#relocation)
 
-- [Installation](#relocation-installation-link)
-- [Export to Excel](#relocation-export-to-excel-button)
-- [Add New](#relocation-add-new-link)
-- [Customer Name](#relocation-customer-name-link)
-- [Request Status](#relocation-request-status-button)
+- [Installation](#relocation-installation-link) *(Secondary)*
+- [Export to Excel](#relocation-export-to-excel-button) *(Primary)*
+- [Add New](#relocation-add-new-link) *(Primary)*
+- [Customer Name](#relocation-customer-name-link) *(Link)*
+- [Request Status](#relocation-request-status-button) *(Tertiiary)*
 
 ### 6. [Relocation Detail](#relocation-detail)
 
-- [Cancel](#relocation-detail-cancel-button)
-- [Refund Request](#relocation-detail-refund-request-button)
-- [Termination](#relocation-detail-termination-button)
-- [Mark as Complete](#relocation-detail-mark-as-complete-button)
-- [Order Info Edit](#relocation-detail-order-info-edit-button)
-- [Assing Or Switch LSP](#relocation-detail-assign-or-switch-lsp-button)
-- [Customer Info Edit](#relocation-detail-customer-info-edit-button)
-- [Change Customer Type](#relocation-detail-change-customer-type-button)
-- [relocation Detai Verification Edit](#relocation-detail-surveying-edit-button)
-- [Verficiation Check List Edi](#relocation-detail-verification-check-list-edit-button)
+- [Cancel](#relocation-detail-cancel-button) *(Secondary)*
+- [Refund Request](#relocation-detail-refund-request-button) *(Primary)
+- [Termination](#relocation-detail-termination-button) *(Primary)*
+- [Mark as Complete](#relocation-detail-mark-as-complete-button) *(Tertiary)*
+- [Order Info Edit](#relocation-detail-order-info-edit-button) *(Icon)*
+- [Assing Or Switch LSP](#relocation-detail-assign-or-switch-lsp-button) *(Secondary)*
+- [Customer Info Edit](#relocation-detail-customer-info-edit-button) *(Icon)*
+- [Change Customer Type](#relocation-detail-change-customer-type-button) *(Secondary)*
+- [Relocation Detail Surveying Edit](#relocation-detail-surveying-edit-button) *(Secondary)*
+- [Relocation Detail Activation Edit](#relocation-detail-activation-edit-button) *(Secondary)*
+- [Verficiation Check List Edi](#relocation-detail-verification-check-list-edit-button) *(Secondary)*
 
 ### 7. [On Call](#oncall)
 
@@ -83,6 +85,7 @@
 ### 10. [On Call Trash](#oncall-trash)
 
 - [Search Button](#oncall-trash-search-button) *(Primary)*
+- [Customer Account No. Link](#oncall-trash-customer-account-no-link) *(Link)*
 - [Status Button](#oncall-trash-status-button) *(Tertiary)*
 - [Restore Button](#oncall-trash-restore-button) *(Secondary)*
 - [Delete Permanent Button](#oncall-trash-delete-permanent-button) *(Danger)*
@@ -90,13 +93,17 @@
 ### 11. [Customer](#customer)
 
 - [Search Button](#customer-search-button) *(Primary)*
+- [Customer Account No. Link](#customer-customer-account-no-link) *(Link)*
+- [PPOE User No Link](#customer-ppoe-user-no-link) *(Link)*
 
 ### 12. [Customer Detail](#customer-detail)
 
 - [Edit Button](#customer-detail-edit-button) *(Secondary)*
 - [Sync Button](#customer-detail-sync-button) *(Primary)*
+- [Plan Change Button](#customer-detail-plan-change-button) *(Secondary)*
 - [Save Button](#customer-detail-save-button) *(Primary)*
 - [Cancel Button](#customer-detail-cancel-button) *(Transparent)*
+- [Previous Record Status Button](#previous-record-status-button) *(Tertiary)*
   
 ### 13. [Map](#map)
 
@@ -107,7 +114,7 @@
 
 - [Summary Popover Button](#lsps-summary-popover-button) *(Icon)*
 - [Add New Button](#lsps-add-new-link) *(Primary)*
-- [Detail LSP Button](#lsps-detail-button) *(Link)*
+- [Detail LSP Link](#lsps-detail-link) *(Link)*
 
 ### 15. [LSPS Create](#lsps-create)
 
@@ -120,51 +127,62 @@
 - [Add LSP Admin](#lsps-detail-add-lsp-admin-link) *(Primary)*
 - [Add Button](#lsps-detail-add-button) *(Primary)*
 - [Cancel Button](#lsps-detail-cancel-button) *(Secondary)*
+- [Relocation Order ID Link](#lsps-detail-relocation-order-id-link) *(Link)*
+- [Relocation Customer Account No. Link](#lsps-detail-relocation-customer-account-no-link) *(Link)*
+- [Oncall Order ID Link](#lsps-detail-oncall-order-id-link) *(Link)*
+- [Oncall Customer Account No. Link](#lsps-detail-oncall-customer-account-no-link) *(Link)*
+- [Pending Order ID Link](#lsps-detail-pending-order-id-link) *(Link)*
+- [Pending Customer Account No. Link](#lsps-detail-pending-customer-account-no-link) *(Link)*
+- [Team Status Inactive Button](#lsps-detail-team-status-inactive-button) *(Danger)*
+- [Team Status Delete Button](#lsps-detail-team-status-delete-button) *(Danger)*
+- [Inventory Add New Inventory Button](#lsps-detail-inventory-add-new-inventory-button) *(Secondary)*
+- [Inventory Restock Button](#lsps-detail-inventory-restock-button) *(Secondary)*
+- [Admins Reset Password Button](#lsps-detail-admins-reset-password-button) *(Secondary)*
 
 ### 17. [LSPS Detail Add User](#lsps-detail-add-new-lsp-user)
 
 - [Add Button](#lsps-detail-add-new-lsp-user-add-button) *(Primary)*
 - [Cancel Button](#lsps-detail-add-new-lsp-user-cancel-button) *(Transparent)*
 
-### 17. [Inventory](#inventory)
+### 18. [Inventory](#inventory)
 
 - [Add New Button](#inventory-add-new-button) *(Primary)*
 - [Restock Button](#inventory-restock-button) *(Secondary)*
 - [Reduce Button](#inventory-reduce-button) *(Secondary)*
 
-### 18. [Plan](#plan)
+### 19. [Plan](#plan)
 
 - [Add New Button](#plan-add-new-link) *(Primary)*
 - [Edit Plan Button](#plan-edit-plan-link) *(Secondary)*
 - [Delete Plan Button](#plan-delete-plan-button) *(Danger)*
 
-### 19. [Plan Create](#plan-create)
+### 20. [Plan Create](#plan-create)
 
 - [Add Button](#plan-create-add-button) *(Primary)*
 - [Cancel Button](#plan-create-cancel-button) *(Transparent)*
 
-### 20. [Plan Edit](#plan-edit)
+### 21. [Plan Edit](#plan-edit)
 
 - [Save Button](#plan-edit-save-button) *(Primary)*
 - [Cancel Button](#plan-edit-cancel-button) *(Transparent)*
 
-### 21. [Area Code](#areacode)
+### 22. [Area Code](#areacode)
 
 - [Add New Button](#areacode-add-new-link) *(Primary)*
 - [Edit Area Code Button](#areacode-edit-areacode-link) *(Secondary)*
 - [Delete Area Code Button](#areacode-delete-areacode-button) *(Danger)*
 
-### 22. [Area Code Create](#areacode-create)
+### 23. [Area Code Create](#areacode-create)
 
 - [Add Button](#areacode-create-add-button) *(Primary)*
 - [Cancel Button](#areacode-create-cancel-button) *(Transparent)*
 
-### 23. [Area Code Edit](#areacode-edit)
+### 24. [Area Code Edit](#areacode-edit)
 
 - [Edit Button](#areacode-edit-edit-button) *(Primary)*
 - [Cancel Button](#areacode-edit-cancel-button) *(Secondary)*
 
-### 24. [Ports](#ports)
+### 25. [Ports](#ports)
 
 - **OLT**
   - [Add New Button](#ports-olt-add-new-link) *(Primary)*
@@ -181,21 +199,28 @@
   - [Edit FAT Button](#ports-fat-edit-button) *(Icon)*
   - [Detail FAT Button](#ports-fat-detail-button) *(Secondary)*
 - **FAT Detail**
+  - [Add New Port Button](#ports-fat-add-new-port-button) *(Primary)*
+  - [Edit FAT Splitter Type Button](#ports-fat-edit-fat-splitter-type-button) *(Icon)*
+  - [Edit City & Township Button](#ports-fat-edit-city-and-township-button) *(Icon)*
+  - [Edit Location Button](#ports-fat-edit-location-button) *(Icon)*
   - [Refresh Button](#ports-fat-detail-refresh-button) *(Primary)*
+  - [Export Excel Button](#ports-fat-export-excel-button) *(Pirmary)*
+  - [Verify Now Button](#ports-fat-verify-now-button) *(Tertiary)*
   - [Customer Account Link](#ports-fat-detail-customer-acc-link) *(Link)*
   - [PPOE User Link](#ports-fat-detail-ppoe-user-link) *(Link)*
   - [Verified Button](#ports-fat-detail-verify-button) *(Icon)*
+  - [Edit Port Status Button](#ports-fat-edit-port-status-button) *(Icon)*
   
-### 25. [Manage Team](#manage-team)
+### 26. [Manage Team](#manage-team)
 
-- [Add New](#manage-team-add-new-link)
+- [Add New](#manage-team-add-new-link) *(Primary)*
 
-### 26. [Manage Team Create](#manage-team-create)
+### 27. [Manage Team Create](#manage-team-create)
 
-- [Add](#manage-team-create-add-link)
-- [Cancel](#manage-team-create-cancel-button)
+- [Add](#manage-team-create-add-link) *(Primary)*
+- [Cancel](#manage-team-create-cancel-button) *(Transparent)*
 
-### 27. [Reports](#reports)
+### 28. [Reports](#reports)
 
 - **General**
   - [Export Excel Button](#reports-general-export-excel-button) *(Primary)*
@@ -210,21 +235,49 @@
 - **On Call**
   - [Export Excel Button](#reports-oncall-export-excel-button) *(Primary)*
   - [Customer Detail Button](#reports-oncall-customer-detail-link) *(Link)*
+- **Mac Reset**
+  - [Export Excel Button](#reports-mac-reset-export-excel-button) *(Primary)*
+- **Assigned Order**
+  - [Export Excel Button](#reports-assigned-order-export-excel-button) *(Primary)*
+  - [Request Order Link](#reports-assigned-order-request-order-link) *(Primary)*
+- **LSP Completion**
+  - [Export Excel Button](#reports-lsp-completion-export-excel-button) *(Icn)*
 
-### 28. [Management](#management)
+### 29. [Management](#management)
 
 - **Admin User**
+  - [Add New Link](#management-admin-user-add-new-link) *(Primary)*
+  - [User Name Link](#management-admin-user-user-name-link) *(Link)*  
+  - [Edit User Link](#management-admin-user-edit-user-link) *(Secondary)*
+  - [Delete User Button](#management-admin-user-delete-user-button) *(Danger)*
+  - [Reset Password Button](#management-admin-user-rest-password-button) *(Secondary)*
 - **Admin User Edit**
+  - [Update Button](#managemnt-admin-user-edit-update-button)*(Primary)*
+  - [Cancel Button](#management-admin-user-edit-cancel-button) *(Transparent)*
 - **Admin User Create**
+  - [Save Button](#management-admin-user-create-save-button) *(Primary)*
+  - [Cancel Button](#management-admin-user-create-cancel-button) *(Transprent)*
 - **Roles**
+  - [Add New Link](#management-roles-add-new-link) *(Primary)*
+  - [Edit Role Link](#management-roles-edit-role-link) *(Secondary)*
+  - [Delete Role Button](#management-roles-delete-role-button) *(Danger)*
 - **Roles Edit**
+  - [Update Button](#managemnt-roles-edit-update-butt on) (Primary)*
+  - [Cancel Button](#management-roles-edit-cancel-button) *(Transparent)*
 - **Roles Create**
+  - [Add Button](#management-roles-create-add-button) *(Primary)*
+  - [Cancel Button](#management-roles-create-cancel-button) *(Transprent)*
 - **Permissions**
+  - [Add New Link](#management-permission-add-new-link) *(Primary)*
 - **Permissions Create**
+  - [Add Button](#management-permission-create-add-button) *(Primary)*
+  - [Cancel Button](#management-permission-create-cancel-button) *(Transprent)*
 
-### 29. [System]
+### 30. [System]
 
 - **Mac Address Reset**
+  - [Add Button](#system-mac-address-reset-button) *(Primary)*
+  - [Refresh Button](#system-mac-address-reset-button) *(Primary)*
 
 ## 0. Navigation <a id="navigation"></a>
 
@@ -383,6 +436,11 @@
 - **Purpose:** Make all fields of surveying info section editable
 - **Type:** Secondary
 
+### **Installation Detail Activation Edit** <a id="installation-detail-activation-edit-button"></a>
+
+- **Purpose:** Make all fields of activation info section editable
+- **Type:** Secondary
+
 ### **Verification Check List Edit** <a id="installation-detail-verification-check-list-edit-button"></a>
 
 ## 5. Relocation <a id="relocation"></a>  
@@ -473,6 +531,11 @@
 - **Purpose:** Make all fields of surveying info section editable
 - **Type:** Secondary
 
+### **Relocation Detail Activation Edit** <a id="relocation-detail-activation-edit-button"></a>
+
+- **Purpose:** Make all fields of activatin info section editable
+- **Type:** Secondary
+
 ### **Verification Check List Edit** <a id="relocation-detail-verification-check-list-edit-button"></a>
 
 ## 7. On Call ([View Page](https://sdmstaging.5bb.com.mm/dashboard/on-call)) <a id="oncall"></a>
@@ -560,6 +623,11 @@
 
 ### Table Buttons
 
+#### **Customer Account No.** <a id="oncall-trash-customer-account-no-link"></a>
+
+- **Purpose:** Redirects to customer detail page
+- **Type:** Link
+
 #### **Status** <a id="oncall-trash-status-button"></a>
 
 - **Purpose:** ---.
@@ -592,6 +660,18 @@
 
 ![Search Button](/docs/assets/search-primary_button.png)
 
+### Table Buttons
+
+#### **Customer Account No. Link** <a id="customer-customer-account-no-link"></a>
+
+- **Purpose:** Redirects to customer detail page
+- **Type:** Link
+
+#### **PPOE User No. Link** <a id="customer-ppoe-user-no-link"></a>
+
+- **Purpose:** Redirects to ppoe customer detail page
+- **Type:** Link
+
 ---
 
 ## 12. Customer Detail([View Page](https://sdmstaging.5bb.com.mm/dashboard/customer/139621)) <a id="customer-detail"></a>  
@@ -610,6 +690,11 @@
 
 ![Sync Button](/docs/assets/sync_button.png)
 
+### **Plan Change Button** <a id="customer-detail-plan-change-button"></a>
+
+- **Purpose:** ---.
+- **Type:** Secondary
+
 ### **Save** <a id="customer-detail-save-button"></a>
 
 - **Purpose:** Cancel the editable state. Submit updated data to server.
@@ -623,6 +708,11 @@
 - **Type:** secondary.
 
 ![Cancel Secondary Button](/docs/assets/cancel-secondary_button.png)
+
+### **Previous Record Status Button** <a id="previous-record-status-button"></a>
+
+- **Purpose:** Redirects to previous installation detail that belongs to specific customer
+- **Type:** Tertiary
 
 ---
 
@@ -650,7 +740,7 @@
 
 ### Table Buttons
 
-#### **LSP Detail** <a id="lsps-detail-button"></a>
+#### **LSP Detail** <a id="lsps-detail-link"></a>
 
 - **Purpose:** Redirects to the detail page for a specific LSP entry.
 - **Type:** Link.
@@ -709,9 +799,80 @@
 
 ![Cancel Secondary Button](/docs/assets/cancel-secondary_button.png)
 
+### Table Buttons
+
+#### **Relocation Order ID** <a id="lsps-detail-relocation-order-id-link"></a>
+
+- **Purpose:** ---.
+- **Type:** Link
+
+#### **Relocation Customer Account** <a id="lsps-detail-relocation-customer-account-no-link"></a>
+
+- **Purpose:** ---.
+- **Type:** Link
+
+#### **Oncall Order ID** <a id="lsps-detail-oncall-order-id-link"></a>
+
+- **Purpose:** ---.
+- **Type:** Link.
+
+#### **Oncall Customer Account No.** <a id="lsps-detail-oncall-customer-account-no-link"></a>
+
+- **Purpose:** ---.
+- **Type:** Link.
+
+#### **Pending Order ID Link** <a id="lsps-detail-pending-order-id-link"></a>
+
+- **Purpose:** ---.
+- **Type:** Link.
+
+#### **Pending Customer Account No.** <a id="lsps-detail-pending-customer-account-no-link"></a>
+
+- **Purpose:** ---.
+- **Type:** Link.
+
+#### **Team Status Inactive** <a id="lsps-detail-team-status-inactive-button"></a>
+
+- **Purpose:** ---.
+- **Type:** Danger.
+
+#### **Team Status Delete** <a id="lsps-detail-team-status-delete-button"></a>
+
+- **Purpose:** ---.
+- **Type:** Danger.
+
+#### **Inventory Add New Inventory** <a id="lsps-detail-inventory-add-new-inventory-button"></a>
+
+- **Purpose:** ---.
+- **Type:** Secondary
+
+#### **Inventory Restock** <a id="lsps-detail-inventory-restock-button"></a>
+
+- **Purpose:** ---.
+- **Type:** Secondary
+
+#### **Admins Reset Password** <a id="lsps-detail-admins-reset-password-button"></a>
+
+- **Purpose:** ---.
+- **Type:** Secondary
+
 ---
 
-## 17. Inventory ([View Page](https://sdmstaging.5bb.com.mm/dashboard/inventory)) <a id="inventory"></a>
+## 17. LSPS Detail Add User <a id="lsps-detail-add-new-lsp-user"></a>
+
+### **Add New** <a id="lsps-detail-add-new-lsp-user-add-button"></a>
+
+- **Purpose:** ---.
+- **Type:** Primary.
+
+### **Cancel** <a id="lsps-detail-add-new-lsp-user-cancel-button"></a>
+
+- **Purpose:** ---.
+- **Type:** Transparent.
+
+---
+
+## 18. Inventory ([View Page](https://sdmstaging.5bb.com.mm/dashboard/inventory)) <a id="inventory"></a>
 
 ### **Add New** <a id="inventory-add-new-button"></a>
 
@@ -741,7 +902,7 @@
 
 ---
 
-## 18. Plan ([View Page](https://sdmstaging.5bb.com.mm/dashboard/plan)) <a id="plan"></a>
+## 19. Plan ([View Page](https://sdmstaging.5bb.com.mm/dashboard/plan)) <a id="plan"></a>
 
 ### **Add New** <a id="plan-add-new-link"></a>
 
@@ -768,7 +929,7 @@
 
 ---
 
-## 19. Plan Create ([View Page](https://sdmstaging.5bb.com.mm/dashboard/plan/create)) <a id="plan-create"></a>
+## 20. Plan Create ([View Page](https://sdmstaging.5bb.com.mm/dashboard/plan/create)) <a id="plan-create"></a>
 
 ### **Add** <a id="plan-create-add-button"></a>
 
@@ -786,7 +947,7 @@
 
 ---
 
-## 20. Plan Edit ([View Page](https://sdmstaging.5bb.com.mm/dashboard/plan/1/edit)) <a id="plan-edit"></a>
+## 21. Plan Edit ([View Page](https://sdmstaging.5bb.com.mm/dashboard/plan/1/edit)) <a id="plan-edit"></a>
 
 ### **Save** <a id="plan-edit-save-button"></a>
 
@@ -804,7 +965,7 @@
 
 ---
 
-## 21. Area Code ([View Page](https://sdmstaging.5bb.com.mm/dashboard/area-code)) <a id="areacode"></a>
+## 22. Area Code ([View Page](https://sdmstaging.5bb.com.mm/dashboard/area-code)) <a id="areacode"></a>
 
 ### **Add New** <a id="areacode-add-new-link"></a>
 
@@ -831,7 +992,7 @@
 
 ---
 
-## 22. Area Code Create ([View Page](https://sdmstaging.5bb.com.mm/dashboard/area-code/create)) <a id="areacode-create"></a>
+## 23. Area Code Create ([View Page](https://sdmstaging.5bb.com.mm/dashboard/area-code/create)) <a id="areacode-create"></a>
 
 ### **Add** <a id="areacode-create-add-button"></a>
 
@@ -849,7 +1010,7 @@
 
 ---
 
-## 23. Area Code Edit ([View Page](https://sdmstaging.5bb.com.mm/dashboard/area-code/1/edit)) <a id="areacode-edit"></a>
+## 24. Area Code Edit ([View Page](https://sdmstaging.5bb.com.mm/dashboard/area-code/1/edit)) <a id="areacode-edit"></a>
 
 ### **Edit** <a id="areacode-edit-edit-button"></a>
 
@@ -867,7 +1028,7 @@
 
 ---
 
-## 24. Ports <a id="ports"></a>
+## 25. Ports <a id="ports"></a>
 
 ### OLT <a id="ports-olt"></a>
 
@@ -908,18 +1069,36 @@
 
 ### FDT <a id="ports-fdt"></a>
 
+#### **Add New** <a id="ports-fdt-add-new-link"></a>
+
+- **Purpose:** ---.
+- **Type:** ---.
+
+![Add New Link](/docs/assets/add-new_button.png)
+
 #### Table Buttons
 
 ##### **Edit FDT** <a id="ports-fdt-edit-button"></a>
 
 - **Purpose:** Opens a modal to edit a specific FDT port.
+- **Type:** Icon
 
 ![Edit Button](/docs/assets/ports-fdt-edit_button.png)
 ![Edit FDT Modal](/docs/assetsports-fdt-edit_modal.png)
 
+#### **Create FAT** <a id="ports-fdt-create-fat-button"></a>
+
+- **Purpose:** Opens a modal to create new FAT entry.
+- **Type:** Secondary.
+
 ---
 
 ### FAT <a id="ports-fat"></a>
+
+#### **Export to Excel** <a id="ports-fat-export-to-excel-button"></a>
+
+- **Purpose:** Export an .xlsx file containing all FAT records
+- **Type:** Primary.
 
 #### Table Buttons
 
@@ -942,13 +1121,41 @@
 
 ### FAT Detail <a id="ports-fat-detail"></a>
 
+#### **Add New** <a id="ports-fat-add-new-port-button"></a>
+
+- **Purpose:** Opens a modal to add new port to specific fat entry
+- **Type:** Primary
+
+#### **Edit FAT Splitter Type** <a id="ports-fat-edit-fat-splitter-type-button"></a>
+
+- **Purpose:** ---.
+- **Type:** Icon.
+
+#### **Edit Citt & Township Button** <a id="ports-fat-edit-city-and-township-button"></a>
+
+- **Purpose:** ---.
+- **Type:** Icon.
+
+#### **Edit Location Button** <a id="ports-fat-edit-location-button"></a>
+
+- **Purpose:** ---.
+- **Type:** Icon.
+
 #### **Refresh** <a id="ports-fat-detail-refresh-button"></a>
 
 - **Purpose:** Refreshes the current view.
 
 ![Refresh Primary Button](/docs/assets/refresh-primary_button.png)
 
----
+#### **Export Excel Button** <a id="ports-fat-export-excel-button"></a>
+
+- **Purpose:** Export an .xlsx file containing all info related to specific port.
+- **Type:** Primary.
+
+#### **Verify Now Button** <a id="ports-fat-verify-now-button"></a>
+
+- **Purpose:** ---.
+- **Type:** Tertiary.
 
 #### Table Buttons
 
@@ -964,15 +1171,20 @@
 
 ![PPOE User Link](/docs/assets/ppoe-user-link_button.png)
 
-#### **Verified** <a id="ports-fat-detail-verify-button"></a>
+##### **Verified** <a id="ports-fat-detail-verify-button"></a>
 
 - **Purpose:** Shows more information about the specific portal's verified status.
 
 ![Verify Icon](/docs/assets/verify_button.jpg)
 
+##### **Edit Port Status Button** <a id="ports-fat-edit-port-status-button"></a>
+
+- **Purpose:** Opens a modal to edit port status
+- **Type:** Icon
+
 ---
 
-## 25. Manage Team ([View Page](https://sdmstaging.5bb.com.mm/dashboard/team)) <a id="manage-team"></a>
+## 26. Manage Team ([View Page](https://sdmstaging.5bb.com.mm/dashboard/team)) <a id="manage-team"></a>
 
 ### **Add New** <a id="manage-team-add-new-link"></a>
 
@@ -981,7 +1193,7 @@
 
 ![Add New Link](/docs/assets/add-new_button.png)
 
-## 26. Manage Team Create ([View Page](https://sdmstaging.5bb.com.mm/dashboard/team/create))  <a id="manage-team-create"></a>
+## 27. Manage Team Create ([View Page](https://sdmstaging.5bb.com.mm/dashboard/team/create))  <a id="manage-team-create"></a>
 
 ### **Add** <a id="manage-team-create-add-link"></a>
 
@@ -997,7 +1209,7 @@
 
 ---
 
-## 27. Reports <a id="reports"></a>
+## 28. Reports <a id="reports"></a>
 
 ### General <a id="reports-general"></a>
 
@@ -1059,6 +1271,7 @@
 #### **Export to Excel** <a id="reports-oncall-export-excel-button"></a>
 
 - **Purpose:** Exports an .xlsx file containing all oncall reports.
+- **Type:** Primary
 
 ![Export to Excel Button](/docs/assets/export-to-excel_button.png)
 
@@ -1071,7 +1284,41 @@
 
 ---
 
-## 28. Management <a id="management"></a>
+### Mac Reset <a id="reports-mac-reset"></a>
+
+#### **Export to Excel** <a id="reports-mac-reset-export-excel-button"></a>
+
+- **Purpose:** Exports an .xlsx file containing all mac reset reports.
+- **Type:** Primary
+
+![Export to Excel Button](/docs/assets/export-to-excel_button.png)
+
+---
+
+### Assigned Order Report <a id="reports-assigned-order"></a>
+
+#### **Export to Excel** <a id="reports-assigned-order-export-excel-button"></a>
+
+- **Purpose:** Exports an .xlsx file containing all assigned order reports.
+- **Type:** Primary
+
+![Export to Excel Button](/docs/assets/export-to-excel_button.png)
+
+### Request Order Link <a id="reports-assigned-order-request-order-link"></a>
+
+#### **Export to Excel** <a id="reports-lsp-completion-export-excel-button"></a>
+
+- **Purpose:** Exports an .xlsx file containing all lsp completion reports.
+- **Type:** Icon
+
+---
+
+### LSP Completion Reports <a id="reports-lsp-completion"></a>
+
+- **Purpose:** ---.
+- **Type:** ---.
+
+## 29. Management <a id="management"></a>
 
 ### Admin User <a id="management-admin-user"></a>
 
@@ -1082,24 +1329,29 @@
 
 #### Table Buttons
 
-##### **Edit** <a id="management-admin-user-edit-link"></a>
+#### **User Name** <a id="management-admin-user-user-name-link"></a>
+
+- **Purpose:** ---.
+- **Type:** Link.
+
+##### **Edit** <a id="management-admin-user-edit-user-link"></a>
 
 - **Purpose:** ---.
 - **Type:** Secondary.
 
-##### **Delete** <a id="management-admin-user-delete-button"></a>
+##### **Delete** <a id="management-admin-user-delete-user-button"></a>
 
 - **Purpose:** ---.
 - **Type:** Danger.
 
-##### **Reset Password:** <a id="management-admin-user-reset-password-button"></a>
+##### **Reset Password:** <a id="management-admin-user-rest-password-button"></a>
 
 - **Purpose:** ---.
 - **Type:** Secondary.
 
 ### Admin User Edit <a id="management-admin-user-edit"></a>
 
-#### **Update** <a id="management-admin-user-edit-update-button"></a>
+#### **Update** <a id="managemnt-admin-user-edit-update-button"></a>
 
 - **Purpose:** ---.
 - **Type:** Primary.
@@ -1121,33 +1373,45 @@
 - **Purpose:** ---.
 - **Type:** Transparent
 
-### Roles <a id="management-admin-roles"></a>
+### Roles <a id="management-roles"></a>
 
-#### **Add New** <a id="management-admin-roles-add-new-link"></a>
+#### **Add New** <a id="management-roles-add-new-link"></a>
 
 - **Purpose:** ---.
 - **Type:** Primary.
 
 #### Table Buttons
 
-##### **Edit** <a id="management-admin-roles-edit-link"></a>
+##### **Edit** <a id="management-roles-edit-role-link"></a>
 
 - **Purpose:** ---.
 - **Type:** Secondary.
 
-##### **Delete** <a id="management-admin-roles-delete-button"></a>
+##### **Delete** <a id="management-roles-delete-role-button"></a>
 
 - **Purpose:** ---.
 - **Type:** Danger.
 
-### Roles Create <a id="management-admin-roles-create"></a>
+### Roles Edit <a id="management-roles-edit"></a>
 
-#### **Add** <a id="management-admin-roles-create-add-button"></a>
+#### **Update** <a id="managemnt-roles-edit-update-button"></a>
 
 - **Purpose:** ---.
 - **Type:** Primary.
 
-#### **Cancel** <a id="management-admin-roles-create-cancel-button"></a>
+#### **Cancel** <a id="management-roles-edit-cancel-button"></a>
+
+- **Purpose:** ---.
+- **Type:** Transparent.
+
+### Roles Create <a id="management-roles-create"></a>
+
+#### **Add** <a id="management-roles-create-add-button"></a>
+
+- **Purpose:** ---.
+- **Type:** Primary.
+
+#### **Cancel** <a id="management-roles-create-cancel-button"></a>
 
 - **Purpose:** ---.
 - **Type:** Transparent.
@@ -1177,14 +1441,19 @@
 
 ---
 
-## 29. System <a id="system"></a>
+## 30. System <a id="system"></a>
 
-### MacAddress Reset <a id="system-macaddress-reset"></a>
+### MacAddress Reset <a id="system-mac-address-reset-button"></a>
 
-#### **Add:** <a id="system-macaddress-reset"></a>
+#### **Add:** <a id="system-mac-address-reset-button"></a>
 
 - **Purpose:** ---.
-- **Type:** Primary
+- **Type:** Primary.
+
+#### **Refresh Button** <a id="system-mac-address-reset-button"></a>
+
+- **Purpose:** ---.
+- **Type:** Primary.
 
 ---
 

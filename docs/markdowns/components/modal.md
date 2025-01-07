@@ -92,16 +92,18 @@
 
 ## 8. FAT Detail
 
-**Page Modals Count:** 4
+**Page Modals Count:** 6
 
 **URL:** `https://sdmstaging.5bb.com.mm/dashboard/fat/:id?fat_id=:id`
 
+- **Add New:** Allows adding new port to FAT entry.
 - **FAT Splitter Type**: Allows editing FAT splitter type.
 - **City & Township**: Allows editing city & townships.
 - **Location**: Allows editing location.
 - **Table**
+  - **Edit Port Status Modal**: Allows editing FAT Port status.
   - **Verify Status Column**
-    - **Edit Port Status Modal**: Allows editing FAT Port status.
+    - **Port Verified Info:** Show port verification info
 
 ---
 
@@ -116,3 +118,17 @@
     - **User Detail Modal:** Show user details
   - **Column**
     - **Reset Password Modal:** Allows resetting user password.
+
+## 10. LSPS Detail
+
+**Page Modals Count:** 3
+
+**URL:** `https://sdmstaging.5bb.com.mm/dashboard/lsp/1?name=installation`
+
+- **Inventory**
+  - **Add New Inventory:**  ---
+  - **Table**
+    - **Restock:** ---
+- **Admins**
+  - **Table**
+    - **Reset Password:** ---

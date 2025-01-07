@@ -13,17 +13,54 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', fn() => redirect('/new-dashboard'));
+Route::get('/', function () {
+    return redirect('/new-dashboard');
+})->name('home.redirect');
 
-Route::get('/new-dashboard', fn() => view('new-dashboard'));
-Route::get('/installation', fn() => view('installation'));
-Route::get('/on-call', fn() => view('oncall'));
-Route::get('/customer', fn() => view('customer'));
-Route::get('/lsps', fn() => view('lsp'));
-Route::get('/inventory', fn() => view('inventory'));
-Route::get('/plan', fn() => view('plan'));
-Route::get('/area-code', fn() => view('area-code'));
+Route::get('/new-dashboard', function () {
+    return view('new-dashboard');
+})->name('newDashboard');
 
-Route::get('/403', fn() => view('errors.403'));
-Route::get('/404', fn() => view('errors.404'));
-Route::get('/500', fn() => view('errors.500'));
+Route::get('/installation', function () {
+    return view('installation');
+})->name('installation');
+
+Route::get('/on-call', function () {
+    return view('oncall');
+})->name('oncall');
+
+Route::get('/customer', function () {
+    return view('customer');
+})->name('customer');
+
+Route::get('/lsps', function () {
+    return view('lsp');
+})->name('lsp');
+
+Route::get('/inventory', function () {
+    return view('inventory');
+})->name('inventory');
+
+Route::get('/plan', function () {
+    return view('plan');
+})->name('plan');
+
+Route::get('/area-code', function () {
+    return view('area-code');
+})->name('areacode');
+
+Route::get('/trial', function () {
+    return view('trial');
+})->name('trial');
+
+Route::get('/403', function () {
+    return view('errors.403');
+})->name('error.403');
+
+Route::get('/404', function () {
+    return view('errors.404');
+})->name('error.404');
+
+Route::get('/500', function () {
+    return view('errors.500');
+})->name('error.500');
