@@ -49,6 +49,18 @@ Route::get('/area-code', function () {
     return view('area-code');
 })->name('areacode');
 
+Route::get('/odn', function () {
+  return view('odn');
+})->name('odn');
+
+Route::get('/fdt', function () {
+  return view('fdt');
+})->name('fdt');
+
+Route::get('/fat', function () {
+  return view('fat');
+})->name('fat');
+
 Route::get('/trial', function () {
     return view('trial');
 })->name('trial');

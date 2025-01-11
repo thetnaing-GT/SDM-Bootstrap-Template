@@ -26,7 +26,7 @@
 - [Add New](#installation-add-new-link) *(Primary)*
 - [Import from CSV](#installation-import-from-csv-button) *(Primary)*
 - [Customer Name](#installation-customer-name-link) *(Link)*
-- [Request Status](#installation-request-status-button) *(Tertiary)*
+- [Request Status](#installation-request-status-button) *(Tertiary - Complete/New)*
 
 ### 4. [Installation Detail](#installation-detail)
 
@@ -48,7 +48,7 @@
 - [Export to Excel](#relocation-export-to-excel-button) *(Primary)*
 - [Add New](#relocation-add-new-link) *(Primary)*
 - [Customer Name](#relocation-customer-name-link) *(Link)*
-- [Request Status](#relocation-request-status-button) *(Tertiiary)*
+- [Request Status](#relocation-request-status-button) *(Tertiiary - Complete/Ongoing/New)*
 
 ### 6. [Relocation Detail](#relocation-detail)
 
@@ -69,7 +69,7 @@
 - [Trash Button](#oncall-trash-button) *(Secondary)*
 - [Add New Button](#oncall-add-new-link) *(Primary)*
 - [Export to Excel Button](#oncall-export-to-excel-button) *(Primary)*
-- [Status Button](#oncall-status-button) *(Tertiary)*
+- [Status Button](#oncall-status-button) *(Tertiary - Submitted/Complete)*
 - [Customer Name Link](#oncall-customer-name-link) *(Link)*
 
 ### 8. [On Call Create](#oncall-create)

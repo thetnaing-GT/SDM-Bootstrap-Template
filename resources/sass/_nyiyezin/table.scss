@@ -1,0 +1,30 @@
+.sdm__table {
+  position: relative;
+
+  &__column {
+    width: max-content;
+
+    &--icon {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 0.5rem;
+      cursor: pointer;
+
+      i,
+      svg {
+        align-self: center;
+        cursor: pointer;
+      }
+    }
+  }
+
+  &__row {
+    &--icon {
+      width: max-content;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      cursor: pointer;
+    }
+  }
+}

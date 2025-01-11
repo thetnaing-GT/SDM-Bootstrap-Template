@@ -5,18 +5,12 @@
             <h2 class="overdue__heading">OnCall OverDue</h2>
             <p class="overdue__paragraph">(1527)</p>
         </div>
-        <button id="oncall-minimize" class="btn btn-sm | sdm__btn sdm__btn--compact sdm__btn--flat">
-            <svg class="svg-inline--fa fa-minus fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas"
-                data-icon="minus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
-                data-fa-i2svg="">
-                <path fill="currentColor"
-                    d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z">
-                </path>
-            </svg>
+        <button class="btn btn-sm | sdm__btn sdm__btn--compact sdm__btn--flat">
+            <i class="fa-solid fa-minus"></i>
         </button>
     </div>
     <div id="oncall-body">
-        <div class="overdue__group">
+        <div class="overdue__group sdm__vertical-scrollbar">
             <div class="overdue__group__item overdue__group__item--oncall">
                 <div class="d-flex justify-content-between">
                     <div class="d-flex">

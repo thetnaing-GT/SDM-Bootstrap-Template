@@ -1,8 +1,8 @@
-<div class="d-flex mb-5" style="gap: 1rem;">
-    <a href="https://sdmstaging.5bb.com.mm/dashboard/installation">
-        <button class="btn | sdm__btn sdm__btn--ghost">Installation</button>
+<div class="btn-group mb-5" role="group" aria-label="Basic example">
+    <a href="https://sdmstaging.5bb.com.mm/dashboard/installation" class="btn | sdm__btn sdm__btn--secondary">
+        Installation
     </a>
-    <a href="https://sdmstaging.5bb.com.mm/dashboard/relocation">
-        <button class="btn | sdm__btn sdm__btn--primary">Relocation</button>
+    <a href="https://sdmstaging.5bb.com.mm/dashboard/relocation" class="btn | sdm__btn sdm__btn--primary">
+        Relocation
     </a>
 </div>

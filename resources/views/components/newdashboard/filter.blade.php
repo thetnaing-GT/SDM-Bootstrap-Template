@@ -1,4 +1,4 @@
-<div class="d-flex justify-content-between align-items-center" style="gap: 2rem;">
+<div class="sdm-newdashboard__filter | d-flex justify-content-between align-items-center" style="gap: 2rem;">
     <form action="new-dashboard" id="form-filter" class="d-flex justify-content-between align-items-center"
         style="gap: 1rem;">
         <input name="from_date" type="date" placeholder="YYYY-mm-dd" id="from_date" value=""

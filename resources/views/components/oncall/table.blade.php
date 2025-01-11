@@ -1,86 +1,240 @@
-<div class="table-responsive">
-  <table id="sorting-table" class="table table-hover mb-0" style="table-layout: fixed;">
-    <thead>
-      <tr>
-        <th onclick="sortTable('id')" class="sort-header-style" style="width: 80px;">
-          Order ID
-          <svg class="svg-inline--fa fa-sort fa-w-10" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="sort" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg="">
-            <path
-              fill="currentColor"
-              d="M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41zm255-105L177 64c-9.4-9.4-24.6-9.4-33.9 0L24 183c-15.1 15.1-4.4 41 17 41h238c21.4 0 32.1-25.9 17-41z"
-            ></path>
-          </svg>
-          <!-- <i class="fas fa-sort"></i> -->
-        </th>
-        <th onclick="sortTable('pos_created_date')" class="sort-header-style" style="width: 100px;">
-          POS Created Date
-          <svg class="svg-inline--fa fa-sort fa-w-10" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="sort" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg="">
-            <path
-              fill="currentColor"
-              d="M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41zm255-105L177 64c-9.4-9.4-24.6-9.4-33.9 0L24 183c-15.1 15.1-4.4 41 17 41h238c21.4 0 32.1-25.9 17-41z"
-            ></path>
-          </svg>
-          <!-- <i class="fas fa-sort"></i> -->
-        </th>
-        <th style="width: 160px;">Customer Account No</th>
-        <th style="width: 160px;">PPOE User No</th>
-        <th style="width: 140px;">Customer Name</th>
-        <th onclick="sortTable('areaCode')" class="sort-header-style" style="width: 140px;">
-          Area Code/Township
-          <svg class="svg-inline--fa fa-sort fa-w-10" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="sort" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg="">
-            <path
-              fill="currentColor"
-              d="M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41zm255-105L177 64c-9.4-9.4-24.6-9.4-33.9 0L24 183c-15.1 15.1-4.4 41 17 41h238c21.4 0 32.1-25.9 17-41z"
-            ></path>
-          </svg>
-          <!-- <i class="fas fa-sort"></i> -->
-        </th>
-        <th onclick="sortTable('complainDate')" class="sort-header-style" style="width: 120px;">
-          Complain date
-          <svg class="svg-inline--fa fa-sort fa-w-10" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="sort" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg="">
-            <path
-              fill="currentColor"
-              d="M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41zm255-105L177 64c-9.4-9.4-24.6-9.4-33.9 0L24 183c-15.1 15.1-4.4 41 17 41h238c21.4 0 32.1-25.9 17-41z"
-            ></path>
-          </svg>
-          <!-- <i class="fas fa-sort"></i> -->
-        </th>
-        <th onclick="sortTable('due')" class="sort-header-style" style="width: 120px;">
-          Due Date
-          <svg class="svg-inline--fa fa-sort fa-w-10" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="sort" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg="">
-            <path
-              fill="currentColor"
-              d="M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41zm255-105L177 64c-9.4-9.4-24.6-9.4-33.9 0L24 183c-15.1 15.1-4.4 41 17 41h238c21.4 0 32.1-25.9 17-41z"
-            ></path>
-          </svg>
-          <!-- <i class="fas fa-sort"></i> -->
-        </th>
-        <th onclick="sortTable('overDue')" class="sort-header-style" style="width: 120px;">
-          Overdue Days
-          <svg class="svg-inline--fa fa-sort fa-w-10" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="sort" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg="">
-            <path
-              fill="currentColor"
-              d="M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41zm255-105L177 64c-9.4-9.4-24.6-9.4-33.9 0L24 183c-15.1 15.1-4.4 41 17 41h238c21.4 0 32.1-25.9 17-41z"
-            ></path>
-          </svg>
-          <!-- <i class="fas fa-sort"></i> -->
-        </th>
-        <th style="width: 50px;">FOC</th>
-        <th style="width: 100px;">Status</th>
-        <th style="width: 100px;">Verify Status</th>
-        <th style="width: 100px;">Complain Type</th>
-        <th style="width: 100px;">Assigned LSP</th>
-        <th onclick="sortTable('created_at')" class="sort-header-style" style="width: 100px;">
-          Created At
-          <svg class="svg-inline--fa fa-sort fa-w-10" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="sort" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg="">
-            <path
-              fill="currentColor"
-              d="M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41zm255-105L177 64c-9.4-9.4-24.6-9.4-33.9 0L24 183c-15.1 15.1-4.4 41 17 41h238c21.4 0 32.1-25.9 17-41z"
-            ></path>
-          </svg>
-        </th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
+<div class="sdm__horizontal-scrollbar">
+    <table id="sorting-table" class="table table-hover sdm__table">
+        <thead>
+            <tr>
+                <th onclick="sortTable('id')">
+                    <div class="sdm__table__column sdm__table__column--icon">
+                        <span>Order ID</span>
+                        <i class="fa-solid fa-sort"></i>
+                    </div>
+                </th>
+                <th onclick="sortTable('pos_created_date')">
+                    <div class="sdm__table__column sdm__table__column--icon">
+                        <span>POS Created Date</span>
+                        <i class="fa-solid fa-sort"></i>
+                    </div>
+                </th>
+                <th>
+                    <div class="sdm__table__column">
+                        <span> Customer Account No</span>
+                    </div>
+                </th>
+                <th>
+                    <div class="sdm__table__column">
+                        <span>PPOE User No</span>
+                    </div>
+                </th>
+                <th>
+                    <div class="sdm__table__column">
+                        <span>Customer Name</span>
+                    </div>
+                </th>
+                <th onclick="sortTable('areaCode')">
+                    <div class="sdm__table__column sdm__table__column--icon">
+                        <span>Area Code/Township</span>
+                        <i class="fa-solid fa-sort"></i>
+                    </div>
+
+                </th>
+                <th onclick="sortTable('complainDate')">
+                    <div class="sdm__table__column sdm__table__column--icon">
+                        <span>Complain date</span>
+                        <i class="fa-solid fa-sort"></i>
+                    </div>
+                </th>
+                <th onclick="sortTable('due')">
+                    <div class="sdm__table__column sdm__table__column--icon">
+                        <span>Due Date</span>
+                        <i class="fa-solid fa-sort"></i>
+                    </div>
+                </th>
+                <th onclick="sortTable('overDue')">
+                    <div class="sdm__table__column sdm__table__column--icon">
+                        <span>Overdue Days</span>
+                        <i class="fa-solid fa-sort"></i>
+                    </div>
+                </th>
+                <th>
+                    <div class="sdm__table__column">
+                        <span>FOC</span>
+                    </div>
+                </th>
+                <th>
+                    <div class="sdm__table__column">
+                        <span>Status</span>
+                    </div>
+                </th>
+                <th>
+                    <div class="sdm__table__column">
+                        <span>Verify Status</span>
+                    </div>
+                </th>
+                <th>
+                    <div class="sdm__table__column">
+                        <span>Complain Type</span>
+                    </div>
+                </th>
+                <th>
+                    <div class="sdm__table__column">
+                        <span>Assigned LSP</span>
+                    </div>
+                </th>
+                <th onclick="sortTable('created_at')">
+                    <div class="sdm__table__column sdm__table__column--icon">
+                        <span>Created At</span>
+                        <i class="fa-solid fa-sort"></i>
+                    </div>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td data-href="https://sdmstaging.5bb.com.mm/dashboard/on-call/322955" class="sdm__clickable-area">
+                    322955
+                </td>
+                <td>06/01/2025 14:25:00</td>
+                <td onclick="InfoCopy('YGN000000750')" class="sdm__clickable-area">
+                    <div class="sdm__table__row sdm__table__row--icon">
+                        <span id="idYGN000000750">YGN000000750</span>
+                        <x-icon.copy />
+                    </div>
+                </td>
+                <td onclick="InfoCopy('YGNPXE0004084')" class="sdm__clickable-area">
+                    <div class="sdm__table__row sdm__table__row--icon">
+                        <span id="idYGNPXE0004084">YGNPXE0004084</span>
+                        <x-icon.copy />
+                    </div>
+
+                </td>
+                <td><a href="https://sdmstaging.5bb.com.mm/dashboard/customer/139642" target="_blank">test_prepaid40</a>
+                </td>
+                <td data-href="https://sdmstaging.5bb.com.mm/dashboard/on-call/322955" class="sdm__clickable-area">
+                    5BB_YGN_PX/ Ahlone
+                </td>
+                <td data-href="https://sdmstaging.5bb.com.mm/dashboard/on-call/322955" class="sdm__clickable-area">
+                    06/01/2025 17:16:10
+                </td>
+                <td data-href="https://sdmstaging.5bb.com.mm/dashboard/on-call/322955" class="sdm__clickable-area">
+                    08/01/2025 17:16:10
+                </td>
+                <td data-href="https://sdmstaging.5bb.com.mm/dashboard/on-call/322955" class="sdm__clickable-area">
+                    5 Days
+                </td>
+                <td data-href="https://sdmstaging.5bb.com.mm/dashboard/on-call/322955" class="sdm__clickable-area">
+                    Yes
+                </td>
+                <td data-href="https://sdmstaging.5bb.com.mm/dashboard/on-call/322955" class="sdm__clickable-area">
+                    <p class="sdm__status sdm__status--new">New</p>
+                </td>
+                <td data-href="https://sdmstaging.5bb.com.mm/dashboard/on-call/322955" class="sdm__clickable-area">
+                    -
+                </td>
+                <td>LOS Signal Red</td>
+                <td data-href="https://sdmstaging.5bb.com.mm/dashboard/on-call/322955" class="sdm__clickable-area">
+                    ICT Test
+                </td>
+                <td data-href="https://sdmstaging.5bb.com.mm/dashboard/on-call/322955" class="sdm__clickable-area">
+                    06/01/2025 17:16:10
+                </td>
+            </tr>
+            <tr>
+                <td data-href="https://sdmstaging.5bb.com.mm/dashboard/on-call/322955" class="sdm__clickable-area">
+                    322955
+                </td>
+                <td>06/01/2025 14:25:00</td>
+                <td onclick="InfoCopy('YGN000000750')" class="sdm__clickable-area">
+                    <div class="sdm__table__row sdm__table__row--icon">
+                        <span id="idYGN000000750">YGN000000750</span>
+                        <x-icon.copy />
+                    </div>
+                </td>
+                <td onclick="InfoCopy('YGNPXE0004084')" class="sdm__clickable-area">
+                    <div class="sdm__table__row sdm__table__row--icon">
+                        <span id="idYGNPXE0004084">YGNPXE0004084</span>
+                        <x-icon.copy />
+                    </div>
+
+                </td>
+                <td><a href="https://sdmstaging.5bb.com.mm/dashboard/customer/139642" target="_blank">test_prepaid40</a>
+                </td>
+                <td data-href="https://sdmstaging.5bb.com.mm/dashboard/on-call/322955" class="sdm__clickable-area">
+                    5BB_YGN_PX/ Ahlone
+                </td>
+                <td data-href="https://sdmstaging.5bb.com.mm/dashboard/on-call/322955" class="sdm__clickable-area">
+                    06/01/2025 17:16:10
+                </td>
+                <td data-href="https://sdmstaging.5bb.com.mm/dashboard/on-call/322955" class="sdm__clickable-area">
+                    08/01/2025 17:16:10
+                </td>
+                <td data-href="https://sdmstaging.5bb.com.mm/dashboard/on-call/322955" class="sdm__clickable-area">
+                    5 Days
+                </td>
+                <td data-href="https://sdmstaging.5bb.com.mm/dashboard/on-call/322955" class="sdm__clickable-area">
+                    Yes
+                </td>
+                <td data-href="https://sdmstaging.5bb.com.mm/dashboard/on-call/322955" class="sdm__clickable-area">
+                    <button class="btn btn-sm | sdm__btn-status sdm__btn-status--complete">Submitted</button>
+                </td>
+                <td data-href="https://sdmstaging.5bb.com.mm/dashboard/on-call/322955" class="sdm__clickable-area">
+                    -
+                </td>
+                <td>LOS Signal Red</td>
+                <td data-href="https://sdmstaging.5bb.com.mm/dashboard/on-call/322955" class="sdm__clickable-area">
+                    ICT Test
+                </td>
+                <td data-href="https://sdmstaging.5bb.com.mm/dashboard/on-call/322955" class="sdm__clickable-area">
+                    06/01/2025 17:16:10
+                </td>
+            </tr>
+            <tr>
+                <td data-href="https://sdmstaging.5bb.com.mm/dashboard/on-call/322955" class="sdm__clickable-area">
+                    322955
+                </td>
+                <td>06/01/2025 14:25:00</td>
+                <td onclick="InfoCopy('YGN000000750')" class="sdm__clickable-area">
+                    <div class="sdm__table__row sdm__table__row--icon">
+                        <span id="idYGN000000750">YGN000000750</span>
+                        <x-icon.copy />
+                    </div>
+                </td>
+                <td onclick="InfoCopy('YGNPXE0004084')" class="sdm__clickable-area">
+                    <div class="sdm__table__row sdm__table__row--icon">
+                        <span id="idYGNPXE0004084">YGNPXE0004084</span>
+                        <x-icon.copy />
+                    </div>
+
+                </td>
+                <td><a href="https://sdmstaging.5bb.com.mm/dashboard/customer/139642" target="_blank">test_prepaid40</a>
+                </td>
+                <td data-href="https://sdmstaging.5bb.com.mm/dashboard/on-call/322955" class="sdm__clickable-area">
+                    5BB_YGN_PX/ Ahlone
+                </td>
+                <td data-href="https://sdmstaging.5bb.com.mm/dashboard/on-call/322955" class="sdm__clickable-area">
+                    06/01/2025 17:16:10
+                </td>
+                <td data-href="https://sdmstaging.5bb.com.mm/dashboard/on-call/322955" class="sdm__clickable-area">
+                    08/01/2025 17:16:10
+                </td>
+                <td data-href="https://sdmstaging.5bb.com.mm/dashboard/on-call/322955" class="sdm__clickable-area">
+                    5 Days
+                </td>
+                <td data-href="https://sdmstaging.5bb.com.mm/dashboard/on-call/322955" class="sdm__clickable-area">
+                    Yes
+                </td>
+                <td data-href="https://sdmstaging.5bb.com.mm/dashboard/on-call/322955" class="sdm__clickable-area">
+                    <button class="btn btn-sm btn-success">Complete</button>
+                </td>
+                <td data-href="https://sdmstaging.5bb.com.mm/dashboard/on-call/322955" class="sdm__clickable-area">
+                    -
+                </td>
+                <td>LOS Signal Red</td>
+                <td data-href="https://sdmstaging.5bb.com.mm/dashboard/on-call/322955" class="sdm__clickable-area">
+                    ICT Test
+                </td>
+                <td data-href="https://sdmstaging.5bb.com.mm/dashboard/on-call/322955" class="sdm__clickable-area">
+                    06/01/2025 17:16:10
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </div>

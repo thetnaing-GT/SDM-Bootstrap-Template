@@ -1,0 +1,28 @@
+.sdm__checkbox {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.5rem;
+
+  &__label {
+    margin-bottom: 0;
+    cursor: pointer;
+
+    &--primary {
+      color: #ec911a;
+    }
+
+    &--danger {
+      color: #ff0000;
+    }
+  }
+
+  &__input {
+    cursor: pointer;
+  }
+
+  &__groupwrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 0.5rem;
+  }
+}

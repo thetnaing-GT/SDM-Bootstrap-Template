@@ -1,7 +1,3 @@
-<select name="{{ $name }}" class="form__select form-control" {{ $attributes }}>
-    {{-- @foreach ($options as $value => $label)
-        <option value="{{ $value }}" {{ $selected == $value ? 'selected' : '' }} {{ $attributes }}>
-            {{ $label }}</option>
-    @endforeach --}}
+<select name="{{ $name }}" class="form-control sdm__select" {{ $attributes }}>
     {{ $slot }}
 </select>
