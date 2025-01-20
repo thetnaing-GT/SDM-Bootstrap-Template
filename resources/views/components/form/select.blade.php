@@ -1,3 +1,5 @@
-<select name="{{ $name }}" class="form-control sdm__select" {{ $attributes }}>
+@props(['attributes' => []])
+
+<select {{ $attributes->merge(['class' => 'form-control sdm__select']) }}>
     {{ $slot }}
 </select>

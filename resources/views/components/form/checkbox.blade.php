@@ -1,4 +1,4 @@
-@props(['id', 'name', 'value' => '', 'label', 'attributes' => '', 'class' => ''])
+@props(['name', 'value' => '', 'label', 'attributes' => [], 'class' => ''])
 
 <div class="sdm__checkbox {{ $attributes->get('class') }}">
     <input type="checkbox" id="{{ $name }}" name="{{ $name }}" value="{{ $value }}"

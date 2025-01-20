@@ -1,14 +1,10 @@
 .sdm {
-  max-width: 1500px;
+  max-width: 5000px;
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: 1fr;
-
-  @media (min-width: 992px) {
-    grid-auto-flow: column;
-    grid-auto-columns: 200px 1fr;
-  }
-
+  grid-auto-columns: 200px 1fr;
+  margin-inline: auto;
+  font-family: "Montserrat";
   &__main {
     height: 100%;
     max-height: 100vh;
@@ -42,69 +38,6 @@
     }
   }
 
-  &__sidebar {
-    display: none;
-    height: 100vh;
-    max-height: 100vh;
-    position: sticky;
-    left: 0;
-    background-color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
-      rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-    z-index: 100;
-    overflow: auto;
-
-    @media (min-width: 992px) {
-      display: block;
-    }
-
-    &__items {
-      display: grid;
-      gap: 0.5rem;
-      svg {
-        width: 1rem;
-        height: 1rem;
-        &:hover {
-          background-color: initial;
-        }
-      }
-      a {
-        padding-block: 0.5rem;
-        padding-inline: 1rem;
-        position: relative;
-        display: grid;
-        grid-template-columns: 1.5rem 1fr;
-        gap: 0.3rem;
-        color: #000;
-        text-decoration: none;
-        width: 100%;
-      }
-      a:hover {
-        background-color: #fffef7;
-        text-decoration: none;
-        color: #ec911a;
-      }
-      a.active {
-        background-color: #fffef7;
-        color: #ec911a;
-        
-        &::before {
-          content: "";
-          width: 4px;
-          height: 100%;
-          position: absolute;
-          top: 0;
-          left: 0;
-          background: #ec911a;
-          border-top-right-radius: 0.5rem;
-          border-top-left-radius: 0.5rem;
-          border-bottom-right-radius: 0.5rem;
-          border-bottom-left-radius: 0.5rem;
-        }
-      }
-    }
-  }
-
   /*** For consistent padding ***/
   &__box {
     padding-block: 0.75rem;
@@ -113,6 +46,55 @@
 
     &--rounded {
       border-radius: 1rem;
+    }
+  }
+
+  &__select-group {
+    --gap: 1rem;
+    display: flex;
+    gap: var(--gap);
+
+    & > * {
+      flex-basis: max-content;
+    }
+  }
+
+  &__checkbox-group {
+    --min-width: 160px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--min-width), 1fr));
+    gap: 0.5rem;
+  }
+
+  /*** For vertical spacing ***/
+  &__vertical-spacer {
+    --vertical-gap: 1rem;
+
+    & > * + * {
+      margin-top: var(--vertical-gap);
+    }
+  }
+
+  /*** For horizontal spacing ***/
+  &__horizontal-spacer {
+    --horizontal-gap: 1rem;
+    display: flex;
+    gap: var(--horizontal-gap);
+  }
+
+  /*** Horizontal Seperator ***/
+  .hr-separator {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 1rem 0;
+    width: 100%;
+
+    &--thick {
+      border-top-width: 2px;
+    }
+
+    &--dashed {
+      border-top-style: dashed;
     }
   }
 

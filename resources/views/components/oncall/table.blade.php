@@ -3,13 +3,13 @@
         <thead>
             <tr>
                 <th onclick="sortTable('id')">
-                    <div class="sdm__table__column sdm__table__column--icon">
+                    <div class="sdm__table__column sdm__table__column--actionable">
                         <span>Order ID</span>
                         <i class="fa-solid fa-sort"></i>
                     </div>
                 </th>
                 <th onclick="sortTable('pos_created_date')">
-                    <div class="sdm__table__column sdm__table__column--icon">
+                    <div class="sdm__table__column sdm__table__column--actionable">
                         <span>POS Created Date</span>
                         <i class="fa-solid fa-sort"></i>
                     </div>
@@ -30,26 +30,26 @@
                     </div>
                 </th>
                 <th onclick="sortTable('areaCode')">
-                    <div class="sdm__table__column sdm__table__column--icon">
+                    <div class="sdm__table__column sdm__table__column--actionable">
                         <span>Area Code/Township</span>
                         <i class="fa-solid fa-sort"></i>
                     </div>
 
                 </th>
                 <th onclick="sortTable('complainDate')">
-                    <div class="sdm__table__column sdm__table__column--icon">
+                    <div class="sdm__table__column sdm__table__column--actionable">
                         <span>Complain date</span>
                         <i class="fa-solid fa-sort"></i>
                     </div>
                 </th>
                 <th onclick="sortTable('due')">
-                    <div class="sdm__table__column sdm__table__column--icon">
+                    <div class="sdm__table__column sdm__table__column--actionable">
                         <span>Due Date</span>
                         <i class="fa-solid fa-sort"></i>
                     </div>
                 </th>
                 <th onclick="sortTable('overDue')">
-                    <div class="sdm__table__column sdm__table__column--icon">
+                    <div class="sdm__table__column sdm__table__column--actionable">
                         <span>Overdue Days</span>
                         <i class="fa-solid fa-sort"></i>
                     </div>
@@ -80,7 +80,7 @@
                     </div>
                 </th>
                 <th onclick="sortTable('created_at')">
-                    <div class="sdm__table__column sdm__table__column--icon">
+                    <div class="sdm__table__column sdm__table__column--actionable">
                         <span>Created At</span>
                         <i class="fa-solid fa-sort"></i>
                     </div>
@@ -94,13 +94,13 @@
                 </td>
                 <td>06/01/2025 14:25:00</td>
                 <td onclick="InfoCopy('YGN000000750')" class="sdm__clickable-area">
-                    <div class="sdm__table__row sdm__table__row--icon">
+                    <div class="sdm__table__row sdm__table__row--actionable">
                         <span id="idYGN000000750">YGN000000750</span>
                         <x-icon.copy />
                     </div>
                 </td>
                 <td onclick="InfoCopy('YGNPXE0004084')" class="sdm__clickable-area">
-                    <div class="sdm__table__row sdm__table__row--icon">
+                    <div class="sdm__table__row sdm__table__row--actionable">
                         <span id="idYGNPXE0004084">YGNPXE0004084</span>
                         <x-icon.copy />
                     </div>
@@ -143,13 +143,13 @@
                 </td>
                 <td>06/01/2025 14:25:00</td>
                 <td onclick="InfoCopy('YGN000000750')" class="sdm__clickable-area">
-                    <div class="sdm__table__row sdm__table__row--icon">
+                    <div class="sdm__table__row sdm__table__row--actionable">
                         <span id="idYGN000000750">YGN000000750</span>
                         <x-icon.copy />
                     </div>
                 </td>
                 <td onclick="InfoCopy('YGNPXE0004084')" class="sdm__clickable-area">
-                    <div class="sdm__table__row sdm__table__row--icon">
+                    <div class="sdm__table__row sdm__table__row--actionable">
                         <span id="idYGNPXE0004084">YGNPXE0004084</span>
                         <x-icon.copy />
                     </div>
@@ -192,13 +192,13 @@
                 </td>
                 <td>06/01/2025 14:25:00</td>
                 <td onclick="InfoCopy('YGN000000750')" class="sdm__clickable-area">
-                    <div class="sdm__table__row sdm__table__row--icon">
+                    <div class="sdm__table__row sdm__table__row--actionable">
                         <span id="idYGN000000750">YGN000000750</span>
                         <x-icon.copy />
                     </div>
                 </td>
                 <td onclick="InfoCopy('YGNPXE0004084')" class="sdm__clickable-area">
-                    <div class="sdm__table__row sdm__table__row--icon">
+                    <div class="sdm__table__row sdm__table__row--actionable">
                         <span id="idYGNPXE0004084">YGNPXE0004084</span>
                         <x-icon.copy />
                     </div>

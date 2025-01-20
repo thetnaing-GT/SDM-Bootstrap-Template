@@ -1,0 +1,168 @@
+$sdm-status-new-background: #f35a32;
+$sdm-status-new-color: #f3f3f3;
+
+$sdm-status-complete-background: #7c54ee;
+$sdm-status-complete-color: #f3f3f3;
+
+$sdm-status-submitted-background: #326cc4;
+$sdm-status-submitted-color: #f3f3f3;
+
+$sdm-status-cancelled-background: #ec1ac9;
+$sdm-status-cancelled-color: #f3f3f3;
+
+$sdm-status-pending-background: #f35a32;
+$sdm-status-pending-color: #f3f3f3;
+
+$sdm-status-ongoing-background: #32b1f3;
+$sdm-status-ongoing-color: #f3f3f3;
+
+$sdm-status-refund-background: #ec911a;
+$sdm-status-refund-color: #f3f3f3;
+
+.sdm {
+  &__status {
+    padding: 0.25rem 0.5rem;
+    display: inline-block;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: none;
+
+    &--new {
+      background-color: $sdm-status-new-background;
+      color: $sdm-status-new-color;
+
+      &:hover {
+        background-color: darken($sdm-status-new-background, 5%);
+        color: $sdm-status-new-color;
+      }
+
+      &:focus {
+        background-color: darken($sdm-status-new-background, 5%);
+      }
+
+      &:active,
+      &.active {
+        background-color: darken($sdm-status-new-background, 5%);
+      }
+    }
+
+    &--complete {
+      background-color: $sdm-status-complete-background;
+      color: $sdm-status-complete-color;
+
+      &:hover {
+        background-color: darken($sdm-status-complete-background, 5%);
+        color: $sdm-status-complete-color;
+      }
+
+      &:focus {
+        background-color: darken($sdm-status-complete-background, 5%);
+      }
+
+      &:active,
+      &.active {
+        background-color: darken($sdm-status-complete-background, 5%);
+      }
+    }
+
+    &--submitted {
+      background-color: $sdm-status-submitted-background;
+      color: $sdm-status-submitted-color;
+
+      &:hover {
+        background-color: darken($sdm-status-submitted-background, 5%);
+        color: $sdm-status-submitted-color;
+      }
+
+      &:focus {
+        background-color: darken($sdm-status-submitted-background, 5%);
+      }
+
+      &:active,
+      &.active {
+        background-color: darken($sdm-status-submitted-background, 5%);
+      }
+    }
+
+    &--cancelled {
+      background-color: $sdm-status-cancelled-background;
+      color: $sdm-status-cancelled-color;
+
+      &:hover {
+        background-color: darken($sdm-status-cancelled-background, 5%);
+        color: $sdm-status-cancelled-color;
+      }
+
+      &:focus {
+        background-color: darken($sdm-status-cancelled-background, 5%);
+      }
+
+      &:active,
+      &.active {
+        background-color: darken($sdm-status-cancelled-background, 5%);
+      }
+    }
+
+    &--pending {
+      background-color: $sdm-status-pending-background;
+      color: $sdm-status-pending-color;
+
+      &:hover {
+        background-color: darken($sdm-status-pending-background, 5%);
+        color: $sdm-status-pending-color;
+      }
+
+      &:focus {
+        background-color: darken($sdm-status-pending-background, 5%);
+      }
+
+      &:active,
+      &.active {
+        background-color: darken($sdm-status-pending-background, 5%);
+      }
+    }
+
+    &--ongoing {
+      background-color: $sdm-status-ongoing-background;
+      color: $sdm-status-ongoing-color;
+
+      &:hover {
+        background-color: darken($sdm-status-ongoing-background, 5%);
+        color: $sdm-status-ongoing-color;
+      }
+
+      &:focus {
+        background-color: darken($sdm-status-ongoing-background, 5%);
+      }
+
+      &:active,
+      &.active {
+        background-color: darken($sdm-status-ongoing-background, 5%);
+      }
+    }
+
+    &--refund {
+      background-color: $sdm-status-refund-background;
+      color: $sdm-status-refund-color;
+
+      &:hover {
+        background-color: darken($sdm-status-refund-background, 5%);
+        color: $sdm-status-refund-color;
+      }
+
+      &:focus {
+        background-color: darken($sdm-status-refund-background, 5%);
+      }
+
+      &:active,
+      &.active {
+        background-color: darken($sdm-status-refund-background, 5%);
+      }
+    }
+  }
+}

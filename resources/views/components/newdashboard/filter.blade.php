@@ -42,7 +42,7 @@
             <x-form.checkbox id="family" name="family" value="1" label="Family" />
             <x-form.checkbox id="business" name="business" value="2" label="Business" />
         </div>
-        <x-form.search-button type="submit" />
+        <x-form.search type="submit" />
     </form>
     <div class="d-flex">
         <x-form.refresh-button />

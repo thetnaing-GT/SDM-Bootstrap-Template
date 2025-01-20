@@ -1,0 +1,22 @@
+.sdm__select {
+  background-color: #fff !important;
+  background: #fff
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E")
+    no-repeat right 0.75rem center / 8px 10px !important;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 1px solid #394a6d !important;
+  border-block-width: 0 !important;
+  border-inline-width: 2px !important;
+
+  &__groupwrapper {
+    --grid-min-width: 200px;
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(var(--grid-min-width), 1fr)
+    );
+    gap: 0.5rem;
+  }
+}
