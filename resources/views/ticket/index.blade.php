@@ -2,6 +2,21 @@
 
 @section('content')
     <section class="sdm__box sdm__box--rounded">
+        <div id="app" class="mb-4">
+            <div class="mb-4">
+
+            </div>
+            <div class="mb-4">
+                <form action="{{ route("filterForm") }}">
+                    <hierachical-auto-complete-select></hierachical-auto-complete-select>
+                    <div class="col-md-3">
+                        <select name="olt_id" id="olt_id" class="form-control">
+                            <option value="null">Search OLT Name</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+        </div>
         <div class="sdm__vertical-spacer" style="--vertical-gap: 2rem;">
             <form action="#" method="get" id="formCheck">
                 <div class="sdm__vertical-spacer" style="--vertical-gap: 1.5rem;">
@@ -14,11 +29,6 @@
                                     </select>
                                 </div>
                                 <div class="col-md-3">
-                                    <select name="fat_id" id="fat_id" class="form-control">
-                                        <option value="null">Search FAT Name</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-3">
                                     <select name="olt_id" id="olt_id" class="form-control">
                                         <option value="null">Search OLT Name</option>
                                     </select>
@@ -26,6 +36,11 @@
                                 <div class="col-md-3">
                                     <select name="fdt_id" id="fdt_id" class="form-control">
                                         <option value="null">Search FDT Name</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-3">
+                                    <select name="fat_id" id="fat_id" class="form-control">
+                                        <option value="null">Search FAT Name</option>
                                     </select>
                                 </div>
                             </div>
@@ -62,7 +77,7 @@
                                 class="form-control mr-sm-2 filter-date flatpickr-input" readonly="readonly" />
                         </div>
                         <div class="col-md-3">
-                            <button class="btn sdm__btn sdm__btn--primary">Search</button>
+                            <button class="btn sdm__btn sdm__btn--primary fs-14">Search</button>
                         </div>
                     </div>
                     <div class="sdm__checkbox-group" style="--min-width: 160px;">
@@ -95,13 +110,13 @@
             </form>
             <nav aria-label="Page navigation example">
                 <ul class="pagination">
-                  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-                  <li class="page-item"><a class="page-link" href="#">1</a></li>
-                  <li class="page-item"><a class="page-link" href="#">2</a></li>
-                  <li class="page-item"><a class="page-link" href="#">3</a></li>
-                  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
                 </ul>
-              </nav>
+            </nav>
             <div class="sdm__horizontal-scrollbar">
                 <table class="table table-hover sdm__table">
                     <thead>
@@ -165,183 +180,183 @@
                         </tr>
                     </thead>
                     <tbody>
-                      <tr>
-                        <td>
-                          <div class="sdm__table__row">
-                            130443
-                          </div>
-                        </td>
-                        <td>
-                          <div class="sdm__table__row">
-                            FDT
-                          </div>
-                        </td>
-                        <td>
-                          <div class="sdm__table__row">
-                            FAT
-                          </div>
-                        </td>
-                        <td>
-                          <div class="sdm__table__row">
-                            FAT
-                          </div>
-                        </td>
-                        <td>
-                          <div class="sdm__table__row">
-                            FAT
-                          </div>
-                        </td>
-                        <td>
-                          <div class="sdm__table__row sdm__table__row--actionable">
-                            <button class="btn btn-sm sdm__status--new">
-                              Suspect
-                            </button>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="sdm__table__row">
-                            FAT
-                          </div>
-                        </td>
-                        <td>
-                          <div class="sdm__table__row">
-                            FAT
-                          </div>
-                        </td>
-                        <td>
-                          <div class="sdm__table__row">
-                            FAT
-                          </div>
-                        </td>
-                        <td>
-                          <div class="sdm__table__row">
-                            FAT
-                          </div>
-                        </td>
-                        <td>
-                          <div class="sdm__table__row">
-                            FAT
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <div class="sdm__table__row">
-                            130443
-                          </div>
-                        </td>
-                        <td>
-                          <div class="sdm__table__row">
-                            FDT
-                          </div>
-                        </td>
-                        <td>
-                          <div class="sdm__table__row">
-                            FAT
-                          </div>
-                        </td>
-                        <td>
-                          <div class="sdm__table__row">
-                            FAT
-                          </div>
-                        </td>
-                        <td>
-                          <div class="sdm__table__row">
-                            FAT
-                          </div>
-                        </td>
-                        <td>
-                          <div class="sdm__table__row sdm__table__row--actionable">
-                            <button class="btn btn-sm sdm__status--ongoing">
-                              No ODN
-                            </button>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="sdm__table__row">
-                            FAT
-                          </div>
-                        </td>
-                        <td>
-                          <div class="sdm__table__row">
-                            FAT
-                          </div>
-                        </td>
-                        <td>
-                          <div class="sdm__table__row">
-                            FAT
-                          </div>
-                        </td>
-                        <td>
-                          <div class="sdm__table__row">
-                            FAT
-                          </div>
-                        </td>
-                        <td>
-                          <div class="sdm__table__row">
-                            FAT
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <div class="sdm__table__row">
-                            130443
-                          </div>
-                        </td>
-                        <td>
-                          <div class="sdm__table__row">
-                            FDT
-                          </div>
-                        </td>
-                        <td>
-                          <div class="sdm__table__row">
-                            FAT
-                          </div>
-                        </td>
-                        <td>
-                          <div class="sdm__table__row">
-                            FAT
-                          </div>
-                        </td>
-                        <td>
-                          <div class="sdm__table__row">
-                            FAT
-                          </div>
-                        </td>
-                        <td>
-                          <div class="sdm__table__row sdm__table__row--actionable">
-                            <button class="btn btn-sm sdm__status--complete">
-                              Complete
-                            </button>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="sdm__table__row">
-                            FAT
-                          </div>
-                        </td>
-                        <td>
-                          <div class="sdm__table__row">
-                            FAT
-                          </div>
-                        </td>
-                        <td>
-                          <div class="sdm__table__row">
-                            FAT
-                          </div>
-                        </td>
-                        <td>
-                          <div class="sdm__table__row">
-                            FAT
-                          </div>
-                        </td>
-                        <td>
-                          <div class="sdm__table__row">
-                            FAT
-                          </div>
-                        </td>
-                      </tr>
+                        <tr>
+                            <td>
+                                <div class="sdm__table__row">
+                                    130443
+                                </div>
+                            </td>
+                            <td>
+                                <div class="sdm__table__row">
+                                    FDT
+                                </div>
+                            </td>
+                            <td>
+                                <div class="sdm__table__row">
+                                    FAT
+                                </div>
+                            </td>
+                            <td>
+                                <div class="sdm__table__row">
+                                    FAT
+                                </div>
+                            </td>
+                            <td>
+                                <div class="sdm__table__row">
+                                    FAT
+                                </div>
+                            </td>
+                            <td>
+                                <div class="sdm__table__row sdm__table__row--actionable">
+                                    <button class="btn sdm__status sdm__status--new">
+                                        Suspect
+                                    </button>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="sdm__table__row">
+                                    FAT
+                                </div>
+                            </td>
+                            <td>
+                                <div class="sdm__table__row">
+                                    FAT
+                                </div>
+                            </td>
+                            <td>
+                                <div class="sdm__table__row">
+                                    FAT
+                                </div>
+                            </td>
+                            <td>
+                                <div class="sdm__table__row">
+                                    FAT
+                                </div>
+                            </td>
+                            <td>
+                                <div class="sdm__table__row">
+                                    FAT
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="sdm__table__row">
+                                    130443
+                                </div>
+                            </td>
+                            <td>
+                                <div class="sdm__table__row">
+                                    FDT
+                                </div>
+                            </td>
+                            <td>
+                                <div class="sdm__table__row">
+                                    FAT
+                                </div>
+                            </td>
+                            <td>
+                                <div class="sdm__table__row">
+                                    FAT
+                                </div>
+                            </td>
+                            <td>
+                                <div class="sdm__table__row">
+                                    FAT
+                                </div>
+                            </td>
+                            <td>
+                                <div class="sdm__table__row sdm__table__row--actionable">
+                                    <button class="btn btn-sm sdm__status sdm__status--ongoing">
+                                        No ODN
+                                    </button>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="sdm__table__row">
+                                    FAT
+                                </div>
+                            </td>
+                            <td>
+                                <div class="sdm__table__row">
+                                    FAT
+                                </div>
+                            </td>
+                            <td>
+                                <div class="sdm__table__row">
+                                    FAT
+                                </div>
+                            </td>
+                            <td>
+                                <div class="sdm__table__row">
+                                    FAT
+                                </div>
+                            </td>
+                            <td>
+                                <div class="sdm__table__row">
+                                    FAT
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="sdm__table__row">
+                                    130443
+                                </div>
+                            </td>
+                            <td>
+                                <div class="sdm__table__row">
+                                    FDT
+                                </div>
+                            </td>
+                            <td>
+                                <div class="sdm__table__row">
+                                    FAT
+                                </div>
+                            </td>
+                            <td>
+                                <div class="sdm__table__row">
+                                    FAT
+                                </div>
+                            </td>
+                            <td>
+                                <div class="sdm__table__row">
+                                    FAT
+                                </div>
+                            </td>
+                            <td>
+                                <div class="sdm__table__row sdm__table__row--actionable">
+                                    <button class="btn sdm__status sdm__status--complete">
+                                        Complete
+                                    </button>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="sdm__table__row">
+                                    FAT
+                                </div>
+                            </td>
+                            <td>
+                                <div class="sdm__table__row">
+                                    FAT
+                                </div>
+                            </td>
+                            <td>
+                                <div class="sdm__table__row">
+                                    FAT
+                                </div>
+                            </td>
+                            <td>
+                                <div class="sdm__table__row">
+                                    FAT
+                                </div>
+                            </td>
+                            <td>
+                                <div class="sdm__table__row">
+                                    FAT
+                                </div>
+                            </td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
