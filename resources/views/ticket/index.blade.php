@@ -62,7 +62,7 @@
                                 class="form-control mr-sm-2 filter-date flatpickr-input" readonly="readonly" />
                         </div>
                         <div class="col-md-3">
-                            <button class="btn sdm__btn sdm__btn--primary fs-13">Search</button>
+                            <button class="btn sdm__btn sdm__btn--primary fs-14">Search</button>
                         </div>
                     </div>
                     <div class="sdm__checkbox-group" style="--min-width: 160px;">
